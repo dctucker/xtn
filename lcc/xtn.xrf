@@ -1,0 +1,545 @@
+F C:\xtn\xtn.c
+f c:\lcc\include\windows.h
+f c:\lcc\include\stdlib.h
+f c:\lcc\include\stddef.h
+f c:\lcc\include\_syslist.h
+f c:\lcc\include\string.h
+f c:\lcc\include\win.h
+f c:\lcc\include\limits.h
+f c:\lcc\include\stdarg.h
+f c:\lcc\include\ctype.h
+f c:\lcc\include\basetsd.h
+f c:\lcc\include\windowsx.h
+f c:\lcc\include\commctrl.h
+f C:\xtn\xtnres.h
+f c:\lcc\include\stdio.h
+f c:\lcc\include\fcntl.h
+f c:\lcc\include\io.h
+f c:\lcc\include\sys\stat.h
+f c:\lcc\include\winsock.h
+f c:\lcc\include\shellapi.h
+t LLIST 1 49 50
+t LLIST 1 49 50
+@ data
+@ next
+B next 1 565 1 564 1 549
+t in_addr 19 314 431
+t in_addr 19 314 431
+@ S_un
+T NOTIFYICONDATA 20 186 186
+t _NOTIFYICONDATAA 20 126 144
+@ cbSize
+@ hWnd
+@ uID
+@ uFlags
+@ uCallbackMessage
+@ hIcon
+@ szTip
+@ dwState
+@ dwStateMask
+@ szInfo
+@ uVersion
+@ szInfoTitle
+@ dwInfoFlags
+T LPHOSTENT 19 437 437
+t hostent 19 436 437
+@ h_name
+@ h_aliases
+@ h_addrtype
+@ h_length
+@ h_addr_list
+T LPIN_ADDR 19 431 431
+@ S_un
+T SOCKADDR_IN 19 423 423
+t sockaddr_in 19 424 425
+@ sin_family
+@ sin_port
+@ sin_addr
+@ sin_zero
+T LPSOCKADDR 19 422 422
+t sockaddr 19 421 422
+@ sa_family
+@ sa_data
+T WSADATA 19 165 173
+t WSAData 19 165 173
+@ wVersion
+@ wHighVersion
+@ szDescription
+@ szSystemStatus
+@ iMaxSockets
+@ iMaxUdpDg
+@ lpVendorInfo
+T SOCKET 19 10 10
+T u_long 19 9 9
+T WNDCLASS 7 10558 10558
+t tagWNDCLASSA 7 10527 10538
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+T SYSTEMTIME 7 8892 8901
+t _SYSTEMTIME 7 8892 8901
+@ wYear
+@ wMonth
+@ wDayOfWeek
+@ wDay
+@ wHour
+@ wMinute
+@ wSecond
+@ wMilliseconds
+T POINT 7 7197 7200
+t tagPOINT 7 7197 7200
+@ x
+@ y
+T LPRECT 7 7052 7052
+t _RECT 7 7052 7053
+@ left
+@ top
+@ right
+@ bottom
+B right 1 160
+B bottom 1 162
+T DLGPROC 7 528 528
+T WORD 7 445 445
+T LRESULT 7 405 405
+T LPSTR 7 404 404
+T LPCTSTR 7 270 270
+T HWND 7 85 85
+T BYTE 7 25 25
+T BOOL 7 12 12
+M InitializeApp 1 98
+L wVersionReq wsaData nRet 
+R 1 147 
+E FirstRun 1 75 76 int 
+A 1 104 
+R 1 104 
+E PosUpdate 1 75 75 int 
+A 1 272 1 269 1 103 
+R 1 421 1 103 1 269 1 272 1 276 
+E nid 1 74 74 _NOTIFYICONDATAA 
+A 1 128 
+C 1 679 1 248 1 239 1 136 1 134 1 126 
+R 1 679 1 126 1 127 1 128 1 129 1 130 1 131 1 132 
+R 1 133 1 134 1 136 1 239 1 248 1 673 1 674 1 675 
+R 1 676 1 677 1 678 
+E hInstDlg 1 73 73 * void 
+A 1 93 
+R 1 599 1 93 1 109 1 110 1 111 1 112 1 113 1 114 
+R 1 115 1 116 1 130 1 586 
+E hWndDlg 1 72 72 * void 
+A 1 102 
+R 1 674 1 102 1 109 1 110 1 111 1 112 1 113 1 114 
+R 1 115 1 116 1 118 1 121 1 157 1 166 1 167 1 173 
+R 1 179 1 186 1 206 1 208 1 212 1 214 1 219 1 221 
+R 1 222 1 226 1 228 1 229 1 253 1 275 1 283 1 298 
+R 1 317 1 324 1 337 1 373 1 376 1 379 1 382 1 392 
+R 1 395 1 396 1 398 1 405 1 411 1 412 1 413 1 414 
+R 1 416 1 426 1 427 1 431 1 442 1 444 1 445 1 446 
+R 1 447 1 448 1 449 1 450 1 451 1 452 1 453 1 454 
+R 1 455 1 456 1 457 1 458 1 459 1 481 1 482 1 485 
+R 1 487 1 499 1 500 1 519 1 525 1 534 1 546 1 573 
+R 1 581 1 585 1 586 1 589 1 594 1 598 1 599 1 600 
+R 1 606 1 607 1 609 1 611 1 612 1 618 1 619 1 624 
+R 1 629 1 650 1 651 1 654 1 655 1 658 
+E connection 1 71 71 unsigned int 
+A 1 597 1 582 1 579 1 105 
+R 1 597 1 105 1 153 1 187 1 243 1 278 1 297 1 370 
+R 1 499 1 510 1 512 1 515 1 573 1 574 1 579 1 580 
+R 1 582 1 589 1 595 1 596 
+M Balloon 1 671
+R 1 406 
+M String 1 661
+L szbuf theParms 
+M Matches 1 632
+L tok words status i l i 
+R 1 617 
+M ResetList 1 648
+L lTemp i 
+R 1 415 1 571 1 627 
+M FindSong 1 603
+L szbuf lTemp i szmatch 
+R 1 233 
+M LoadPlaylist 1 490
+L szbuf data status sz szprev len i tOut time ctime 
+L ctout tok t1 t2 t3 lTemp tmp n l 
+R 1 417 
+M Disconnect 1 593
+R 1 188 1 237 1 246 1 526 
+M Connect 1 577
+R 1 187 
+M UpdateStatic 1 477
+L r w hgt x y 
+R 1 299 1 397 1 459 
+M MoveWin 1 470
+L r 
+R 1 447 1 448 1 449 1 450 1 451 1 452 1 453 1 454 
+R 1 455 1 456 
+M Resize 1 436
+L r SPACE TOP minWidth minHeight 
+R 1 148 1 169 
+M ParseCmd 1 361
+L cmd param1 param2 hItem szbuf r s szshuf szrepeat status 
+L i h m s lh lm ls 
+R 1 154 
+M CallServer 1 305
+L iaHost lpHostEntry Socket saServer nRet 
+R 1 579 
+M DialogFunc 1 141
+L szbuf param1 lprc p pop 
+R 1 95 
+E lPlaylist 1 51 51 LLIST 
+C 1 554 
+R 1 649 1 106 1 107 1 543 1 554 1 605 
+T LLIST 1 47 50 47 LLIST 
+R 1 649 1 51 1 543 1 545 1 561 1 605 
+M Shell_NotifyIconA 20 359
+R 1 679 1 134 1 136 1 239 1 248 
+T IN_ADDR 19 429 429 429 in_addr 
+R 1 306 
+M WSAAsyncSelect 19 409
+R 1 589 1 499 1 573 
+M WSACleanup 19 395
+R 1 247 1 122 1 238 
+M WSAStartup 19 394
+R 1 119 
+M gethostbyname 19 388
+R 1 311 
+M gethostbyaddr 19 387
+R 1 313 
+M socket 19 386
+R 1 322 
+M send 19 382
+R 1 595 1 243 1 278 1 297 1 370 1 510 1 574 
+M recv 19 379
+R 1 515 1 153 
+M inet_addr 19 374
+R 1 309 
+M htons 19 373
+R 1 329 
+M ioctlsocket 19 368
+R 1 512 
+M connect 19 367
+R 1 334 
+M closesocket 19 366
+R 1 596 1 336 
+M sscanf 15 194
+R 1 559 1 367 1 391 1 404 1 409 1 423 
+M sprintf 15 190
+R 1 666 1 191 1 194 1 197 1 200 1 203 1 207 1 209 
+R 1 213 1 215 1 220 1 227 1 277 1 296 1 410 1 517 
+R 1 532 1 563 
+M ScreenToClient 7 14676
+R 1 482 
+M GetCursorPos 7 14663
+R 1 176 
+M SetCursor 7 14662
+R 1 590 1 504 1 572 1 578 
+M GetWindowRect 7 14652
+R 1 481 
+M GetClientRect 7 14651
+R 1 485 1 442 1 472 
+M SetScrollRange 7 14647
+R 1 426 1 118 
+M GetScrollPos 7 14646
+R 1 459 1 253 1 283 
+M SetScrollPos 7 14645
+R 1 427 1 275 1 298 1 392 
+M TrackPopupMenu 7 14611
+R 1 179 
+M CreatePopupMenu 7 14600
+R 1 177 
+M GetDlgItem 7 14537
+R 1 655 1 109 1 110 1 111 1 112 1 113 1 114 1 115 
+R 1 116 1 118 1 206 1 208 1 212 1 214 1 219 1 222 
+R 1 226 1 229 1 253 1 275 1 283 1 298 1 392 1 395 
+R 1 396 1 412 1 413 1 414 1 416 1 426 1 427 1 444 
+R 1 445 1 446 1 447 1 448 1 449 1 450 1 451 1 452 
+R 1 453 1 454 1 455 1 456 1 457 1 458 1 459 1 481 
+R 1 485 1 487 1 586 1 599 1 600 1 607 1 609 1 611 
+R 1 618 1 619 1 624 1 651 1 654 1 655 
+M EndDialog 7 14536
+R 1 249 1 240 
+M IsIconic 7 14532
+R 1 166 1 157 
+M SetWindowPos 7 14525
+R 1 474 
+M MoveWindow 7 14524
+R 1 487 1 444 1 445 1 446 1 457 1 458 
+M ShowWindow 7 14503
+R 1 173 1 167 
+M GetSystemTime 7 14302
+R 1 523 1 520 
+M WinMain 1 78
+L wc 
+M LoadIconA 7 13063
+R 1 130 1 88 
+M LoadCursorA 7 13061
+R 1 590 1 504 1 572 1 578 
+M LoadBitmapA 7 13060
+R 1 599 1 109 1 110 1 111 1 112 1 113 1 114 1 115 
+R 1 116 1 586 
+M MessageBoxA 7 13046
+R 1 121 
+M GetWindowTextLengthA 7 13045
+R 1 611 1 222 1 229 1 412 1 607 
+M GetWindowTextA 7 13044
+R 1 611 
+M SetWindowTextA 7 13043
+R 1 412 1 222 1 229 
+M AppendMenuA 7 13027
+R 1 178 
+M DefDlgProcA 7 12995
+R 1 83 
+M SetDlgItemTextA 7 12992
+R 1 658 1 186 1 221 1 228 1 317 1 324 1 337 1 373 
+R 1 376 1 379 1 382 1 398 1 405 1 411 1 431 1 500 
+R 1 519 1 525 1 534 1 546 1 581 1 585 1 594 1 598 
+R 1 606 1 612 1 629 1 650 
+M DialogBoxParamA 7 12990
+R 1 95 
+M RegisterClassA 7 12982
+R 1 91 
+M SendMessageA 7 12974
+R 1 655 1 109 1 110 1 111 1 112 1 113 1 114 1 115 
+R 1 116 1 206 1 208 1 212 1 214 1 219 1 226 1 395 
+R 1 396 1 413 1 414 1 416 1 586 1 599 1 600 1 609 
+R 1 618 1 619 1 624 1 651 1 654 1 655 
+T RECT 7 7047 7052 7047 _RECT 
+R 1 478 1 437 1 471 
+T WPARAM 7 446 446 446 unsigned int 
+R 1 655 1 54 1 98 1 141 1 219 1 226 1 395 1 396 
+R 1 413 1 619 1 624 
+T UINT 7 440 440 440 unsigned int 
+R 1 141 1 54 
+T LPTSTR 7 272 272 272 * char 
+R 1 599 1 88 1 95 1 109 1 110 1 111 1 112 1 113 
+R 1 114 1 115 1 116 1 130 1 504 1 572 1 578 1 586 
+R 1 590 
+T LPCSTR 7 99 99 99 * 
+R 1 361 1 56 1 57 1 58 1 305 
+T LPARAM 7 93 93 93 long int 
+R 1 655 1 54 1 98 1 109 1 110 1 111 1 112 1 113 
+R 1 114 1 115 1 116 1 141 1 586 1 599 1 618 1 619 
+R 1 654 
+T HMENU 7 73 73 73 * void 
+R 1 177 
+T HINSTANCE 7 69 69 69 * void 
+R 1 78 1 73 1 78 
+T HBRUSH 7 50 50 50 * void 
+R 1 87 
+T DWORD 7 32 32 32 unsigned long 
+R 1 651 1 88 1 95 1 109 1 110 1 111 1 112 1 113 
+R 1 114 1 115 1 116 1 130 1 217 1 219 1 226 1 231 
+R 1 268 1 292 1 504 1 572 1 578 1 586 1 590 1 599 
+R 1 600 1 609 
+T va_list 9 4 4 4 * char 
+R 1 667 1 663 1 664 
+M strtok 6 45
+R 1 637 1 556 1 637 
+M stristr 6 44
+R 1 642 
+M strstr 6 43
+R 1 522 
+M strlen 6 34
+R 1 595 1 243 1 278 1 297 1 370 1 510 1 517 1 532 
+R 1 574 
+M strcpy 6 23
+R 1 676 1 675 
+M strcmp 6 18
+R 1 394 1 393 
+M strcat 6 16
+R 1 616 1 516 
+M memset 6 15
+R 1 615 1 81 1 107 1 126 1 152 1 183 1 295 1 366 
+R 1 389 1 390 1 403 1 502 1 503 1 514 1 541 1 558 
+R 1 610 
+M malloc 3 75
+R 1 665 1 562 
+M free 3 68
+R 1 550 
+# ListBox_ResetContent 12 431
+# SW_SHOWNORMAL 7 3955
+# LB_GETITEMDATA 7 843
+# LB_SETITEMDATA 7 866
+# INVALID_SOCKET 19 191
+# DLGWINDOWEXTRA 7 6314
+# TPM_RIGHTALIGN 7 4107
+# SendMessage 7 14006
+# NIM_SETVERSION 20 258
+# MAKEINTRESOURCE 7 493
+# LB_RESETCONTENT 7 856
+# Edit_GetText 12 68
+# Edit_SetText 12 86
+# Dlg 1 16
+# RegisterClass 7 13806
+# NULL 4 10
+# GetWindowText 7 13741
+# TRUE 7 8
+# _IOR 19 53
+# SetWindowText 7 13740
+# IDBGO 14 2
+# FALSE 7 7
+# SetDlgItemText 7 13822
+# Send 1 17
+# IDEDIT 14 10
+# IDLIST 14 9
+# HIWORD 7 485
+# SB_CTL 7 2552
+# LOWORD 7 487
+# Button_GetCheck 12 14
+# Button_SetCheck 12 18
+# Button_SetImage 12 22
+# FD_READ 19 299
+# IDBPLAY 14 12
+# STDCALL 7 447
+# NIM_ADD 20 254
+# IDBPREV 14 11
+# IDBNEXT 14 15
+# IDMEXIT 14 6
+# IDBSTOP 14 14
+# AF_INET 19 235
+# SW_HIDE 7 3943
+# NIF_TIP 20 266
+# CALLBACK 7 449
+# IOC_OUT 19 49
+# ScrollBar_GetPos 12 445
+# WM_SIZE 7 1628
+# ScrollBar_SetPos 12 447
+# FIONREAD 19 55
+# IDBPAUSE 14 13
+# ListBox_GetCount 12 417
+# IDREPEAT 14 22
+# Shell_NotifyIcon 20 33
+# MAKEWORD 7 489
+# NIF_ICON 20 265
+# NIF_INFO 20 268
+# APIENTRY 7 455
+# s_addr 19 132
+# va_end 9 10
+# IDSTATUS 14 21
+# WM_CLOSE 7 1474
+# PRNERROR 1 15
+# Cursor 1 22
+# Status 1 19
+# AddItem 1 13
+# EN_CHANGE 7 764
+# IDSHUFFLE 14 23
+# ListBox_SetCurSel 12 437
+# ListBox_AddString 12 409
+# NIIF_INFO 20 271
+# SB_LINEUP 7 2563
+# WM_SIZING 7 1630
+# IDBCONNECT 14 7
+# LBN_DBLCLK 7 872
+# nullStr 1 18
+# NIM_DELETE 20 256
+# ScrollBar_SetRange 12 448
+# CS_HREDRAW 7 6308
+# WM_COMMAND 7 1475
+# LoadIcon 7 13703
+# NIM_MODIFY 20 255
+# Edit_GetTextLength 12 69
+# CS_VREDRAW 7 6313
+# WM_HSCROLL 7 1518
+# _INTSIZEOF 9 7
+# OnSignal 1 20
+# WM_VSCROLL 7 1647
+# BM_GETCHECK 7 616
+# BST_CHECKED 7 1845
+# SWP_NOSIZE 7 3926
+# BM_SETCHECK 7 619
+# SB_PAGELEFT 7 2569
+# BM_SETIMAGE 7 620
+# NIF_MESSAGE 20 264
+# INADDR_NONE 19 156
+# _stdcall 0 0
+# SB_LINELEFT 7 2565
+# ListBox_GetItemData 12 420
+# SB_LINEDOWN 7 2564
+# LB_GETCOUNT 7 840
+# ListBox_SetItemData 12 439
+# SOCK_STREAM 19 193
+# va_start 9 8
+# IPPROTO_TCP 19 91
+# OffSignal 1 21
+# DialogBox 7 13819
+# IMAGE_BITMAP 7 1901
+# LB_ADDSTRING 7 833
+# SB_PAGERIGHT 7 2570
+# IOCPARM_MASK 19 47
+# ClearIDEDIT 1 23
+# SB_ENDSCROLL 7 2573
+# SB_LINERIGHT 7 2566
+# SOCKET_READY 1 14
+# GetWindowTextLength 7 13742
+# __stdcall 0 0
+# LB_SETCURSEL 7 864
+# NIIF_NOSOUND 20 276
+# SOCKET_ERROR 19 192
+# COLOR_WINDOW 7 3229
+# DefDlgProc 7 13825
+# DialogBoxA 7 13144
+# WM_LBUTTONUP 7 1543
+# BST_UNCHECKED 7 1847
+# WM_RBUTTONUP 7 1616
+# LoadBitmap 7 13732
+# WM_INITDIALOG 7 1532
+# SB_THUMBTRACK 7 2572
+# AppendMenu 7 13856
+# MessageBox 7 13743
+# LoadCursor 7 13733
+e WinMain 78
+L wc 
+e CallServer 305
+L iaHost lpHostEntry Socket saServer nRet 
+R 1 579 
+e ParseCmd 361
+L cmd param1 param2 hItem szbuf r s szshuf szrepeat status 
+L i h m s lh lm ls 
+R 1 154 
+e Resize 436
+L r SPACE TOP minWidth minHeight 
+R 1 148 1 169 
+e MoveWin 470
+L r 
+R 1 447 1 448 1 449 1 450 1 451 1 452 1 453 1 454 
+R 1 455 1 456 
+e UpdateStatic 477
+L r w hgt x y 
+R 1 299 1 397 1 459 
+e LoadPlaylist 490
+L szbuf data status sz szprev len i tOut time ctime 
+L ctout tok t1 t2 t3 lTemp tmp n l 
+R 1 417 
+e Connect 577
+R 1 187 
+e Disconnect 593
+R 1 188 1 237 1 246 1 526 
+e FindSong 603
+L szbuf lTemp i szmatch 
+R 1 233 
+e Matches 632
+L tok words status i l i 
+R 1 617 
+e ResetList 648
+L lTemp i 
+R 1 415 1 571 1 627 
+e String 661
+L szbuf theParms 
+e Balloon 671
+R 1 406 
+s InitializeApp 98
+L wVersionReq wsaData nRet 
+R 1 147 
+s DialogFunc 141
+L szbuf param1 lprc p pop 
+R 1 95 
+P -FoC:\xtn\lcc\xtn.xrf
+P -Ic:\lcc\include
+P C:\xtn\xtn.c

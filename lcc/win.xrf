@@ -1,0 +1,9113 @@
+F c:\lcc\include\win.h
+f c:\lcc\include\limits.h
+f c:\lcc\include\stdarg.h
+f c:\lcc\include\ctype.h
+f c:\lcc\include\basetsd.h
+t _TEB 1 15446 15446
+t _TEB 1 15446 15446
+t _LAYERPLANEDESCRIPTOR 1 15372 15397
+t _LAYERPLANEDESCRIPTOR 1 15372 15397
+@ nSize
+@ nVersion
+@ dwFlags
+@ iPixelType
+@ cColorBits
+@ cRedBits
+@ cRedShift
+@ cGreenBits
+@ cGreenShift
+@ cBlueBits
+@ cBlueShift
+@ cAlphaBits
+@ cAlphaShift
+@ cAccumBits
+@ cAccumRedBits
+@ cAccumGreenBits
+@ cAccumBlueBits
+@ cAccumAlphaBits
+@ cDepthBits
+@ cStencilBits
+@ cAuxBuffers
+@ iLayerPlane
+@ bReserved
+@ crTransparent
+t _GLYPHMETRICSFLOAT 1 15356 15362
+t _GLYPHMETRICSFLOAT 1 15356 15362
+@ gmfBlackBoxX
+@ gmfBlackBoxY
+@ gmfptGlyphOrigin
+@ gmfCellIncX
+@ gmfCellIncY
+t _POINTFLOAT 1 15352 15355
+t _POINTFLOAT 1 15352 15355
+@ x
+@ y
+t tagINITCOMMONCONTROLSEX 1 14984 14984
+t tagINITCOMMONCONTROLSEX 1 14984 14984
+@ dwSize
+@ dwICC
+t _GRADIENT_RECT 1 12392 12393
+t _GRADIENT_RECT 1 12392 12393
+@ UpperLeft
+@ LowerRight
+t _GRADIENT_TRIANGLE 1 12390 12391
+t _GRADIENT_TRIANGLE 1 12390 12391
+@ Vertex1
+@ Vertex2
+@ Vertex3
+t _TRIVERTEX 1 12388 12389
+t _TRIVERTEX 1 12388 12389
+@ x
+@ y
+@ Red
+@ Green
+@ Blue
+@ Alpha
+t _WIN32_FILE_ATTRIBUTE_DATA 1 12378 12385
+t _WIN32_FILE_ATTRIBUTE_DATA 1 12378 12385
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+t _BLENDFUNCTION 1 12372 12377
+t _BLENDFUNCTION 1 12372 12377
+@ BlendOp
+@ BlendFlags
+@ SourceConstantAlpha
+@ AlphaFormat
+t tagLVCOLUMNW 1 12360 12369
+t tagLVCOLUMNW 1 12360 12369
+@ mask
+@ fmt
+@ cx
+@ pszText
+@ cchTextMax
+@ iSubItem
+@ iImage
+@ iOrder
+t tagLVCOLUMNA 1 12350 12359
+t tagLVCOLUMNA 1 12350 12359
+@ mask
+@ fmt
+@ cx
+@ pszText
+@ cchTextMax
+@ iSubItem
+@ iImage
+@ iOrder
+t tagGUITHREADINFO 1 12334 12344
+t tagGUITHREADINFO 1 12334 12344
+@ cbSize
+@ flags
+@ hwndActive
+@ hwndFocus
+@ hwndCapture
+@ hwndMenuOwner
+@ hwndMoveSize
+@ hwndCaret
+@ rcCaret
+t tagNMDAYSTATE 1 12322 12322
+t tagNMDAYSTATE 1 12322 12322
+@ nmhdr
+@ stStart
+@ cDayState
+@ prgDayState
+t tagNMSELCHANGE 1 12321 12321
+t tagNMSELCHANGE 1 12321 12321
+@ nmhdr
+@ stSelStart
+@ stSelEnd
+t tagALTTABINFO 1 12305 12315
+t tagALTTABINFO 1 12305 12315
+@ cbSize
+@ cItems
+@ cColumns
+@ cRows
+@ iColFocus
+@ iRowFocus
+@ cxItem
+@ cyItem
+@ ptStart
+t _FILE_SEGMENT_ELEMENT 1 12301 12304
+t _FILE_SEGMENT_ELEMENT 1 12301 12304
+@ Buffer
+@ Alignment
+t _FILE_NOTIFY_INFORMATION 1 12295 12300
+t _FILE_NOTIFY_INFORMATION 1 12295 12300
+@ NextEntryOffset
+@ Action
+@ FileNameLength
+@ FileName
+t tagHW_PROFILE_INFOW 1 12290 12294
+t tagHW_PROFILE_INFOW 1 12290 12294
+@ dwDockInfo
+@ szHwProfileGuid
+@ szHwProfileName
+t tagHW_PROFILE_INFOA 1 12286 12289
+t tagHW_PROFILE_INFOA 1 12286 12289
+@ dwDockInfo
+@ szHwProfileGuid
+@ szHwProfileName
+t tagPDW 1 12265 12285
+t tagPDW 1 12265 12285
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ hDC
+@ Flags
+@ nFromPage
+@ nToPage
+@ nMinPage
+@ nMaxPage
+@ nCopies
+@ hInstance
+@ lCustData
+@ lpfnPrintHook
+@ lpfnSetupHook
+@ lpPrintTemplateName
+@ lpSetupTemplateName
+@ hPrintTemplate
+@ hSetupTemplate
+t tagPDA 1 12244 12264
+t tagPDA 1 12244 12264
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ hDC
+@ Flags
+@ nFromPage
+@ nToPage
+@ nMinPage
+@ nMaxPage
+@ nCopies
+@ hInstance
+@ lCustData
+@ lpfnPrintHook
+@ lpfnSetupHook
+@ lpPrintTemplateName
+@ lpSetupTemplateName
+@ hPrintTemplate
+@ hSetupTemplate
+t tagNMHDDISPINFOA 1 12228 12236
+t tagNMHDDISPINFOA 1 12228 12236
+@ hdr
+@ iItem
+@ mask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t tagNMHDDISPINFOW 1 12219 12227
+t tagNMHDDISPINFOW 1 12219 12227
+@ hdr
+@ iItem
+@ mask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t tagCOMBOBOXEXITEMW 1 12207 12217
+t tagCOMBOBOXEXITEMW 1 12207 12217
+@ mask
+@ iItem
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ iOverlay
+@ iIndent
+@ lParam
+t tagCOMBOBOXEXITEMA 1 12195 12205
+t tagCOMBOBOXEXITEMA 1 12195 12205
+@ mask
+@ iItem
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ iOverlay
+@ iIndent
+@ lParam
+t tagCURSORINFO 1 12164 12169
+t tagCURSORINFO 1 12164 12169
+@ cbSize
+@ flags
+@ hCursor
+@ ptScreenPos
+t tagTITLEBARINFO 1 12159 12163
+t tagTITLEBARINFO 1 12159 12163
+@ cbSize
+@ rcTitleBar
+@ rgstate
+t tagSCROLLBARINFO 1 12150 12158
+t tagSCROLLBARINFO 1 12150 12158
+@ cbSize
+@ rcScrollBar
+@ dxyLineButton
+@ xyThumbTop
+@ xyThumbBottom
+@ reserved
+@ rgstate
+t tagMENUBARINFO 1 12142 12149
+t tagMENUBARINFO 1 12142 12149
+@ cbSize
+@ rcBar
+@ hMenu
+@ hwndMenu
+@ fBarFocused
+@ fFocused
+t tagINPUT 1 12134 12141
+t tagINPUT 1 12134 12141
+@ type
+@ mi
+@ ki
+@ hi
+t tagKEYBDINPUT 1 12127 12133
+t tagKEYBDINPUT 1 12127 12133
+@ wVk
+@ wScan
+@ dwFlags
+@ time
+@ dwExtraInfo
+t tagHARDWAREINPUT 1 12122 12126
+t tagHARDWAREINPUT 1 12122 12126
+@ uMsg
+@ wParamL
+@ wParamH
+t tagMOUSEINPUT 1 12114 12121
+t tagMOUSEINPUT 1 12114 12121
+@ dx
+@ dy
+@ mouseData
+@ dwFlags
+@ time
+@ dwExtraInfo
+t tagWINDOWINFO 1 12098 12109
+t tagWINDOWINFO 1 12098 12109
+@ cbSize
+@ rcWindow
+@ rcClient
+@ dwStyle
+@ dwExStyle
+@ dwWindowStatus
+@ cxWindowBorders
+@ cyWindowBorders
+@ atomWindowType
+@ wCreatorVersion
+t tagCOMBOBOXINFO 1 12089 12097
+t tagCOMBOBOXINFO 1 12089 12097
+@ cbSize
+@ rcItem
+@ rcButton
+@ stateButton
+@ hwndCombo
+@ hwndItem
+@ hwndList
+t _LVHITTESTINFO 1 12083 12088
+t _LVHITTESTINFO 1 12083 12088
+@ pt
+@ flags
+@ iItem
+@ iSubItem
+t tagNMITEMACTIVATE 1 12072 12082
+t tagNMITEMACTIVATE 1 12072 12082
+@ hdr
+@ iItem
+@ iSubItem
+@ uNewState
+@ uOldState
+@ uChanged
+@ ptAction
+@ lParam
+@ uKeyFlags
+t tagNMLVODSTATECHANGE 1 12059 12065
+t tagNMLVODSTATECHANGE 1 12059 12065
+@ hdr
+@ iFrom
+@ iTo
+@ uNewState
+@ uOldState
+t tagNMLVFINDITEM 1 12051 12055
+t tagNMLVFINDITEM 1 12051 12055
+@ hdr
+@ iStart
+@ lvfi
+t tagLVFINDINFOW 1 12044 12050
+t tagLVFINDINFOW 1 12044 12050
+@ flags
+@ psz
+@ lParam
+@ pt
+@ vkDirection
+t tagLVFINDINFOA 1 12037 12043
+t tagLVFINDINFOA 1 12037 12043
+@ flags
+@ psz
+@ lParam
+@ pt
+@ vkDirection
+t tagCOLORSCHEME 1 12029 12033
+t tagCOLORSCHEME 1 12029 12033
+@ dwSize
+@ clrBtnHighlight
+@ clrBtnShadow
+t tagNMLVCACHEHINT 1 12024 12028
+t tagNMLVCACHEHINT 1 12024 12028
+@ hdr
+@ iFrom
+@ iTo
+t tagNMMOUSE 1 12015 12021
+t tagNMMOUSE 1 12015 12021
+@ hdr
+@ dwItemSpec
+@ dwItemData
+@ pt
+@ dwHitInfo
+t tagNMTOOLTIPS 1 12011 12014
+t tagNMTOOLTIPS 1 12011 12014
+@ hdr
+@ hwndToolTips
+t tagNMLVGETINFOTIPW 1 11999 12007
+t tagNMLVGETINFOTIPW 1 11999 12007
+@ hdr
+@ dwFlags
+@ pszText
+@ cchTextMax
+@ iItem
+@ iSubItem
+@ lParam
+t tagNMLVGETINFOTIPA 1 11990 11998
+t tagNMLVGETINFOTIPA 1 11990 11998
+@ hdr
+@ dwFlags
+@ pszText
+@ cchTextMax
+@ iItem
+@ iSubItem
+@ lParam
+t tagLVKEYDOWN 1 11984 11988
+t tagLVKEYDOWN 1 11984 11988
+@ hdr
+@ wVKey
+@ flags
+t tagLVDISPINFOW 1 11978 11981
+t tagLVDISPINFOW 1 11978 11981
+@ hdr
+@ item
+t tagLVDISPINFO 1 11974 11977
+t tagLVDISPINFO 1 11974 11977
+@ hdr
+@ item
+t tagLVITEMW 1 11962 11973
+t tagLVITEMW 1 11962 11973
+@ mask
+@ iItem
+@ iSubItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+@ iIndent
+t tagLVITEMA 1 11950 11961
+t tagLVITEMA 1 11950 11961
+@ mask
+@ iItem
+@ iSubItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+@ iIndent
+t tagREBARBANDINFOW 1 11927 11948
+t tagREBARBANDINFOW 1 11927 11948
+@ cbSize
+@ fMask
+@ fStyle
+@ clrFore
+@ clrBack
+@ lpText
+@ cch
+@ iImage
+@ hwndChild
+@ cxMinChild
+@ cyMinChild
+@ cx
+@ hbmBack
+@ wID
+@ cyChild
+@ cyMaxChild
+@ cyIntegral
+@ cxIdeal
+@ lParam
+@ cxHeader
+t tagREBARBANDINFOA 1 11905 11926
+t tagREBARBANDINFOA 1 11905 11926
+@ cbSize
+@ fMask
+@ fStyle
+@ clrFore
+@ clrBack
+@ lpText
+@ cch
+@ iImage
+@ hwndChild
+@ cxMinChild
+@ cyMinChild
+@ cx
+@ hbmBack
+@ wID
+@ cyChild
+@ cyMaxChild
+@ cyIntegral
+@ cxIdeal
+@ lParam
+@ cxHeader
+t tagREBARINFO 1 11900 11904
+t tagREBARINFO 1 11900 11904
+@ cbSize
+@ fMask
+@ himl
+t tagTRACKMOUSEEVENT 1 11894 11899
+t tagTRACKMOUSEEVENT 1 11894 11899
+@ cbSize
+@ dwFlags
+@ hwndTrack
+@ dwHoverTime
+t tagPACKAGEDETAIL 1 11883 11893
+t tagPACKAGEDETAIL 1 11883 11893
+@ pszPackageName
+@ pszPublisher
+@ cSources
+@ pszSourceList
+@ cCategories
+@ rpCategory
+@ pActInfo
+@ pPlatformInfo
+@ pInstallInfo
+t tagINSTALLINFO 1 11864 11882
+t tagINSTALLINFO 1 11864 11882
+@ dwActFlags
+@ PathType
+@ pszScriptPath
+@ pszSetupCommand
+@ pszUrl
+@ Usn
+@ InstallUiLevel
+@ pClsid
+@ ProductCode
+@ Mvipc
+@ dwVersionHi
+@ dwVersionLo
+@ dwRevision
+@ cUpgrades
+@ prgUpgradeScript
+@ prgUpgradeFlag
+@ cScriptLen
+t _PLATFORMINFO 1 11858 11863
+t _PLATFORMINFO 1 11858 11863
+@ cPlatforms
+@ prgPlatform
+@ cLocales
+@ prgLocale
+t _ACTIVATIONINFO 1 11847 11857
+t _ACTIVATIONINFO 1 11847 11857
+@ cClasses
+@ pClasses
+@ cShellFileExt
+@ prgShellFileExt
+@ prgPriority
+@ cInterfaces
+@ prgInterfaceId
+@ cTypeLib
+@ prgTlbId
+t _CLASSDETAIL 1 11840 11846
+t _CLASSDETAIL 1 11840 11846
+@ Clsid
+@ TreatAs
+@ cProgId
+@ dwComClassContext
+@ prgProgId
+t _QUERYCONTEXT 1 11833 11839
+t _QUERYCONTEXT 1 11833 11839
+@ dwContext
+@ Platform
+@ Locale
+@ dwVersionHi
+@ dwVersionLo
+t _CSPLATFORM 1 11827 11832
+t _CSPLATFORM 1 11827 11832
+@ dwPlatformId
+@ dwVersionHi
+@ dwVersionLo
+@ dwProcessorArch
+t __MIDL___MIDL_itf_wtypes_0002_00 1 11814 11825
+t __MIDL___MIDL_itf_wtypes_0002_00 1 11814 11825
+@ clsid
+@ iid
+@ typelibID
+@ pFileExt
+@ pMimeType
+@ pProgId
+@ pFileName
+@ pJavaClassName
+@ ByName
+@ ByScript
+t __MIDL___MIDL_itf_wtypes_0002_0001 1 11812 11826
+t __MIDL___MIDL_itf_wtypes_0002_0001 1 11812 11826
+@ tyspec
+@ tagged_union
+t _HYPER_SIZEDARR 1 11791 11794
+t _HYPER_SIZEDARR 1 11791 11794
+@ clSize
+@ pData
+t _LONG_SIZEDARR 1 11787 11790
+t _LONG_SIZEDARR 1 11787 11790
+@ clSize
+@ pData
+t _SHORT_SIZEDARR 1 11783 11786
+t _SHORT_SIZEDARR 1 11783 11786
+@ clSize
+@ pData
+t _BYTE_SIZEDARR 1 11779 11782
+t _BYTE_SIZEDARR 1 11779 11782
+@ clSize
+@ pData
+t _FLAGGED_WORD_BLOB 1 11774 11778
+t _FLAGGED_WORD_BLOB 1 11774 11778
+@ fFlags
+@ clSize
+@ asData
+t _CLIPDATA 1 11769 11773
+t _CLIPDATA 1 11769 11773
+@ cbSize
+@ ulClipFmt
+@ pClipData
+t tagBSTRBLOB 1 11766 11767
+t tagBSTRBLOB 1 11766 11767
+@ cbSize
+@ pData
+t __MIDL_IWinTypes_0008 1 11755 11759
+t __MIDL_IWinTypes_0008 1 11755 11759
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHPALETTE 1 11753 11760
+t _userHPALETTE 1 11753 11760
+@ fContext
+@ u
+t __MIDL_IWinTypes_0003 1 11747 11751
+t __MIDL_IWinTypes_0003 1 11747 11751
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHGLOBAL 1 11745 11752
+t _userHGLOBAL 1 11745 11752
+@ fContext
+@ u
+t __MIDL_IWinTypes_0005 1 11739 11743
+t __MIDL_IWinTypes_0005 1 11739 11743
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHMETAFILEPICT 1 11737 11744
+t _userHMETAFILEPICT 1 11737 11744
+@ fContext
+@ u
+t __MIDL_IWinTypes_0006 1 11731 11735
+t __MIDL_IWinTypes_0006 1 11731 11735
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHENHMETAFILE 1 11729 11736
+t _userHENHMETAFILE 1 11729 11736
+@ fContext
+@ u
+t _remoteMETAFILEPICT 1 11723 11728
+t _remoteMETAFILEPICT 1 11723 11728
+@ mm
+@ xExt
+@ yExt
+@ hMF
+t __MIDL_IWinTypes_0004 1 11717 11721
+t __MIDL_IWinTypes_0004 1 11717 11721
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHMETAFILE 1 11715 11722
+t _userHMETAFILE 1 11715 11722
+@ fContext
+@ u
+t _BYTE_BLOB 1 11711 11714
+t _BYTE_BLOB 1 11711 11714
+@ clSize
+@ abData
+t _FLAGGED_BYTE_BLOB 1 11706 11710
+t _FLAGGED_BYTE_BLOB 1 11706 11710
+@ fFlags
+@ clSize
+@ abData
+t tagrpcLOGPALETTE 1 11701 11705
+t tagrpcLOGPALETTE 1 11701 11705
+@ palVersion
+@ palNumEntries
+@ palPalEntry
+t __MIDL_IWinTypes_0007 1 11695 11699
+t __MIDL_IWinTypes_0007 1 11695 11699
+@ hInproc
+@ hRemote
+@ hGlobal
+t _userHBITMAP 1 11693 11700
+t _userHBITMAP 1 11693 11700
+@ fContext
+@ u
+t _userBITMAP 1 11683 11692
+t _userBITMAP 1 11683 11692
+@ bmType
+@ bmWidth
+@ bmHeight
+@ bmWidthBytes
+@ bmPlanes
+@ bmBitsPixel
+@ cbSize
+@ pBuffer
+t __MIDL_IWinTypes_0001 1 11678 11681
+t __MIDL_IWinTypes_0001 1 11678 11681
+@ dwValue
+@ pwszName
+t _userCLIPFORMAT 1 11676 11682
+t _userCLIPFORMAT 1 11676 11682
+@ fContext
+@ u
+t _COAUTHINFO 1 11666 11674
+t _COAUTHINFO 1 11666 11674
+@ dwAuthnSvc
+@ dwAuthzSvc
+@ pwszServerPrincName
+@ dwAuthnLevel
+@ dwImpersonationLevel
+@ pAuthIdentityData
+@ dwCapabilities
+t _COAUTHIDENTITY 1 11657 11665
+t _COAUTHIDENTITY 1 11657 11665
+@ User
+@ UserLength
+@ Domain
+@ DomainLength
+@ Password
+@ PasswordLength
+@ Flags
+t tagNMDATETIMEFORMATQUERYW 1 11652 11656
+t tagNMDATETIMEFORMATQUERYW 1 11652 11656
+@ nmhdr
+@ pszFormat
+@ szMax
+t tagNMDATETIMEFORMATQUERYA 1 11647 11651
+t tagNMDATETIMEFORMATQUERYA 1 11647 11651
+@ nmhdr
+@ pszFormat
+@ szMax
+t tagNMDATETIMEFORMATW 1 11640 11646
+t tagNMDATETIMEFORMATW 1 11640 11646
+@ nmhdr
+@ pszFormat
+@ st
+@ pszDisplay
+@ szDisplay
+t tagNMDATETIMEFORMATA 1 11633 11639
+t tagNMDATETIMEFORMATA 1 11633 11639
+@ nmhdr
+@ pszFormat
+@ st
+@ pszDisplay
+@ szDisplay
+t tagNMDATETIMEWMKEYDOWNW 1 11627 11632
+t tagNMDATETIMEWMKEYDOWNW 1 11627 11632
+@ nmhdr
+@ nVirtKey
+@ pszFormat
+@ st
+t tagNMDATETIMEWMKEYDOWNA 1 11621 11626
+t tagNMDATETIMEWMKEYDOWNA 1 11621 11626
+@ nmhdr
+@ nVirtKey
+@ pszFormat
+@ st
+t tagNMDATETIMESTRINGW 1 11615 11620
+t tagNMDATETIMESTRINGW 1 11615 11620
+@ nmhdr
+@ pszUserString
+@ st
+@ dwFlags
+t tagNMDATETIMESTRINGA 1 11609 11614
+t tagNMDATETIMESTRINGA 1 11609 11614
+@ nmhdr
+@ pszUserString
+@ st
+@ dwFlags
+t tagNMDATETIMECHANGE 1 11604 11608
+t tagNMDATETIMECHANGE 1 11604 11608
+@ nmhdr
+@ dwFlags
+@ st
+t _WIN_SPUB_TRUSTED_PUBLISHER_DATA 1 11599 11601
+t _WIN_SPUB_TRUSTED_PUBLISHER_DATA 1 11599 11601
+@ hClientToken
+@ lpCertificate
+t _WIN_TRUST_SUBJECT_FILE 1 11592 11594
+t _WIN_TRUST_SUBJECT_FILE 1 11592 11594
+@ hFile
+@ lpPath
+t _WIN_TRUST_ACTDATA_SUBJECT_ONLY 1 11584 11587
+t _WIN_TRUST_ACTDATA_SUBJECT_ONLY 1 11584 11587
+@ SubjectType
+@ Subject
+t _WIN_TRUST_ACTDATA_CONTEXT_WITH_SUBJECT 1 11579 11583
+t _WIN_TRUST_ACTDATA_CONTEXT_WITH_SUBJECT 1 11579 11583
+@ hClientToken
+@ SubjectType
+@ Subject
+t _WIN_CERTIFICATE 1 11568 11573
+t _WIN_CERTIFICATE 1 11568 11573
+@ dwLength
+@ wRevision
+@ wCertificateType
+@ bCertificate
+t tagPIXELFORMATDESCRIPTOR 1 11540 11567
+t tagPIXELFORMATDESCRIPTOR 1 11540 11567
+@ nSize
+@ nVersion
+@ dwFlags
+@ iPixelType
+@ cColorBits
+@ cRedBits
+@ cRedShift
+@ cGreenBits
+@ cGreenShift
+@ cBlueBits
+@ cBlueShift
+@ cAlphaBits
+@ cAlphaShift
+@ cAccumBits
+@ cAccumRedBits
+@ cAccumGreenBits
+@ cAccumBlueBits
+@ cAccumAlphaBits
+@ cDepthBits
+@ cStencilBits
+@ cAuxBuffers
+@ iLayerType
+@ bReserved
+@ dwLayerMask
+@ dwVisibleMask
+@ dwDamageMask
+t _EXCEPTION_REGISTRATION_RECORD 1 11527 11527
+t _EXCEPTION_REGISTRATION_RECORD 1 11527 11527
+t _NT_TIB 1 11533 11534
+t _NT_TIB 1 11533 11534
+@ ExceptionList
+@ StackBase
+@ StackLimit
+@ SubSystemTib
+@ FiberData
+@ Version
+@ ArbitraryUserPointer
+@ Self
+t _IMAGE_SEPARATE_DEBUG_HEADER 1 11503 11517
+t _IMAGE_SEPARATE_DEBUG_HEADER 1 11503 11517
+@ Signature
+@ Flags
+@ Machine
+@ Characteristics
+@ TimeDateStamp
+@ CheckSum
+@ ImageBase
+@ SizeOfImage
+@ NumberOfSections
+@ ExportedNamesSize
+@ DebugDirectorySize
+@ SectionAlignment
+@ Reserved
+t _IMAGE_FUNCTION_ENTRY 1 11498 11502
+t _IMAGE_FUNCTION_ENTRY 1 11498 11502
+@ StartingAddress
+@ EndingAddress
+@ EndOfPrologue
+t _IMAGE_DEBUG_MISC 1 11491 11497
+t _IMAGE_DEBUG_MISC 1 11491 11497
+@ DataType
+@ Length
+@ Unicode
+@ Reserved
+@ Data
+t _FPO_DATA 1 11478 11489
+t _FPO_DATA 1 11478 11489
+@ ulOffStart
+@ cbProcSize
+@ cdwLocals
+@ cdwParams
+@ cbProlog
+@ cbRegs
+@ fHasSEH
+@ fUseBP
+@ reserved
+@ cbFrame
+t _IMAGE_COFF_SYMBOLS_HEADER 1 11464 11473
+t _IMAGE_COFF_SYMBOLS_HEADER 1 11464 11473
+@ NumberOfSymbols
+@ LvaToFirstSymbol
+@ NumberOfLinenumbers
+@ LvaToFirstLinenumber
+@ RvaToFirstByteOfCode
+@ RvaToLastByteOfCode
+@ RvaToFirstByteOfData
+@ RvaToLastByteOfData
+t _IMAGE_DEBUG_DIRECTORY 1 11454 11463
+t _IMAGE_DEBUG_DIRECTORY 1 11454 11463
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ Type
+@ SizeOfData
+@ AddressOfRawData
+@ PointerToRawData
+t _IMAGE_RUNTIME_FUNCTION_ENTRY 1 11447 11453
+t _IMAGE_RUNTIME_FUNCTION_ENTRY 1 11447 11453
+@ BeginAddress
+@ EndAddress
+@ ExceptionHandler
+@ HandlerData
+@ PrologEndAddress
+t _IMAGE_LOAD_CONFIG_DIRECTORY 1 11431 11446
+t _IMAGE_LOAD_CONFIG_DIRECTORY 1 11431 11446
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ GlobalFlagsClear
+@ GlobalFlagsSet
+@ CriticalSectionDefaultTimeout
+@ DeCommitFreeBlockThreshold
+@ DeCommitTotalFreeThreshold
+@ LockPrefixTable
+@ MaximumAllocationSize
+@ VirtualMemoryThreshold
+@ ProcessHeapFlags
+@ Reserved
+t _IMAGE_RESOURCE_DATA_ENTRY 1 11425 11430
+t _IMAGE_RESOURCE_DATA_ENTRY 1 11425 11430
+@ OffsetToData
+@ Size
+@ CodePage
+@ Reserved
+t _IMAGE_RESOURCE_DIR_STRING_U 1 11421 11424
+t _IMAGE_RESOURCE_DIR_STRING_U 1 11421 11424
+@ Length
+@ NameString
+t _IMAGE_RESOURCE_DIRECTORY_STRING 1 11417 11420
+t _IMAGE_RESOURCE_DIRECTORY_STRING 1 11417 11420
+@ Length
+@ NameString
+t _IMAGE_RESOURCE_DIRECTORY_ENTRY 1 11406 11416
+t _IMAGE_RESOURCE_DIRECTORY_ENTRY 1 11406 11416
+@ NameOffset
+@ NameIsString
+@ Name
+@ Id
+@ OffsetToData
+@ OffsetToDirectory
+@ DataIsDirectory
+t _IMAGE_RESOURCE_DIRECTORY 1 11398 11405
+t _IMAGE_RESOURCE_DIRECTORY 1 11398 11405
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ NumberOfNamedEntries
+@ NumberOfIdEntries
+t _IMAGE_TLS_DIRECTORY 1 11390 11397
+t _IMAGE_TLS_DIRECTORY 1 11390 11397
+@ StartAddressOfRawData
+@ EndAddressOfRawData
+@ AddressOfIndex
+@ AddressOfCallBacks
+@ SizeOfZeroFill
+@ Characteristics
+t _IMAGE_BOUND_FORWARDER_REF 1 11384 11388
+t _IMAGE_BOUND_FORWARDER_REF 1 11384 11388
+@ TimeDateStamp
+@ OffsetModuleName
+@ Reserved
+t _IMAGE_BOUND_IMPORT_DESCRIPTOR 1 11379 11383
+t _IMAGE_BOUND_IMPORT_DESCRIPTOR 1 11379 11383
+@ TimeDateStamp
+@ OffsetModuleName
+@ NumberOfModuleForwarderRefs
+t _IMAGE_IMPORT_DESCRIPTOR 1 11369 11378
+t _IMAGE_IMPORT_DESCRIPTOR 1 11369 11378
+@ Characteristics
+@ OriginalFirstThunk
+@ TimeDateStamp
+@ ForwarderChain
+@ Name
+@ FirstThunk
+t _IMAGE_THUNK_DATA 1 11361 11368
+t _IMAGE_THUNK_DATA 1 11361 11368
+@ ForwarderString
+@ Function
+@ Ordinal
+@ AddressOfData
+t _IMAGE_IMPORT_BY_NAME 1 11357 11360
+t _IMAGE_IMPORT_BY_NAME 1 11357 11360
+@ Hint
+@ Name
+t _IMAGE_EXPORT_DIRECTORY 1 11344 11356
+t _IMAGE_EXPORT_DIRECTORY 1 11344 11356
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ Name
+@ Base
+@ NumberOfFunctions
+@ NumberOfNames
+@ AddressOfFunctions
+@ AddressOfNames
+@ AddressOfNameOrdinals
+t _IMAGE_ARCHIVE_MEMBER_HEADER 1 11335 11343
+t _IMAGE_ARCHIVE_MEMBER_HEADER 1 11335 11343
+@ Name
+@ Date
+@ UserID
+@ GroupID
+@ Mode
+@ Size
+@ EndHeader
+t _IMAGE_LINENUMBER 1 11327 11333
+t _IMAGE_LINENUMBER 1 11327 11333
+@ Type
+@ Linenumber
+t _IMAGE_BASE_RELOCATION 1 11323 11326
+t _IMAGE_BASE_RELOCATION 1 11323 11326
+@ VirtualAddress
+@ SizeOfBlock
+t _IMAGE_RELOCATION 1 11310 11321
+t _IMAGE_RELOCATION 1 11310 11321
+@ VirtualAddress
+@ SymbolTableIndex
+@ Type
+t _IMAGE_AUX_SYMBOL 1 11279 11308
+t _IMAGE_AUX_SYMBOL 1 11279 11308
+@ Sym
+@ File
+@ Section
+t _IMAGE_SYMBOL 1 11263 11277
+t _IMAGE_SYMBOL 1 11263 11277
+@ N
+@ Value
+@ SectionNumber
+@ Type
+@ StorageClass
+@ NumberOfAuxSymbols
+t _IMAGE_SECTION_HEADER 1 11248 11262
+t _IMAGE_SECTION_HEADER 1 11248 11262
+@ Name
+@ Misc
+@ VirtualAddress
+@ SizeOfRawData
+@ PointerToRawData
+@ PointerToRelocations
+@ PointerToLinenumbers
+@ NumberOfRelocations
+@ NumberOfLinenumbers
+@ Characteristics
+t _IMAGE_ROM_HEADERS 1 11244 11247
+t _IMAGE_ROM_HEADERS 1 11244 11247
+@ FileHeader
+@ OptionalHeader
+t _IMAGE_NT_HEADERS 1 11238 11242
+t _IMAGE_NT_HEADERS 1 11238 11242
+@ Signature
+@ FileHeader
+@ OptionalHeader
+t _IMAGE_ROM_OPTIONAL_HEADER 1 11218 11232
+t _IMAGE_ROM_OPTIONAL_HEADER 1 11218 11232
+@ Magic
+@ MajorLinkerVersion
+@ MinorLinkerVersion
+@ SizeOfCode
+@ SizeOfInitializedData
+@ SizeOfUninitializedData
+@ AddressOfEntryPoint
+@ BaseOfCode
+@ BaseOfData
+@ BaseOfBss
+@ GprMask
+@ CprMask
+@ GpValue
+t _IMAGE_OPTIONAL_HEADER 1 11185 11217
+t _IMAGE_OPTIONAL_HEADER 1 11185 11217
+@ Magic
+@ MajorLinkerVersion
+@ MinorLinkerVersion
+@ SizeOfCode
+@ SizeOfInitializedData
+@ SizeOfUninitializedData
+@ AddressOfEntryPoint
+@ BaseOfCode
+@ BaseOfData
+@ ImageBase
+@ SectionAlignment
+@ FileAlignment
+@ MajorOperatingSystemVersion
+@ MinorOperatingSystemVersion
+@ MajorImageVersion
+@ MinorImageVersion
+@ MajorSubsystemVersion
+@ MinorSubsystemVersion
+@ Win32VersionValue
+@ SizeOfImage
+@ SizeOfHeaders
+@ CheckSum
+@ Subsystem
+@ DllCharacteristics
+@ SizeOfStackReserve
+@ SizeOfStackCommit
+@ SizeOfHeapReserve
+@ SizeOfHeapCommit
+@ LoaderFlags
+@ NumberOfRvaAndSizes
+@ DataDirectory
+t _IMAGE_DATA_DIRECTORY 1 11181 11184
+t _IMAGE_DATA_DIRECTORY 1 11181 11184
+@ VirtualAddress
+@ Size
+t _IMAGE_FILE_HEADER 1 11172 11180
+t _IMAGE_FILE_HEADER 1 11172 11180
+@ Machine
+@ NumberOfSections
+@ TimeDateStamp
+@ PointerToSymbolTable
+@ NumberOfSymbols
+@ SizeOfOptionalHeader
+@ Characteristics
+t _IMAGE_VXD_HEADER 1 11119 11171
+t _IMAGE_VXD_HEADER 1 11119 11171
+@ e32_magic
+@ e32_border
+@ e32_worder
+@ e32_level
+@ e32_cpu
+@ e32_os
+@ e32_ver
+@ e32_mflags
+@ e32_mpages
+@ e32_startobj
+@ e32_eip
+@ e32_stackobj
+@ e32_esp
+@ e32_pagesize
+@ e32_lastpagesize
+@ e32_fixupsize
+@ e32_fixupsum
+@ e32_ldrsize
+@ e32_ldrsum
+@ e32_objtab
+@ e32_objcnt
+@ e32_objmap
+@ e32_itermap
+@ e32_rsrctab
+@ e32_rsrccnt
+@ e32_restab
+@ e32_enttab
+@ e32_dirtab
+@ e32_dircnt
+@ e32_fpagetab
+@ e32_frectab
+@ e32_impmod
+@ e32_impmodcnt
+@ e32_impproc
+@ e32_pagesum
+@ e32_datapage
+@ e32_preload
+@ e32_nrestab
+@ e32_cbnrestab
+@ e32_nressum
+@ e32_autodata
+@ e32_debuginfo
+@ e32_debuglen
+@ e32_instpreload
+@ e32_instdemand
+@ e32_heapsize
+@ e32_res3
+@ e32_winresoff
+@ e32_winreslen
+@ e32_devid
+@ e32_ddkver
+t _IMAGE_OS2_HEADER 1 11087 11118
+t _IMAGE_OS2_HEADER 1 11087 11118
+@ ne_magic
+@ ne_ver
+@ ne_rev
+@ ne_enttab
+@ ne_cbenttab
+@ ne_crc
+@ ne_flags
+@ ne_autodata
+@ ne_heap
+@ ne_stack
+@ ne_csip
+@ ne_sssp
+@ ne_cseg
+@ ne_cmod
+@ ne_cbnrestab
+@ ne_segtab
+@ ne_rsrctab
+@ ne_restab
+@ ne_modtab
+@ ne_imptab
+@ ne_nrestab
+@ ne_cmovent
+@ ne_align
+@ ne_cres
+@ ne_exetyp
+@ ne_flagsothers
+@ ne_pretthunks
+@ ne_psegrefbytes
+@ ne_swaparea
+@ ne_expver
+t _IMAGE_DOS_HEADER 1 11066 11086
+t _IMAGE_DOS_HEADER 1 11066 11086
+@ e_magic
+@ e_cblp
+@ e_cp
+@ e_crlc
+@ e_cparhdr
+@ e_minalloc
+@ e_maxalloc
+@ e_ss
+@ e_sp
+@ e_csum
+@ e_ip
+@ e_cs
+@ e_lfarlc
+@ e_ovno
+@ e_res
+@ e_oemid
+@ e_oeminfo
+@ e_res2
+@ e_lfanew
+t tagTCITEMW 1 10817 10825
+t tagTCITEMW 1 10817 10825
+@ mask
+@ dwState
+@ dwStateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t tagTCITEMA 1 10808 10816
+t tagTCITEMA 1 10808 10816
+@ mask
+@ dwState
+@ dwStateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t tagTCITEMHEADERW 1 10800 10807
+t tagTCITEMHEADERW 1 10800 10807
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+t tagTCITEMHEADERA 1 10792 10799
+t tagTCITEMHEADERA 1 10792 10799
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+t _UDACCEL 1 10788 10791
+t _UDACCEL 1 10788 10791
+@ nSec
+@ nInc
+t tagNMTBGETINFOTIPW 1 10744 10750
+t tagNMTBGETINFOTIPW 1 10744 10750
+@ hdr
+@ pszText
+@ cchTextMax
+@ iItem
+@ lParam
+t tagNMTBGETINFOTIPA 1 10737 10743
+t tagNMTBGETINFOTIPA 1 10737 10743
+@ hdr
+@ pszText
+@ cchTextMax
+@ iItem
+@ lParam
+t tagNMTBHOTITEM 1 10731 10736
+t tagNMTBHOTITEM 1 10731 10736
+@ hdr
+@ idOld
+@ idNew
+@ dwFlags
+t tagNMOBJECTNOTIFY 1 10723 10730
+t tagNMOBJECTNOTIFY 1 10723 10730
+@ hdr
+@ iItem
+@ piid
+@ pObject
+@ hResult
+@ dwFlags
+t _NMTBCUSTOMDRAW 1 10690 10704
+t _NMTBCUSTOMDRAW 1 10690 10704
+@ nmcd
+@ hbrMonoDither
+@ hbrLines
+@ hpenLines
+@ clrText
+@ clrMark
+@ clrTextHighlight
+@ clrBtnFace
+@ clrBtnHighlight
+@ clrHighlightHotTrack
+@ rcText
+@ nStringBkMode
+@ nHLStringBkMode
+t tagNMLVCUSTOMDRAW 1 10684 10689
+t tagNMLVCUSTOMDRAW 1 10684 10689
+@ nmcd
+@ clrText
+@ clrTextBk
+@ iSubItem
+t tagNMCUSTOMDRAWINFO 1 10675 10683
+t tagNMCUSTOMDRAWINFO 1 10675 10683
+@ hdr
+@ dwDrawStage
+@ hdc
+@ rc
+@ dwItemSpec
+@ uItemState
+@ lItemlParam
+t tagNMCHAR 1 10669 10674
+t tagNMCHAR 1 10669 10674
+@ hdr
+@ ch
+@ dwItemPrev
+@ dwItemNext
+t tagNMKEY 1 10664 10668
+t tagNMKEY 1 10664 10668
+@ hdr
+@ nVKey
+@ uFlags
+t tagLVBKIMAGEW 1 10632 10639
+t tagLVBKIMAGEW 1 10632 10639
+@ ulFlags
+@ hbm
+@ pszImage
+@ cchImageMax
+@ xOffsetPercent
+@ yOffsetPercent
+t tagLVBKIMAGEA 1 10624 10631
+t tagLVBKIMAGEA 1 10624 10631
+@ ulFlags
+@ hbm
+@ pszImage
+@ cchImageMax
+@ xOffsetPercent
+@ yOffsetPercent
+t _MESSAGE_RESOURCE_DATA 1 10606 10609
+t _MESSAGE_RESOURCE_DATA 1 10606 10609
+@ NumberOfBlocks
+@ Blocks
+t _MESSAGE_RESOURCE_BLOCK 1 10601 10605
+t _MESSAGE_RESOURCE_BLOCK 1 10601 10605
+@ LowId
+@ HighId
+@ OffsetToEntries
+t _MESSAGE_RESOURCE_ENTRY 1 10595 10599
+t _MESSAGE_RESOURCE_ENTRY 1 10595 10599
+@ Length
+@ Flags
+@ Text
+t _NETCONNECTINFOSTRUCT 1 10588 10594
+t _NETCONNECTINFOSTRUCT 1 10588 10594
+@ cbStructure
+@ dwFlags
+@ dwSpeed
+@ dwDelay
+@ dwOptDataSize
+t _NETINFOSTRUCT 1 10578 10587
+t _NETINFOSTRUCT 1 10578 10587
+@ cbStructure
+@ dwProviderVersion
+@ dwStatus
+@ dwCharacteristics
+@ dwHandle
+@ wNetType
+@ dwPrinters
+@ dwDrives
+t _DISCDLGSTRUCT 1 10571 10577
+t _DISCDLGSTRUCT 1 10571 10577
+@ cbStructure
+@ hwndOwner
+@ lpLocalName
+@ lpRemoteName
+@ dwFlags
+t _CONNECTDLGSTRUCT 1 10564 10570
+t _CONNECTDLGSTRUCT 1 10564 10570
+@ cbStructure
+@ hwndOwner
+@ lpConnRes
+@ dwFlags
+@ dwDevNum
+t tagWNDCLASSW 1 10539 10550
+t tagWNDCLASSW 1 10539 10550
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+t tagWNDCLASSA 1 10527 10538
+t tagWNDCLASSA 1 10527 10538
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+t tagWNDCLASSEXW 1 10502 10515
+t tagWNDCLASSEXW 1 10502 10515
+@ cbSize
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+@ hIconSm
+t tagWNDCLASSEXA 1 10488 10501
+t tagWNDCLASSEXA 1 10488 10501
+@ cbSize
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+@ hIconSm
+t _WINDOWPLACEMENT 1 10480 10487
+t _WINDOWPLACEMENT 1 10480 10487
+@ length
+@ flags
+@ showCmd
+@ ptMinPosition
+@ ptMaxPosition
+@ rcNormalPosition
+t _WIN32_STREAM_ID 1 10473 10479
+t _WIN32_STREAM_ID 1 10473 10479
+@ dwStreamId
+@ dwStreamAttributes
+@ Size
+@ dwStreamNameSize
+@ cStreamName
+t _WIN32_FIND_DATAW 1 10460 10472
+t _WIN32_FIND_DATAW 1 10460 10472
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+@ dwReserved0
+@ dwReserved1
+@ cFileName
+@ cAlternateFileName
+@ dummy
+t _WIN32_FIND_DATAA 1 10447 10459
+t _WIN32_FIND_DATAA 1 10447 10459
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+@ dwReserved0
+@ dwReserved1
+@ cFileName
+@ cAlternateFileName
+@ dummy
+t pvalueW 1 10419 10419
+t pvalueW 1 10419 10419
+@ pv_valuename
+@ pv_valuelen
+@ pv_value_context
+@ pv_type
+t pvalueA 1 10418 10418
+t pvalueA 1 10418 10418
+@ pv_valuename
+@ pv_valuelen
+@ pv_value_context
+@ pv_type
+t value_entW 1 10412 10417
+t value_entW 1 10412 10417
+@ ve_valuename
+@ ve_valuelen
+@ ve_valueptr
+@ ve_type
+t value_entA 1 10406 10411
+t value_entA 1 10406 10411
+@ ve_valuename
+@ ve_valuelen
+@ ve_valueptr
+@ ve_type
+t tagUSEROBJECTFLAGS 1 10401 10405
+t tagUSEROBJECTFLAGS 1 10401 10405
+@ fInherit
+@ fReserved
+@ dwFlags
+t _UNIVERSAL_NAME_INFO 1 10398 10400
+t _UNIVERSAL_NAME_INFO 1 10398 10400
+@ lpUniversalName
+t _ULARGE_INTEGER 1 10394 10397
+t _ULARGE_INTEGER 1 10394 10397
+@ LowPart
+@ HighPart
+@ QuadPart
+t _TV_SORTCB 1 10389 10393
+t _TV_SORTCB 1 10389 10393
+@ hParent
+@ lpfnCompare
+@ lParam
+t _TV_KEYDOWN 1 10384 10388
+t _TV_KEYDOWN 1 10384 10388
+@ hdr
+@ wVKey
+@ flags
+t _TV_INSERTSTRUCT 1 10379 10383
+t _TV_INSERTSTRUCT 1 10379 10383
+@ hParent
+@ hInsertAfter
+@ item
+t _TVHITTESTINFO 1 10374 10378
+t _TVHITTESTINFO 1 10374 10378
+@ pt
+@ flags
+@ hItem
+t _TV_DISPINFO 1 10370 10373
+t _TV_DISPINFO 1 10370 10373
+@ hdr
+@ item
+t _TTPOLYGONHEADER 1 10365 10369
+t _TTPOLYGONHEADER 1 10365 10369
+@ cb
+@ dwType
+@ pfxStart
+t tagTTPOLYCURVE 1 10360 10364
+t tagTTPOLYCURVE 1 10360 10364
+@ wType
+@ cpfx
+@ apfx
+t _TT_HITTESTINFO 1 10355 10359
+t _TT_HITTESTINFO 1 10355 10359
+@ hwnd
+@ pt
+@ ti
+t tagTPMPARAMS 1 10351 10354
+t tagTPMPARAMS 1 10351 10354
+@ cbSize
+@ rcExclude
+t _TOKEN_USER 1 10332 10334
+t _TOKEN_USER 1 10332 10334
+@ User
+t _TOKEN_STATISTICS 1 10320 10331
+t _TOKEN_STATISTICS 1 10320 10331
+@ TokenId
+@ AuthenticationId
+@ ExpirationTime
+@ TokenType
+@ ImpersonationLevel
+@ DynamicCharged
+@ DynamicAvailable
+@ GroupCount
+@ PrivilegeCount
+@ ModifiedId
+t _TOKEN_PRIVILEGES 1 10316 10319
+t _TOKEN_PRIVILEGES 1 10316 10319
+@ PrivilegeCount
+@ Privileges
+t _TOKEN_PRIMARY_GROUP 1 10313 10315
+t _TOKEN_PRIMARY_GROUP 1 10313 10315
+@ PrimaryGroup
+t _TOKEN_OWNER 1 10310 10312
+t _TOKEN_OWNER 1 10310 10312
+@ Owner
+t _TOKEN_GROUPS 1 10306 10309
+t _TOKEN_GROUPS 1 10306 10309
+@ GroupCount
+@ Groups
+t _TOKEN_DEFAULT_DACL 1 10303 10305
+t _TOKEN_DEFAULT_DACL 1 10303 10305
+@ DefaultDacl
+t _TOKEN_CONTROL 1 10297 10302
+t _TOKEN_CONTROL 1 10297 10302
+@ TokenId
+@ AuthenticationId
+@ ModifiedId
+@ TokenSource
+t _TOKEN_SOURCE 1 10293 10296
+t _TOKEN_SOURCE 1 10293 10296
+@ SourceName
+@ SourceIdentifier
+t tagTOGGLEKEYS 1 10289 10292
+t tagTOGGLEKEYS 1 10289 10292
+@ cbSize
+@ dwFlags
+t _TIME_ZONE_INFORMATION 1 10280 10288
+t _TIME_ZONE_INFORMATION 1 10280 10288
+@ Bias
+@ StandardName
+@ StandardDate
+@ StandardBias
+@ DaylightName
+@ DaylightDate
+@ DaylightBias
+t _textrange 1 10278 10278
+t _textrange 1 10278 10278
+@ chrg
+@ lpstrText
+t _TC_KEYDOWN 1 10271 10275
+t _TC_KEYDOWN 1 10271 10275
+@ hdr
+@ wVKey
+@ flags
+t _TC_ITEMHEADER 1 10263 10270
+t _TC_ITEMHEADER 1 10263 10270
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+t _TC_ITEM 1 10254 10262
+t _TC_ITEM 1 10254 10262
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t _TC_HITTESTINFO 1 10250 10253
+t _TC_HITTESTINFO 1 10250 10253
+@ pt
+@ flags
+t tagTBSAVEPARAMSW 1 10238 10242
+t tagTBSAVEPARAMSW 1 10238 10242
+@ hkr
+@ pszSubKey
+@ pszValueName
+t tagTBSAVEPARAMSA 1 10233 10237
+t tagTBSAVEPARAMSA 1 10233 10237
+@ hkr
+@ pszSubKey
+@ pszValueName
+t tagNMTOOLBARW 1 10225 10232
+t tagNMTOOLBARW 1 10225 10232
+@ hdr
+@ iItem
+@ tbButton
+@ cchText
+@ pszText
+@ rcButton
+t tagNMTOOLBARA 1 10217 10224
+t tagNMTOOLBARA 1 10217 10224
+@ hdr
+@ iItem
+@ tbButton
+@ cchText
+@ pszText
+@ rcButton
+t _TBBUTTON 1 10207 10215
+t _TBBUTTON 1 10207 10215
+@ iBitmap
+@ idCommand
+@ fsState
+@ fsStyle
+@ bReserved
+@ dwData
+@ iString
+t _TAPE_WRITE_MARKS 1 10199 10202
+t _TAPE_WRITE_MARKS 1 10199 10202
+@ Type
+@ Count
+t _TAPE_SET_POSITION 1 10193 10198
+t _TAPE_SET_POSITION 1 10193 10198
+@ Method
+@ Partition
+@ OffsetLow
+@ OffsetHigh
+t _TAPE_SET_MEDIA_PARAMETERS 1 10190 10192
+t _TAPE_SET_MEDIA_PARAMETERS 1 10190 10192
+@ BlockSize
+t _TAPE_SET_DRIVE_PARAMETERS 1 10183 10189
+t _TAPE_SET_DRIVE_PARAMETERS 1 10183 10189
+@ ECC
+@ Compression
+@ DataPadding
+@ ReportSetmarks
+@ EOTWarningZoneSize
+t _TAPE_PREPARE 1 10180 10182
+t _TAPE_PREPARE 1 10180 10182
+@ Operation
+t _TAPE_GET_POSITION 1 10174 10179
+t _TAPE_GET_POSITION 1 10174 10179
+@ Type
+@ Partition
+@ OffsetLow
+@ OffsetHigh
+t _TAPE_GET_MEDIA_PARAMETERS 1 10167 10173
+t _TAPE_GET_MEDIA_PARAMETERS 1 10167 10173
+@ Capacity
+@ Remaining
+@ BlockSize
+@ PartitionCount
+@ WriteProtected
+t _TAPE_GET_DRIVE_PARAMETERS 1 10154 10166
+t _TAPE_GET_DRIVE_PARAMETERS 1 10154 10166
+@ ECC
+@ Compression
+@ DataPadding
+@ ReportSetmarks
+@ DefaultBlockSize
+@ MaximumBlockSize
+@ MinimumBlockSize
+@ MaximumPartitionCount
+@ FeaturesLow
+@ FeaturesHigh
+@ EOTWarningZoneSize
+t _TAPE_ERASE 1 10151 10153
+t _TAPE_ERASE 1 10151 10153
+@ Type
+t _SYSTEM_POWER_STATUS 1 10142 10149
+t _SYSTEM_POWER_STATUS 1 10142 10149
+@ ACLineStatus
+@ BatteryFlag
+@ BatteryLifePercent
+@ Reserved1
+@ BatteryLifeTime
+@ BatteryFullLifeTime
+t _SYSTEM_INFO 1 10129 10141
+t _SYSTEM_INFO 1 10129 10141
+@ wProcessorArchitecture
+@ wReserved
+@ dwPageSize
+@ lpMinimumApplicationAddress
+@ lpMaximumApplicationAddress
+@ dwActiveProcessorMask
+@ dwNumberOfProcessors
+@ dwProcessorType
+@ dwAllocationGranularity
+@ wProcessorLevel
+@ wProcessorRevision
+t _SYSTEM_AUDIT_ACE 1 10124 10128
+t _SYSTEM_AUDIT_ACE 1 10124 10128
+@ Header
+@ Mask
+@ SidStart
+t tagSTYLESTRUCT 1 10120 10123
+t tagSTYLESTRUCT 1 10120 10123
+@ styleOld
+@ styleNew
+t _STRRET 1 10115 10116
+t _STRRET 1 10115 10116
+@ uType
+@ pOleStr
+@ uOffset
+@ cStr
+t tagSTICKYKEYS 1 10109 10112
+t tagSTICKYKEYS 1 10109 10112
+@ cbSize
+@ dwFlags
+t _STARTUPINFOW 1 10082 10101
+t _STARTUPINFOW 1 10082 10101
+@ cb
+@ lpReserved
+@ lpDesktop
+@ lpTitle
+@ dwX
+@ dwY
+@ dwXSize
+@ dwYSize
+@ dwXCountChars
+@ dwYCountChars
+@ dwFillAttribute
+@ dwFlags
+@ wShowWindow
+@ cbReserved2
+@ lpReserved2
+@ hStdInput
+@ hStdOutput
+@ hStdError
+t _STARTUPINFOA 1 10062 10081
+t _STARTUPINFOA 1 10062 10081
+@ cb
+@ lpReserved
+@ lpDesktop
+@ lpTitle
+@ dwX
+@ dwY
+@ dwXSize
+@ dwYSize
+@ dwXCountChars
+@ dwYCountChars
+@ dwFillAttribute
+@ dwFlags
+@ wShowWindow
+@ cbReserved2
+@ lpReserved2
+@ hStdInput
+@ hStdOutput
+@ hStdError
+t tagSOUNDSENTRY 1 10048 10061
+t tagSOUNDSENTRY 1 10048 10061
+@ cbSize
+@ dwFlags
+@ iFSTextEffect
+@ iFSTextEffectMSec
+@ iFSTextEffectColorBits
+@ iFSGrafEffect
+@ iFSGrafEffectMSec
+@ iFSGrafEffectColor
+@ iWindowsEffect
+@ iWindowsEffectMSec
+@ lpszWindowsEffectDLL
+@ iWindowsEffectOrdinal
+t _SINGLE_LIST_ENTRY 1 10046 10047
+t _SINGLE_LIST_ENTRY 1 10046 10047
+@ Next
+t _SID_AND_ATTRIBUTES 1 10039 10042
+t _SID_AND_ATTRIBUTES 1 10039 10042
+@ Sid
+@ Attributes
+t _SESSION_HEADER 1 10017 10022
+t _SESSION_HEADER 1 10017 10022
+@ sess_name
+@ num_sess
+@ rcv_dg_outstanding
+@ rcv_any_outstanding
+t _SESSION_BUFFER 1 10009 10016
+t _SESSION_BUFFER 1 10009 10016
+@ lsn
+@ state
+@ local_name
+@ remote_name
+@ rcvs_outstanding
+@ sends_outstanding
+t tagSERIALKEYS 1 10001 10008
+t tagSERIALKEYS 1 10001 10008
+@ cbSize
+@ dwFlags
+@ lpszActivePort
+@ lpszPort
+@ iBaudRate
+@ iPortState
+t _SECURITY_ATTRIBUTES 1 9995 9999
+t _SECURITY_ATTRIBUTES 1 9995 9999
+@ nLength
+@ lpSecurityDescriptor
+@ bInheritHandle
+t tagSCROLLINFO 1 9985 9993
+t tagSCROLLINFO 1 9985 9993
+@ cbSize
+@ fMask
+@ nMin
+@ nMax
+@ nPage
+@ nPos
+@ nTrackPos
+t _RGNDATA 1 9981 9984
+t _RGNDATA 1 9981 9984
+@ rdh
+@ Buffer
+t _RGNDATAHEADER 1 9974 9980
+t _RGNDATAHEADER 1 9974 9980
+@ dwSize
+@ iType
+@ nCount
+@ nRgnSize
+@ rcBound
+t _REMOTE_NAME_INFO 1 9969 9973
+t _REMOTE_NAME_INFO 1 9969 9973
+@ lpUniversalName
+@ lpConnectionName
+@ lpRemainingPath
+t _RASTERIZER_STATUS 1 9964 9968
+t _RASTERIZER_STATUS 1 9964 9968
+@ nSize
+@ wFlags
+@ nLanguageID
+t _RASAMB 1 9958 9963
+t _RASAMB 1 9958 9963
+@ dwSize
+@ dwError
+@ szNetBiosError
+@ bLana
+t _punctuation 1 9954 9957
+t _punctuation 1 9954 9957
+@ iSize
+@ szPunctuation
+t _PSHNOTIFY 1 9950 9953
+t _PSHNOTIFY 1 9950 9953
+@ hdr
+@ lParam
+t _PROVIDOR_INFO_1 1 9945 9949
+t _PROVIDOR_INFO_1 1 9945 9949
+@ pName
+@ pEnvironment
+@ pDLLName
+t _PROTOCOL_INFO 1 9935 9944
+t _PROTOCOL_INFO 1 9935 9944
+@ dwServiceFlags
+@ iAddressFamily
+@ iMaxSockAddr
+@ iMinSockAddr
+@ iSocketType
+@ iProtocol
+@ dwMessageSize
+@ lpProtocol
+t _PROPSHEETHEADER 1 9910 9930
+t _PROPSHEETHEADER 1 9910 9930
+@ dwSize
+@ dwFlags
+@ hwndParent
+@ hInstance
+@ hIcon
+@ pszIcon
+@ pszCaption
+@ nPages
+@ nStartPage
+@ pStartPage
+@ ppsp
+@ phpage
+@ pfnCallback
+t _PSP 1 9909 9909
+t _PSP 1 9909 9909
+t _PROPSHEETPAGE 1 9890 9907
+t _PROPSHEETPAGE 1 9890 9907
+@ dwSize
+@ dwFlags
+@ hInstance
+@ pszTemplate
+@ pResource
+@ hIcon
+@ pszIcon
+@ pszTitle
+@ pfnDlgProc
+@ lParam
+@ pfnCallback
+@ pcRefParent
+t _PROCESS_INFORMATION 1 9882 9887
+t _PROCESS_INFORMATION 1 9882 9887
+@ hProcess
+@ hThread
+@ dwProcessId
+@ dwThreadId
+t _PROCESS_HEAP_ENTRY 1 9870 9881
+t _PROCESS_HEAP_ENTRY 1 9870 9881
+@ lpData
+@ cbData
+@ cbOverhead
+@ iRegionIndex
+@ wFlags
+@ dwCommittedSize
+@ dwUnCommittedSize
+@ lpFirstBlock
+@ lpLastBlock
+@ hMem
+t _PRIVILEGE_SET 1 9865 9869
+t _PRIVILEGE_SET 1 9865 9869
+@ PrivilegeCount
+@ Control
+@ Privilege
+t _PRINTPROCESSOR_INFO_1 1 9862 9864
+t _PRINTPROCESSOR_INFO_1 1 9862 9864
+@ pName
+t _PRINTER_DEFAULTS 1 9857 9861
+t _PRINTER_DEFAULTS 1 9857 9861
+@ pDatatype
+@ pDevMode
+@ DesiredAccess
+t _PORT_INFO_2 1 9850 9856
+t _PORT_INFO_2 1 9850 9856
+@ pPortName
+@ pMonitorName
+@ pDescription
+@ fPortType
+@ Reserved
+t _PORT_INFO_1 1 9847 9849
+t _PORT_INFO_1 1 9847 9849
+@ pName
+t _POLYTEXT 1 9838 9846
+t _POLYTEXT 1 9838 9846
+@ x
+@ y
+@ n
+@ lpstr
+@ uiFlags
+@ rcl
+@ pdx
+t _paraformat 1 9826 9837
+t _paraformat 1 9826 9837
+@ cbSize
+@ dwMask
+@ wNumbering
+@ wEffects
+@ dxStartIndent
+@ dxRightIndent
+@ dxOffset
+@ wAlignment
+@ cTabCount
+@ rgxTabs
+t tagPAINTSTRUCT 1 9818 9825
+t tagPAINTSTRUCT 1 9818 9825
+@ hdc
+@ fErase
+@ rcPaint
+@ fRestore
+@ fIncUpdate
+@ rgbReserved
+t tagPSD 1 9802 9817
+t tagPSD 1 9802 9817
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ Flags
+@ ptPaperSize
+@ rtMinMargin
+@ rtMargin
+@ hInstance
+@ lCustData
+@ lpfnPageSetupHook
+@ lpfnPagePaintHook
+@ lpPageSetupTemplateName
+@ hPageSetupTemplate
+t _OVERLAPPED 1 9795 9801
+t _OVERLAPPED 1 9795 9801
+@ Internal
+@ InternalHigh
+@ Offset
+@ OffsetHigh
+@ hEvent
+t _OUTLINETEXTMETRIC 1 9761 9794
+t _OUTLINETEXTMETRIC 1 9761 9794
+@ otmSize
+@ otmTextMetrics
+@ otmFiller
+@ otmPanoseNumber
+@ otmfsSelection
+@ otmfsType
+@ otmsCharSlopeRise
+@ otmsCharSlopeRun
+@ otmItalicAngle
+@ otmEMSquare
+@ otmAscent
+@ otmDescent
+@ otmLineGap
+@ otmsCapEmHeight
+@ otmsXHeight
+@ otmrcFontBox
+@ otmMacAscent
+@ otmMacDescent
+@ otmMacLineGap
+@ otmusMinimumPPEM
+@ otmptSubscriptSize
+@ otmptSubscriptOffset
+@ otmptSuperscriptSize
+@ otmptSuperscriptOffset
+@ otmsStrikeoutSize
+@ otmsStrikeoutPosition
+@ otmsUnderscoreSize
+@ otmsUnderscorePosition
+@ otmpFamilyName
+@ otmpFaceName
+@ otmpStyleName
+@ otmpFullName
+t tagTEXTMETRICW 1 9739 9760
+t tagTEXTMETRICW 1 9739 9760
+@ tmHeight
+@ tmAscent
+@ tmDescent
+@ tmInternalLeading
+@ tmExternalLeading
+@ tmAveCharWidth
+@ tmMaxCharWidth
+@ tmWeight
+@ tmOverhang
+@ tmDigitizedAspectX
+@ tmDigitizedAspectY
+@ tmFirstChar
+@ tmLastChar
+@ tmDefaultChar
+@ tmBreakChar
+@ tmItalic
+@ tmUnderlined
+@ tmStruckOut
+@ tmPitchAndFamily
+@ tmCharSet
+t tagTEXTMETRIC 1 9736 9738
+t tagTEXTMETRIC 1 9736 9738
+@ tmHeight
+@ tmAscent
+@ tmDescent
+@ tmInternalLeading
+@ tmExternalLeading
+@ tmAveCharWidth
+@ tmMaxCharWidth
+@ tmWeight
+@ tmOverhang
+@ tmDigitizedAspectX
+@ tmDigitizedAspectY
+@ tmFirstChar
+@ tmLastChar
+@ tmDefaultChar
+@ tmBreakChar
+@ tmItalic
+@ tmUnderlined
+@ tmStruckOut
+@ tmPitchAndFamily
+@ tmCharSet
+@ pad1
+@ pad2
+@ pad3
+@ pad4
+t _OSVERSIONINFOW 1 9694 9701
+t _OSVERSIONINFOW 1 9694 9701
+@ dwOSVersionInfoSize
+@ dwMajorVersion
+@ dwMinorVersion
+@ dwBuildNumber
+@ dwPlatformId
+@ szCSDVersion
+t _OSVERSIONINFOA 1 9685 9692
+t _OSVERSIONINFOA 1 9685 9692
+@ dwOSVersionInfoSize
+@ dwMajorVersion
+@ dwMinorVersion
+@ dwBuildNumber
+@ dwPlatformId
+@ szCSDVersion
+t _OFNOTIFY 1 9680 9684
+t _OFNOTIFY 1 9680 9684
+@ hdr
+@ lpOFN
+@ pszFile
+t tagOFNW 1 9641 9662
+t tagOFNW 1 9641 9662
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ lpstrFilter
+@ lpstrCustomFilter
+@ nMaxCustFilter
+@ nFilterIndex
+@ lpstrFile
+@ nMaxFile
+@ lpstrFileTitle
+@ nMaxFileTitle
+@ lpstrInitialDir
+@ lpstrTitle
+@ Flags
+@ nFileOffset
+@ nFileExtension
+@ lpstrDefExt
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+t tagOFNA 1 9619 9640
+t tagOFNA 1 9619 9640
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ lpstrFilter
+@ lpstrCustomFilter
+@ nMaxCustFilter
+@ nFilterIndex
+@ lpstrFile
+@ nMaxFile
+@ lpstrFileTitle
+@ nMaxFileTitle
+@ lpstrInitialDir
+@ lpstrTitle
+@ Flags
+@ nFileOffset
+@ nFileExtension
+@ lpstrDefExt
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+t _OFSTRUCT 1 9611 9618
+t _OFSTRUCT 1 9611 9618
+@ cBytes
+@ fFixedDisk
+@ nErrCode
+@ Reserved1
+@ Reserved2
+@ szPathName
+t _numberfmtw 1 9603 9610
+t _numberfmtw 1 9603 9610
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+t _numberfmta 1 9595 9602
+t _numberfmta 1 9595 9602
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+t tagRemBRUSH 1 9591 9594
+t tagRemBRUSH 1 9591 9594
+@ cbData
+@ data
+t tagRemHPALETTE 1 9587 9590
+t tagRemHPALETTE 1 9587 9590
+@ cbData
+@ data
+t tagRemHBITMAP 1 9583 9586
+t tagRemHBITMAP 1 9583 9586
+@ cbData
+@ data
+t tagRemHENHMETAFILE 1 9579 9582
+t tagRemHENHMETAFILE 1 9579 9582
+@ cbData
+@ data
+t tagRemHMETAFILEPICT 1 9571 9577
+t tagRemHMETAFILEPICT 1 9571 9577
+@ mm
+@ xExt
+@ yExt
+@ cbData
+@ data
+t tagRemHGLOBAL 1 9567 9570
+t tagRemHGLOBAL 1 9567 9570
+@ fNullHGlobal
+@ cbData
+@ data
+t _GUID 1 9550 9555
+t _GUID 1 9550 9555
+@ Data1
+@ Data2
+@ Data3
+@ Data4
+t _SERVICE_ADDRESSES 1 9545 9548
+t _SERVICE_ADDRESSES 1 9545 9548
+@ dwAddressCount
+@ Addresses
+t _SERVICE_ADDRESS 1 9537 9544
+t _SERVICE_ADDRESS 1 9537 9544
+@ dwAddressType
+@ dwAddressFlags
+@ dwAddressLength
+@ dwPrincipalLength
+@ lpAddress
+@ lpPrincipal
+t tagNONCLIENTMETRICS 1 9520 9536
+t tagNONCLIENTMETRICS 1 9520 9536
+@ cbSize
+@ iBorderWidth
+@ iScrollWidth
+@ iScrollHeight
+@ iCaptionWidth
+@ iCaptionHeight
+@ lfCaptionFont
+@ iSmCaptionWidth
+@ iSmCaptionHeight
+@ lfSmCaptionFont
+@ iMenuWidth
+@ iMenuHeight
+@ lfMenuFont
+@ lfStatusFont
+@ lfMessageFont
+t _NM_UPDOWN 1 9515 9519
+t _NM_UPDOWN 1 9515 9519
+@ hdr
+@ iPos
+@ iDelta
+t _NM_TREEVIEW 1 9506 9512
+t _NM_TREEVIEW 1 9506 9512
+@ hdr
+@ action
+@ itemOld
+@ itemNew
+@ ptDrag
+t tagTVINSERTSTRUCTW 1 9498 9505
+t tagTVINSERTSTRUCTW 1 9498 9505
+@ hParent
+@ hInsertAfter
+@ itemex
+@ item
+t tagTVINSERTSTRUCTA 1 9490 9497
+t tagTVINSERTSTRUCTA 1 9490 9497
+@ hParent
+@ hInsertAfter
+@ itemex
+@ item
+t tagTVITEMEXW 1 9477 9489
+t tagTVITEMEXW 1 9477 9489
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+@ iIntegral
+t tagTVITEMEXA 1 9464 9476
+t tagTVITEMEXA 1 9464 9476
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+@ iIntegral
+t tagTVITEMW 1 9443 9454
+t tagTVITEMW 1 9443 9454
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+t tagTVITEMA 1 9431 9442
+t tagTVITEMA 1 9431 9442
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+t _TREEITEM 1 9430 9430
+t _TREEITEM 1 9430 9430
+t tagNM_LISTVIEW 1 9420 9429
+t tagNM_LISTVIEW 1 9420 9429
+@ hdr
+@ iItem
+@ iSubItem
+@ uNewState
+@ uOldState
+@ uChanged
+@ ptAction
+@ lParam
+t tagNEWTEXTMETRICEX 1 9416 9419
+t tagNEWTEXTMETRICEX 1 9416 9419
+@ ntmentm
+@ ntmeFontSignature
+t tagNEWTEXTMETRIC 1 9389 9414
+t tagNEWTEXTMETRIC 1 9389 9414
+@ tmHeight
+@ tmAscent
+@ tmDescent
+@ tmInternalLeading
+@ tmExternalLeading
+@ tmAveCharWidth
+@ tmMaxCharWidth
+@ tmWeight
+@ tmOverhang
+@ tmDigitizedAspectX
+@ tmDigitizedAspectY
+@ tmFirstChar
+@ tmLastChar
+@ tmDefaultChar
+@ tmBreakChar
+@ tmItalic
+@ tmUnderlined
+@ tmStruckOut
+@ tmPitchAndFamily
+@ tmCharSet
+@ ntmFlags
+@ ntmSizeEM
+@ ntmCellHeight
+@ ntmAvgWidth
+t _NETRESOURCE 1 9377 9386
+t _NETRESOURCE 1 9377 9386
+@ dwScope
+@ dwType
+@ dwDisplayType
+@ dwUsage
+@ lpLocalName
+@ lpRemoteName
+@ lpComment
+@ lpProvider
+t _NDDESHAREINFO 1 9362 9374
+t _NDDESHAREINFO 1 9362 9374
+@ lRevision
+@ lpszShareName
+@ lShareType
+@ lpszAppTopicList
+@ fSharedFlag
+@ fService
+@ fStartAppFlag
+@ nCmdShow
+@ qModifyId
+@ cNumItems
+@ lpszItemList
+t _NCCALCSIZE_PARAMS 1 9358 9361
+t _NCCALCSIZE_PARAMS 1 9358 9361
+@ rgrc
+@ lppos
+t _NCB 1 9352 9357
+t _NCB 1 9352 9357
+@ ncb_command
+@ ncb_retcode
+@ ncb_lsn
+@ ncb_num
+@ ncb_buffer
+@ ncb_length
+@ ncb_callname
+@ ncb_name
+@ ncb_rto
+@ ncb_sto
+@ ncb_post
+@ ncb_lana_num
+@ ncb_cmd_cplt
+@ ncb_reserve
+@ ncb_event
+t _NAME_BUFFER 1 9336 9340
+t _NAME_BUFFER 1 9336 9340
+@ name
+@ name_num
+@ name_flags
+t tagMULTIKEYHELP 1 9331 9335
+t tagMULTIKEYHELP 1 9331 9335
+@ mkSize
+@ mkKeylist
+@ szKeyphrase
+t tagMSG 1 9310 9317
+t tagMSG 1 9310 9317
+@ hwnd
+@ message
+@ wParam
+@ lParam
+@ time
+@ pt
+t _MOUSEKEYS 1 9301 9309
+t _MOUSEKEYS 1 9301 9309
+@ cbSize
+@ dwFlags
+@ iMaxSpeed
+@ iTimeToMaxSpeed
+@ iCtrlSpeed
+@ dwReserved1
+@ dwReserved2
+t tagMOUSEHOOKSTRUCT 1 9295 9300
+t tagMOUSEHOOKSTRUCT 1 9295 9300
+@ pt
+@ hwnd
+@ wHitTestCode
+@ dwExtraInfo
+t tagMONMSGSTRUCT 1 9285 9294
+t tagMONMSGSTRUCT 1 9285 9294
+@ cb
+@ hwndTo
+@ dwTime
+@ hTask
+@ wMsg
+@ wParam
+@ lParam
+@ dmhd
+t tagMONLINKSTRUCT 1 9271 9284
+t tagMONLINKSTRUCT 1 9271 9284
+@ cb
+@ dwTime
+@ hTask
+@ fEstablished
+@ fNoData
+@ hszSvc
+@ hszTopic
+@ hszItem
+@ wFmt
+@ fServer
+@ hConvServer
+@ hConvClient
+t _MONITOR_INFO_2 1 9266 9270
+t _MONITOR_INFO_2 1 9266 9270
+@ pName
+@ pEnvironment
+@ pDLLName
+t _MONITOR_INFO_1 1 9263 9265
+t _MONITOR_INFO_1 1 9263 9265
+@ pName
+t tagMONHSZSTRUCT 1 9255 9262
+t tagMONHSZSTRUCT 1 9255 9262
+@ cb
+@ fsAction
+@ dwTime
+@ hsz
+@ hTask
+@ str
+t tagMONERRSTRUCT 1 9249 9254
+t tagMONERRSTRUCT 1 9249 9254
+@ cb
+@ wLastError
+@ dwTime
+@ hTask
+t tagMONCONVSTRUCT 1 9239 9248
+t tagMONCONVSTRUCT 1 9239 9248
+@ cb
+@ fConnect
+@ dwTime
+@ hTask
+@ hszSvc
+@ hszTopic
+@ hConvClient
+@ hConvServer
+t tagMONCBSTRUCT 1 9222 9238
+t tagMONCBSTRUCT 1 9222 9238
+@ cb
+@ dwTime
+@ hTask
+@ dwRet
+@ wType
+@ wFmt
+@ hConv
+@ hsz1
+@ hsz2
+@ hData
+@ dwData1
+@ dwData2
+@ cc
+@ cbData
+@ Data
+t modemsettings_tag 1 9208 9221
+t modemsettings_tag 1 9208 9221
+@ dwActualSize
+@ dwRequiredSize
+@ dwDevSpecificOffset
+@ dwDevSpecificSize
+@ dwCallSetupFailTimer
+@ dwInactivityTimeout
+@ dwSpeakerVolume
+@ dwSpeakerMode
+@ dwPreferredModemOptions
+@ dwNegotiatedModemOptions
+@ dwNegotiatedDCERate
+@ abVariablePortion
+t modemdevcaps_tag 1 9186 9207
+t modemdevcaps_tag 1 9186 9207
+@ dwActualSize
+@ dwRequiredSize
+@ dwDevSpecificOffset
+@ dwDevSpecificSize
+@ dwModemProviderVersion
+@ dwModemManufacturerOffset
+@ dwModemManufacturerSize
+@ dwModemModelOffset
+@ dwModemModelSize
+@ dwModemVersionOffset
+@ dwModemVersionSize
+@ dwDialOptions
+@ dwCallSetupFailTimer
+@ dwInactivityTimeout
+@ dwSpeakerVolume
+@ dwSpeakerMode
+@ dwModemOptions
+@ dwMaxDTERate
+@ dwMaxDCERate
+@ abVariablePortion
+t tagMINMAXINFO 1 9179 9185
+t tagMINMAXINFO 1 9179 9185
+@ ptReserved
+@ ptMaxSize
+@ ptMaxPosition
+@ ptMinTrackSize
+@ ptMaxTrackSize
+t tagMINIMIZEDMETRICS 1 9172 9178
+t tagMINIMIZEDMETRICS 1 9172 9178
+@ cbSize
+@ iWidth
+@ iHorzGap
+@ iVertGap
+@ iArrange
+t tagMETARECORD 1 9167 9171
+t tagMETARECORD 1 9167 9171
+@ rdSize
+@ rdFunction
+@ rdParm
+t tagMETAHEADER 1 9158 9166
+t tagMETAHEADER 1 9158 9166
+@ mtType
+@ mtHeaderSize
+@ mtVersion
+@ mtSize
+@ mtNoObjects
+@ mtMaxRecord
+@ mtNoParameters
+t tagMETAFILEPICT 1 9152 9157
+t tagMETAFILEPICT 1 9152 9157
+@ mm
+@ xExt
+@ yExt
+@ hMF
+t tagMENUITEMINFO 1 9128 9140
+t tagMENUITEMINFO 1 9128 9140
+@ cbSize
+@ fMask
+@ fType
+@ fState
+@ wID
+@ hSubMenu
+@ hbmpChecked
+@ hbmpUnchecked
+@ dwItemData
+@ dwTypeData
+@ cch
+t _MEMORYSTATUSEX 1 9104 9114
+t _MEMORYSTATUSEX 1 9104 9114
+@ dwLength
+@ dwMemoryLoad
+@ ullTotalPhys
+@ ullAvailPhys
+@ ullTotalPageFile
+@ ullAvailPageFile
+@ ullTotalVirtual
+@ ullAvailVirtual
+@ ullAvailExtendedVirtual
+t _MEMORYSTATUS 1 9094 9103
+t _MEMORYSTATUS 1 9094 9103
+@ dwLength
+@ dwMemoryLoad
+@ dwTotalPhys
+@ dwAvailPhys
+@ dwTotalPageFile
+@ dwAvailPageFile
+@ dwTotalVirtual
+@ dwAvailVirtual
+t _MEMORY_BASIC_INFORMATION 1 9084 9092
+t _MEMORY_BASIC_INFORMATION 1 9084 9092
+@ BaseAddress
+@ AllocationBase
+@ AllocationProtect
+@ RegionSize
+@ State
+@ Protect
+@ Type
+t tagMEASUREITEMSTRUCT 1 9075 9082
+t tagMEASUREITEMSTRUCT 1 9075 9082
+@ CtlType
+@ CtlID
+@ itemID
+@ itemWidth
+@ itemHeight
+@ itemData
+t tagMDICREATESTRUCT 1 9063 9073
+t tagMDICREATESTRUCT 1 9063 9073
+@ szClass
+@ szTitle
+@ hOwner
+@ x
+@ y
+@ cx
+@ cy
+@ style
+@ lParam
+t _MAT2 1 9057 9062
+t _MAT2 1 9057 9062
+@ eM11
+@ eM12
+@ eM21
+@ eM22
+t tagLV_KEYDOWN 1 9052 9056
+t tagLV_KEYDOWN 1 9052 9056
+@ hdr
+@ wVKey
+@ flags
+t _LV_HITTESTINFO 1 9047 9051
+t _LV_HITTESTINFO 1 9047 9051
+@ pt
+@ flags
+@ iItem
+t _LV_FINDINFO 1 9040 9046
+t _LV_FINDINFO 1 9040 9046
+@ flags
+@ psz
+@ lParam
+@ pt
+@ vkDirection
+t tagLV_DISPINFO 1 9036 9039
+t tagLV_DISPINFO 1 9036 9039
+@ hdr
+@ item
+t _LV_ITEM 1 9025 9035
+t _LV_ITEM 1 9025 9035
+@ mask
+@ iItem
+@ iSubItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+t _LV_COLUMN 1 9017 9024
+t _LV_COLUMN 1 9017 9024
+@ mask
+@ fmt
+@ cx
+@ pszText
+@ cchTextMax
+@ iSubItem
+t _LUID_AND_ATTRIBUTES 1 9011 9014
+t _LUID_AND_ATTRIBUTES 1 9011 9014
+@ Luid
+@ Attributes
+t tagLOCALESIGNATURE 1 9004 9008
+t tagLOCALESIGNATURE 1 9004 9008
+@ lsUsb
+@ lsCsbDefault
+@ lsCsbSupported
+t _LDT_ENTRY 1 8980 9003
+t _LDT_ENTRY 1 8980 9003
+@ LimitLow
+@ BaseLow
+@ HighWord
+t _LANA_ENUM 1 8976 8979
+t _LANA_ENUM 1 8976 8979
+@ length
+@ lana
+t tagKERNINGPAIR 1 8971 8975
+t tagKERNINGPAIR 1 8971 8975
+@ wFirst
+@ wSecond
+@ iKernAmount
+t _JOB_INFO_2 1 8946 8970
+t _JOB_INFO_2 1 8946 8970
+@ JobId
+@ pPrinterName
+@ pMachineName
+@ pUserName
+@ pDocument
+@ pNotifyName
+@ pDatatype
+@ pPrintProcessor
+@ pParameters
+@ pDriverName
+@ pDevMode
+@ pStatus
+@ pSecurityDescriptor
+@ Status
+@ Priority
+@ Position
+@ StartTime
+@ UntilTime
+@ TotalPages
+@ Size
+@ Submitted
+@ Time
+@ PagesPrinted
+t _SECURITY_DESCRIPTOR 1 8937 8945
+t _SECURITY_DESCRIPTOR 1 8937 8945
+@ Revision
+@ Sbz1
+@ Control
+@ Owner
+@ Group
+@ Sacl
+@ Dacl
+t _SECURITY_DESCRIPTOR_RELATIVE 1 8928 8936
+t _SECURITY_DESCRIPTOR_RELATIVE 1 8928 8936
+@ Revision
+@ Sbz1
+@ Control
+@ Owner
+@ Group
+@ Sacl
+@ Dacl
+t _SID 1 8921 8926
+t _SID 1 8921 8926
+@ Revision
+@ SubAuthorityCount
+@ IdentifierAuthority
+@ SubAuthority
+t _SID_IDENTIFIER_AUTHORITY 1 8917 8919
+t _SID_IDENTIFIER_AUTHORITY 1 8917 8919
+@ Value
+t _JOB_INFO_1 1 8902 8916
+t _JOB_INFO_1 1 8902 8916
+@ JobId
+@ pPrinterName
+@ pMachineName
+@ pUserName
+@ pDocument
+@ pDatatype
+@ pStatus
+@ Status
+@ Priority
+@ Position
+@ TotalPages
+@ PagesPrinted
+@ Submitted
+t _SYSTEMTIME 1 8892 8901
+t _SYSTEMTIME 1 8892 8901
+@ wYear
+@ wMonth
+@ wDayOfWeek
+@ wDay
+@ wHour
+@ wMinute
+@ wSecond
+@ wMilliseconds
+t _INPUT_RECORD 1 8881 8891
+t _INPUT_RECORD 1 8881 8891
+@ EventType
+@ __alignmentDummy
+@ Event
+t _MENU_EVENT_RECORD 1 8878 8880
+t _MENU_EVENT_RECORD 1 8878 8880
+@ dwCommandId
+t _WINDOW_BUFFER_SIZE_RECORD 1 8875 8877
+t _WINDOW_BUFFER_SIZE_RECORD 1 8875 8877
+@ dwSize
+t _MOUSE_EVENT_RECORD 1 8869 8874
+t _MOUSE_EVENT_RECORD 1 8869 8874
+@ dwMousePosition
+@ dwButtonState
+@ dwControlKeyState
+@ dwEventFlags
+t _KEY_EVENT_RECORD 1 8861 8868
+t _KEY_EVENT_RECORD 1 8861 8868
+@ bKeyDown
+@ wRepeatCount
+@ wVirtualKeyCode
+@ wVirtualScanCode
+@ uChar
+@ dwControlKeyState
+t _IMAGEINFO 1 8854 8860
+t _IMAGEINFO 1 8854 8860
+@ hbmImage
+@ hbmMask
+@ Unused1
+@ Unused2
+@ rcImage
+t tagICONMETRICS 1 8847 8853
+t tagICONMETRICS 1 8847 8853
+@ cbSize
+@ iHorzSpacing
+@ iVertSpacing
+@ iTitleWrap
+@ lfFont
+t _ICONINFO 1 8840 8846
+t _ICONINFO 1 8840 8846
+@ fIcon
+@ xHotspot
+@ yHotspot
+@ hbmMask
+@ hbmColor
+t tagHSZPAIR 1 8836 8839
+t tagHSZPAIR 1 8836 8839
+@ hszSvc
+@ hszTopic
+t tagHIGHCONTRAST 1 8831 8835
+t tagHIGHCONTRAST 1 8831 8835
+@ cbSize
+@ dwFlags
+@ lpszDefaultScheme
+t tagHELPINFO 1 8814 8821
+t tagHELPINFO 1 8814 8821
+@ cbSize
+@ iContextType
+@ iCtrlId
+@ hItemHandle
+@ dwContextId
+@ MousePos
+t tagNMHEADERW 1 8801 8806
+t tagNMHEADERW 1 8801 8806
+@ hdr
+@ iItem
+@ iButton
+@ pitem
+t tagNMHEADERA 1 8795 8800
+t tagNMHEADERA 1 8795 8800
+@ hdr
+@ iItem
+@ iButton
+@ pitem
+t _HD_ITEMW 1 8773 8785
+t _HD_ITEMW 1 8773 8785
+@ mask
+@ cxy
+@ pszText
+@ hbm
+@ cchTextMax
+@ fmt
+@ lParam
+@ iImage
+@ iOrder
+@ type
+@ pvFilter
+t _HD_ITEMA 1 8758 8770
+t _HD_ITEMA 1 8758 8770
+@ mask
+@ cxy
+@ pszText
+@ hbm
+@ cchTextMax
+@ fmt
+@ lParam
+@ iImage
+@ iOrder
+@ type
+@ pvFilter
+t _HD_NOTIFY 1 8752 8757
+t _HD_NOTIFY 1 8752 8757
+@ hdr
+@ iItem
+@ iButton
+@ pitem
+t _HD_LAYOUT 1 8747 8750
+t _HD_LAYOUT 1 8747 8750
+@ prc
+@ pwpos
+t _WINDOWPOS 1 8738 8746
+t _WINDOWPOS 1 8738 8746
+@ hwnd
+@ hwndInsertAfter
+@ x
+@ y
+@ cx
+@ cy
+@ flags
+t _HD_ITEM 1 8729 8737
+t _HD_ITEM 1 8729 8737
+@ mask
+@ cxy
+@ pszText
+@ hbm
+@ cchTextMax
+@ fmt
+@ lParam
+t _HD_HITTESTINFO 1 8723 8727
+t _HD_HITTESTINFO 1 8723 8727
+@ pt
+@ flags
+@ iItem
+t tagHANDLETABLE 1 8720 8722
+t tagHANDLETABLE 1 8720 8722
+@ objectHandle
+t _GLYPHMETRICS 1 8713 8719
+t _GLYPHMETRICS 1 8713 8719
+@ gmBlackBoxX
+@ gmBlackBoxY
+@ gmptGlyphOrigin
+@ gmCellIncX
+@ gmCellIncY
+t _GENERIC_MAPPING 1 8707 8712
+t _GENERIC_MAPPING 1 8707 8712
+@ GenericRead
+@ GenericWrite
+@ GenericExecute
+@ GenericAll
+t tagGCP_RESULTS 1 8696 8706
+t tagGCP_RESULTS 1 8696 8706
+@ lStructSize
+@ lpOutString
+@ lpOrder
+@ lpDx
+@ lpCaretPos
+@ lpClass
+@ lpGlyphs
+@ nGlyphs
+@ nMaxFit
+t _FORM_INFO_1 1 8690 8695
+t _FORM_INFO_1 1 8690 8695
+@ Flags
+@ pName
+@ Size
+@ ImageableArea
+t _FOCUS_EVENT_RECORD 1 8687 8689
+t _FOCUS_EVENT_RECORD 1 8687 8689
+@ bSetFocus
+t _FMS_TOOLBARLOAD 1 8679 8686
+t _FMS_TOOLBARLOAD 1 8679 8686
+@ dwSize
+@ lpButtons
+@ cButtons
+@ cBitmaps
+@ idBitmap
+@ hBitmap
+t _FMS_LOAD 1 8673 8678
+t _FMS_LOAD 1 8673 8678
+@ dwSize
+@ szMenuName
+@ hMenu
+@ wMenuDelta
+t _FMS_GETFILESEL 1 8667 8672
+t _FMS_GETFILESEL 1 8667 8672
+@ ftTime
+@ dwSize
+@ bAttr
+@ szName
+t _FMS_GETDRIVEINFO 1 8660 8666
+t _FMS_GETDRIVEINFO 1 8660 8666
+@ dwTotalSpace
+@ dwFreeSpace
+@ szPath
+@ szVolume
+@ szShare
+t _findtextex 1 8655 8659
+t _findtextex 1 8655 8659
+@ chrg
+@ lpstrText
+@ chrgText
+t _findtext 1 8651 8654
+t _findtext 1 8651 8654
+@ chrg
+@ lpstrText
+t _FIND_NAME_HEADER 1 8633 8637
+t _FIND_NAME_HEADER 1 8633 8637
+@ node_count
+@ reserved
+@ unique_group
+t _FIND_NAME_BUFFER 1 8625 8632
+t _FIND_NAME_BUFFER 1 8625 8632
+@ length
+@ access_control
+@ frame_control
+@ destination_addr
+@ source_addr
+@ routing_info
+t tagFILTERKEYS 1 8617 8624
+t tagFILTERKEYS 1 8617 8624
+@ cbSize
+@ dwFlags
+@ iWaitMSec
+@ iDelayMSec
+@ iRepeatMSec
+@ iBounceMSec
+t _EXT_BUTTON 1 8612 8616
+t _EXT_BUTTON 1 8612 8616
+@ idCommand
+@ idsHelp
+@ fsStyle
+t tagEVENTMSG 1 8603 8609
+t tagEVENTMSG 1 8603 8609
+@ message
+@ paramL
+@ paramH
+@ time
+@ hwnd
+t _EVENTLOGRECORD 1 8585 8602
+t _EVENTLOGRECORD 1 8585 8602
+@ Length
+@ Reserved
+@ RecordNumber
+@ TimeGenerated
+@ TimeWritten
+@ EventID
+@ EventType
+@ NumStrings
+@ EventCategory
+@ ReservedFlags
+@ ClosingRecordNumber
+@ StringOffset
+@ UserSidLength
+@ UserSidOffset
+@ DataLength
+@ DataOffset
+t tagENUMLOGFONTEX 1 8579 8584
+t tagENUMLOGFONTEX 1 8579 8584
+@ elfLogFont
+@ elfFullName
+@ elfStyle
+@ elfScript
+t tagENUMLOGFONT 1 8574 8578
+t tagENUMLOGFONT 1 8574 8578
+@ elfLogFont
+@ elfFullName
+@ elfStyle
+t tagENHMETARECORD 1 8569 8573
+t tagENHMETARECORD 1 8569 8573
+@ iType
+@ nSize
+@ dParm
+t tagENHMETAHEADER 1 8552 8568
+t tagENHMETAHEADER 1 8552 8568
+@ iType
+@ nSize
+@ rclBounds
+@ rclFrame
+@ dSignature
+@ nVersion
+@ nBytes
+@ nRecords
+@ nHandles
+@ sReserved
+@ nDescription
+@ offDescription
+@ nPalEntries
+@ szlDevice
+@ szlMillimeters
+t tagNMIPADDRESS 1 8539 8539
+t tagNMIPADDRESS 1 8539 8539
+@ hdr
+@ iField
+@ iValue
+t tagNMHDR 1 8534 8538
+t tagNMHDR 1 8534 8538
+@ hwndFrom
+@ idFrom
+@ code
+t tagEMRSELECTCLIPPATH 1 8523 8526
+t tagEMRSELECTCLIPPATH 1 8523 8526
+@ emr
+@ iMode
+t tagABORTPATH 1 8512 8514
+t tagABORTPATH 1 8512 8514
+@ emr
+t tagEMRSTRETCHDIBITS 1 8494 8511
+t tagEMRSTRETCHDIBITS 1 8494 8511
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ iUsageSrc
+@ dwRop
+@ cxDest
+@ cyDest
+t tagEMRSTRETCHBLT 1 8474 8493
+t tagEMRSTRETCHBLT 1 8474 8493
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ cxSrc
+@ cySrc
+t tagEMRSETWORLDTRANSFORM 1 8470 8473
+t tagEMRSETWORLDTRANSFORM 1 8470 8473
+@ emr
+@ xform
+t tagEMRSETVIEWPORTORGEX 1 8464 8467
+t tagEMRSETVIEWPORTORGEX 1 8464 8467
+@ emr
+@ ptlOrigin
+t tagEMRSETVIEWPORTEXTEX 1 8459 8462
+t tagEMRSETVIEWPORTEXTEX 1 8459 8462
+@ emr
+@ szlExtent
+t tagEMRSETPIXELV 1 8454 8458
+t tagEMRSETPIXELV 1 8454 8458
+@ emr
+@ ptlPixel
+@ crColor
+t tagEMRSETPALETTEENTRIES 1 8447 8453
+t tagEMRSETPALETTEENTRIES 1 8447 8453
+@ emr
+@ ihPal
+@ iStart
+@ cEntries
+@ aPalEntries
+t tagEMRSETMITERLIMIT 1 8443 8446
+t tagEMRSETMITERLIMIT 1 8443 8446
+@ emr
+@ eMiterLimit
+t tagEMRSETMAPPERFLAGS 1 8439 8442
+t tagEMRSETMAPPERFLAGS 1 8439 8442
+@ emr
+@ dwFlags
+t tagEMRSETDIBITSTODEVICE 1 8422 8438
+t tagEMRSETDIBITSTODEVICE 1 8422 8438
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ iUsageSrc
+@ iStartScan
+@ cScans
+t tagEMRSETCOLORADJUSTMENT 1 8418 8421
+t tagEMRSETCOLORADJUSTMENT 1 8418 8421
+@ emr
+@ ColorAdjustment
+t tagEMRSETTEXTCOLOR 1 8413 8416
+t tagEMRSETTEXTCOLOR 1 8413 8416
+@ emr
+@ crColor
+t tagEMRSETARCDIRECTION 1 8409 8412
+t tagEMRSETARCDIRECTION 1 8409 8412
+@ emr
+@ iArcDirection
+t tagEMRSELECTPALETTE 1 8405 8408
+t tagEMRSELECTPALETTE 1 8405 8408
+@ emr
+@ ihPal
+t tagEMRSELECTOBJECT 1 8400 8403
+t tagEMRSELECTOBJECT 1 8400 8403
+@ emr
+@ ihObject
+t tagEMRSELECTCOLORSPACE 1 8395 8398
+t tagEMRSELECTCOLORSPACE 1 8395 8398
+@ emr
+@ ihCS
+t tagEMRSCALEVIEWPORTEXTEX 1 8387 8393
+t tagEMRSCALEVIEWPORTEXTEX 1 8387 8393
+@ emr
+@ xNum
+@ xDenom
+@ yNum
+@ yDenom
+t tagEMRROUNDRECT 1 8382 8386
+t tagEMRROUNDRECT 1 8382 8386
+@ emr
+@ rclBox
+@ szlCorner
+t tagEMRRESTOREDC 1 8378 8381
+t tagEMRRESTOREDC 1 8378 8381
+@ emr
+@ iRelative
+t tagEMRRESIZEPALETTE 1 8373 8377
+t tagEMRRESIZEPALETTE 1 8373 8377
+@ emr
+@ ihPal
+@ cEntries
+t tagEMRPOLYTEXTOUTA 1 8363 8371
+t tagEMRPOLYTEXTOUTA 1 8363 8371
+@ emr
+@ rclBounds
+@ iGraphicsMode
+@ exScale
+@ eyScale
+@ cStrings
+@ aemrtext
+t tagEMRPOLYPOLYLINE16 1 8354 8361
+t tagEMRPOLYPOLYLINE16 1 8354 8361
+@ emr
+@ rclBounds
+@ nPolys
+@ cpts
+@ aPolyCounts
+@ apts
+t tagEMRPOLYPOLYLINE 1 8345 8352
+t tagEMRPOLYPOLYLINE 1 8345 8352
+@ emr
+@ rclBounds
+@ nPolys
+@ cptl
+@ aPolyCounts
+@ aptl
+t tagEMRPOLYLINE16 1 8335 8340
+t tagEMRPOLYLINE16 1 8335 8340
+@ emr
+@ rclBounds
+@ cpts
+@ apts
+t tagEMRPOLYLINE 1 8325 8330
+t tagEMRPOLYLINE 1 8325 8330
+@ emr
+@ rclBounds
+@ cptl
+@ aptl
+t tagEMRPOLYDRAW16 1 8318 8324
+t tagEMRPOLYDRAW16 1 8318 8324
+@ emr
+@ rclBounds
+@ cpts
+@ apts
+@ abTypes
+t tagEMRPOLYDRAW 1 8311 8317
+t tagEMRPOLYDRAW 1 8311 8317
+@ emr
+@ rclBounds
+@ cptl
+@ aptl
+@ abTypes
+t tagEMRPLGBLT 1 8288 8310
+t tagEMRPLGBLT 1 8288 8310
+@ emr
+@ rclBounds
+@ aptlDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ xMask
+@ yMask
+@ iUsageMask
+@ offBmiMask
+@ cbBmiMask
+@ offBitsMask
+@ cbBitsMask
+t tagEMROFFSETCLIPRGN 1 8284 8287
+t tagEMROFFSETCLIPRGN 1 8284 8287
+@ emr
+@ ptlOffset
+t tagEMRMODIFYWORLDTRANSFORM 1 8278 8282
+t tagEMRMODIFYWORLDTRANSFORM 1 8278 8282
+@ emr
+@ xform
+@ iMode
+t tagEMRMASKBLT 1 8253 8277
+t tagEMRMASKBLT 1 8253 8277
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ xMask
+@ yMask
+@ iUsageMask
+@ offBmiMask
+@ cbBmiMask
+@ offBitsMask
+@ cbBitsMask
+t tagEMRLINETO 1 8248 8251
+t tagEMRLINETO 1 8248 8251
+@ emr
+@ ptl
+t tagEMRINVERTRGN 1 8241 8246
+t tagEMRINVERTRGN 1 8241 8246
+@ emr
+@ rclBounds
+@ cbRgnData
+@ RgnData
+t tagEMRGDICOMMENT 1 8236 8240
+t tagEMRGDICOMMENT 1 8236 8240
+@ emr
+@ cbData
+@ Data
+t tagEMRFRAMERGN 1 8228 8235
+t tagEMRFRAMERGN 1 8228 8235
+@ emr
+@ rclBounds
+@ cbRgnData
+@ ihBrush
+@ szlStroke
+@ RgnData
+t tagSIZE 1 8224 8227
+t tagSIZE 1 8224 8227
+@ cx
+@ cy
+t tagEMRFORMAT 1 8218 8223
+t tagEMRFORMAT 1 8218 8223
+@ dSignature
+@ nVersion
+@ cbData
+@ offData
+t tagEMRFILLRGN 1 8211 8217
+t tagEMRFILLRGN 1 8211 8217
+@ emr
+@ rclBounds
+@ cbRgnData
+@ ihBrush
+@ RgnData
+t tagEMRFILLPATH 1 8205 8208
+t tagEMRFILLPATH 1 8205 8208
+@ emr
+@ rclBounds
+t tagEMREXTTEXTOUTA 1 8196 8203
+t tagEMREXTTEXTOUTA 1 8196 8203
+@ emr
+@ rclBounds
+@ iGraphicsMode
+@ exScale
+@ eyScale
+@ emrtext
+t tagEMRTEXT 1 8188 8195
+t tagEMRTEXT 1 8188 8195
+@ ptlReference
+@ nChars
+@ offString
+@ fOptions
+@ rcl
+@ offDx
+t tagEMREXTSELECTCLIPRGN 1 8182 8187
+t tagEMREXTSELECTCLIPRGN 1 8182 8187
+@ emr
+@ cbRgnData
+@ iMode
+@ RgnData
+t tagEMREXTFLOODFILL 1 8176 8181
+t tagEMREXTFLOODFILL 1 8176 8181
+@ emr
+@ ptlStart
+@ crColor
+@ iMode
+t tagEMREXTCREATEPEN 1 8167 8175
+t tagEMREXTCREATEPEN 1 8167 8175
+@ emr
+@ ihPen
+@ offBmi
+@ cbBmi
+@ offBits
+@ cbBits
+@ elp
+t tagEXTLOGPEN 1 8158 8166
+t tagEXTLOGPEN 1 8158 8166
+@ elpPenStyle
+@ elpWidth
+@ elpBrushStyle
+@ elpColor
+@ elpHatch
+@ elpNumEntries
+@ elpStyleEntry
+t tagEMREXTCREATEFONTINDIRECTW 1 8152 8156
+t tagEMREXTCREATEFONTINDIRECTW 1 8152 8156
+@ emr
+@ ihFont
+@ elfw
+t tagEXTLOGFONT 1 8140 8151
+t tagEXTLOGFONT 1 8140 8151
+@ elfLogFont
+@ elfFullName
+@ elfStyle
+@ elfVersion
+@ elfStyleSize
+@ elfMatch
+@ elfReserved
+@ elfVendorId
+@ elfCulture
+@ elfPanose
+t tagPANOSE 1 8128 8139
+t tagPANOSE 1 8128 8139
+@ bFamilyType
+@ bSerifStyle
+@ bWeight
+@ bProportion
+@ bContrast
+@ bStrokeVariation
+@ bArmStyle
+@ bLetterform
+@ bMidline
+@ bXHeight
+t tagEMREXCLUDECLIPRECT 1 8123 8126
+t tagEMREXCLUDECLIPRECT 1 8123 8126
+@ emr
+@ rclClip
+t tagEMREOF 1 8117 8122
+t tagEMREOF 1 8117 8122
+@ emr
+@ nPalEntries
+@ offPalEntries
+@ nSizeLast
+t tagEMRELLIPSE 1 8112 8115
+t tagEMRELLIPSE 1 8112 8115
+@ emr
+@ rclBox
+t tagEMRCREATEPEN 1 8107 8111
+t tagEMRCREATEPEN 1 8107 8111
+@ emr
+@ ihPen
+@ lopn
+t tagLOGPEN 1 8102 8106
+t tagLOGPEN 1 8102 8106
+@ lopnStyle
+@ lopnWidth
+@ lopnColor
+t tagEMRCREATEPALETTE 1 8097 8101
+t tagEMRCREATEPALETTE 1 8097 8101
+@ emr
+@ ihPal
+@ lgpl
+t tagLOGPALETTE 1 8091 8095
+t tagLOGPALETTE 1 8091 8095
+@ palVersion
+@ palNumEntries
+@ palPalEntry
+t tagPALETTEENTRY 1 8085 8090
+t tagPALETTEENTRY 1 8085 8090
+@ peRed
+@ peGreen
+@ peBlue
+@ peFlags
+t tagEMRCREATEMONOBRUSH 1 8076 8084
+t tagEMRCREATEMONOBRUSH 1 8076 8084
+@ emr
+@ ihBrush
+@ iUsage
+@ offBmi
+@ cbBmi
+@ offBits
+@ cbBits
+t tagEMRCREATEDIBPATTERNBRUSHPT 1 8066 8074
+t tagEMRCREATEDIBPATTERNBRUSHPT 1 8066 8074
+@ emr
+@ ihBrush
+@ iUsage
+@ offBmi
+@ cbBmi
+@ offBits
+@ cbBits
+t tagEMRCREATECOLORSPACE 1 8061 8065
+t tagEMRCREATECOLORSPACE 1 8061 8065
+@ emr
+@ ihCS
+@ lcs
+t tagLOGCOLORSPACE 1 8049 8060
+t tagLOGCOLORSPACE 1 8049 8060
+@ lcsSignature
+@ lcsVersion
+@ lcsSize
+@ lcsCSType
+@ lcsIntent
+@ lcsEndpoints
+@ lcsGammaRed
+@ lcsGammaGreen
+@ lcsGammaBlue
+@ lcsFilename
+t tagEMRCREATEBRUSHINDIRECT 1 8042 8046
+t tagEMRCREATEBRUSHINDIRECT 1 8042 8046
+@ emr
+@ ihBrush
+@ lb
+t tagLOGBRUSH 1 8037 8041
+t tagLOGBRUSH 1 8037 8041
+@ lbStyle
+@ lbColor
+@ lbHatch
+t tagEMRBITBLT 1 8020 8036
+t tagEMRBITBLT 1 8020 8036
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+t _XFORM 1 8012 8019
+t _XFORM 1 8012 8019
+@ eM11
+@ eM12
+@ eM21
+@ eM22
+@ eDx
+@ eDy
+t tagEMRARC 1 8003 8008
+t tagEMRARC 1 8003 8008
+@ emr
+@ rclBox
+@ ptlStart
+@ ptlEnd
+t tagEMRANGLEARC 1 7996 8002
+t tagEMRANGLEARC 1 7996 8002
+@ emr
+@ ptlCenter
+@ nRadius
+@ eStartAngle
+@ eSweepAngle
+t tagEMR 1 7992 7995
+t tagEMR 1 7992 7995
+@ iType
+@ nSize
+t _DRIVER_INFO_3 1 7980 7991
+t _DRIVER_INFO_3 1 7980 7991
+@ cVersion
+@ pName
+@ pEnvironment
+@ pDriverPath
+@ pDataFile
+@ pConfigFile
+@ pHelpFile
+@ pDependentFiles
+@ pMonitorName
+@ pDefaultDataType
+t _DRIVER_INFO_2 1 7972 7979
+t _DRIVER_INFO_2 1 7972 7979
+@ cVersion
+@ pName
+@ pEnvironment
+@ pDriverPath
+@ pDataFile
+@ pConfigFile
+t _DRIVER_INFO_1 1 7969 7971
+t _DRIVER_INFO_1 1 7969 7971
+@ pName
+t tagDRAWITEMSTRUCT 1 7951 7961
+t tagDRAWITEMSTRUCT 1 7951 7961
+@ CtlType
+@ CtlID
+@ itemID
+@ itemAction
+@ itemState
+@ hwndItem
+@ hDC
+@ rcItem
+@ itemData
+t _DOC_INFO_2 1 7932 7938
+t _DOC_INFO_2 1 7932 7938
+@ pDocName
+@ pOutputFile
+@ pDatatype
+@ dwMode
+@ JobId
+t _DOC_INFO_1 1 7927 7931
+t _DOC_INFO_1 1 7927 7931
+@ pDocName
+@ pOutputFile
+@ pDatatype
+t tagDIBSECTION 1 7901 7907
+t tagDIBSECTION 1 7901 7907
+@ dsBm
+@ dsBmih
+@ dsBitfields
+@ dshSection
+@ dsOffset
+t tagDEVNAMES 1 7895 7900
+t tagDEVNAMES 1 7895 7900
+@ wDriverOffset
+@ wDeviceOffset
+@ wOutputOffset
+@ wDefault
+t _devicemodeW 1 7839 7879
+t _devicemodeW 1 7839 7879
+@ dmDeviceName
+@ dmSpecVersion
+@ dmDriverVersion
+@ dmSize
+@ dmDriverExtra
+@ dmFields
+@ dmOrientation
+@ dmPaperSize
+@ dmPaperLength
+@ dmPaperWidth
+@ dmPosition
+@ dmScale
+@ dmCopies
+@ dmDefaultSource
+@ dmPrintQuality
+@ dmColor
+@ dmDuplex
+@ dmYResolution
+@ dmTTOption
+@ dmCollate
+@ dmFormName
+@ dmLogPixels
+@ dmBitsPerPel
+@ dmPelsWidth
+@ dmPelsHeight
+@ dmDisplayFlags
+@ dmDisplayFrequency
+@ dmICMMethod
+@ dmICMIntent
+@ dmMediaType
+@ dmDitherType
+@ dmReserved1
+@ dmReserved2
+@ dmPanningWidth
+@ dmPanningHeight
+t _devicemodeA 1 7798 7838
+t _devicemodeA 1 7798 7838
+@ dmDeviceName
+@ dmSpecVersion
+@ dmDriverVersion
+@ dmSize
+@ dmDriverExtra
+@ dmFields
+@ dmOrientation
+@ dmPaperSize
+@ dmPaperLength
+@ dmPaperWidth
+@ dmPosition
+@ dmScale
+@ dmCopies
+@ dmDefaultSource
+@ dmPrintQuality
+@ dmColor
+@ dmDuplex
+@ dmYResolution
+@ dmTTOption
+@ dmCollate
+@ dmFormName
+@ dmLogPixels
+@ dmBitsPerPel
+@ dmPelsWidth
+@ dmPelsHeight
+@ dmDisplayFlags
+@ dmDisplayFrequency
+@ dmICMMethod
+@ dmICMIntent
+@ dmMediaType
+@ dmDitherType
+@ dmReserved1
+@ dmReserved2
+@ dmPanningWidth
+@ dmPanningHeight
+t _DEV_BROADCAST_VOLUME 1 7790 7796
+t _DEV_BROADCAST_VOLUME 1 7790 7796
+@ dbcv_size
+@ dbcv_devicetype
+@ dbcv_reserved
+@ dbcv_unitmask
+@ dbcv_flags
+t _DEV_BROADCAST_USERDEFINED 1 7785 7789
+t _DEV_BROADCAST_USERDEFINED 1 7785 7789
+@ dbud_dbh
+@ dbud_szName
+@ dbud_rgbUserDefined
+t _DEV_BROADCAST_PORT 1 7778 7783
+t _DEV_BROADCAST_PORT 1 7778 7783
+@ dbcp_size
+@ dbcp_devicetype
+@ dbcp_reserved
+@ dbcp_name
+t _DEV_BROADCAST_OEM 1 7770 7776
+t _DEV_BROADCAST_OEM 1 7770 7776
+@ dbco_size
+@ dbco_devicetype
+@ dbco_reserved
+@ dbco_identifier
+@ dbco_suppfunc
+t _DEV_BROADCAST_HDR 1 7768 7786
+t _DEV_BROADCAST_HDR 1 7768 7786
+@ dbch_size
+@ dbch_devicetype
+@ dbch_reserved
+t tagDELETEITEMSTRUCT 1 7757 7763
+t tagDELETEITEMSTRUCT 1 7757 7763
+@ CtlType
+@ CtlID
+@ itemID
+@ hwndItem
+@ itemData
+t _EXCEPTION_POINTERS 1 7755 14167
+t _EXCEPTION_POINTERS 1 7755 14167
+@ ExceptionRecord
+@ ContextRecord
+t tagDEBUGHOOKINFO 1 7744 7750
+t tagDEBUGHOOKINFO 1 7744 7750
+@ idThread
+@ idThreadInstaller
+@ lParam
+@ wParam
+@ code
+t _DEBUG_EVENT 1 7728 7743
+t _DEBUG_EVENT 1 7728 7743
+@ dwDebugEventCode
+@ dwProcessId
+@ dwThreadId
+@ u
+t _RIP_INFO 1 7724 7727
+t _RIP_INFO 1 7724 7727
+@ dwError
+@ dwType
+t _OUTPUT_DEBUG_STRING_INFO 1 7719 7723
+t _OUTPUT_DEBUG_STRING_INFO 1 7719 7723
+@ lpDebugStringData
+@ fUnicode
+@ nDebugStringLength
+t _UNLOAD_DLL_DEBUG_INFO 1 7716 7718
+t _UNLOAD_DLL_DEBUG_INFO 1 7716 7718
+@ lpBaseOfDll
+t _LOAD_DLL_DEBUG_INFO 1 7708 7715
+t _LOAD_DLL_DEBUG_INFO 1 7708 7715
+@ hFile
+@ lpBaseOfDll
+@ dwDebugInfoFileOffset
+@ nDebugInfoSize
+@ lpImageName
+@ fUnicode
+t _EXIT_THREAD_DEBUG_INFO 1 7705 7707
+t _EXIT_THREAD_DEBUG_INFO 1 7705 7707
+@ dwExitCode
+t _EXIT_PROCESS_DEBUG_INFO 1 7702 7704
+t _EXIT_PROCESS_DEBUG_INFO 1 7702 7704
+@ dwExitCode
+t _EXCEPTION_DEBUG_INFO 1 7698 7701
+t _EXCEPTION_DEBUG_INFO 1 7698 7701
+@ ExceptionRecord
+@ dwFirstChance
+t _EXCEPTION_RECORD 1 7693 7697
+t _EXCEPTION_RECORD 1 7693 7697
+@ ExceptionCode
+@ ExceptionFlags
+@ ExceptionRecord
+@ ExceptionAddress
+@ NumberParameters
+@ ExceptionInformation
+t tagDDEML_MSG_HOOK_DATA 1 7674 7679
+t tagDDEML_MSG_HOOK_DATA 1 7674 7679
+@ uiLo
+@ uiHi
+@ cbData
+@ Data
+t _DATATYPES_INFO_1 1 7655 7657
+t _DATATYPES_INFO_1 1 7655 7657
+@ pName
+t tagCWPSTRUCT 1 7649 7654
+t tagCWPSTRUCT 1 7649 7654
+@ lParam
+@ wParam
+@ message
+@ hwnd
+t tagCWPRETSTRUCT 1 7642 7648
+t tagCWPRETSTRUCT 1 7642 7648
+@ lResult
+@ lParam
+@ wParam
+@ message
+@ hwnd
+t tagCURSORSHAPE 1 7633 7641
+t tagCURSORSHAPE 1 7633 7641
+@ xHotSpot
+@ yHotSpot
+@ cx
+@ cy
+@ cbWidth
+@ Planes
+@ BitsPixel
+t _currencyfmtW 1 7623 7632
+t _currencyfmtW 1 7623 7632
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+@ PositiveOrder
+@ lpCurrencySymbol
+t _currencyfmtA 1 7613 7622
+t _currencyfmtA 1 7613 7622
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+@ PositiveOrder
+@ lpCurrencySymbol
+t _CREATE_THREAD_DEBUG_INFO 1 7608 7612
+t _CREATE_THREAD_DEBUG_INFO 1 7608 7612
+@ hThread
+@ lpThreadLocalBase
+@ lpStartAddress
+t _CREATE_PROCESS_DEBUG_INFO 1 7596 7607
+t _CREATE_PROCESS_DEBUG_INFO 1 7596 7607
+@ hFile
+@ hProcess
+@ hThread
+@ lpBaseOfImage
+@ dwDebugInfoFileOffset
+@ nDebugInfoSize
+@ lpThreadLocalBase
+@ lpStartAddress
+@ lpImageName
+@ fUnicode
+t _cpinfo 1 7591 7595
+t _cpinfo 1 7591 7595
+@ MaxCharSize
+@ DefaultChar
+@ LeadByte
+t tagMDINEXTMENU 1 7586 7590
+t tagMDINEXTMENU 1 7586 7590
+@ hmenuIn
+@ hmenuNext
+@ hwndNext
+t tagCOPYDATASTRUCT 1 7581 7585
+t tagCOPYDATASTRUCT 1 7581 7585
+@ dwData
+@ cbData
+@ lpData
+t tagCONVINFO 1 7563 7580
+t tagCONVINFO 1 7563 7580
+@ cb
+@ hUser
+@ hConvPartner
+@ hszSvcPartner
+@ hszServiceReq
+@ hszTopic
+@ hszItem
+@ wFmt
+@ wType
+@ wStatus
+@ wConvst
+@ wLastError
+@ hConvList
+@ ConvCtxt
+@ hwnd
+@ hwndPartner
+t tagCONVCONTEXT 1 7554 7562
+t tagCONVCONTEXT 1 7554 7562
+@ cb
+@ wFlags
+@ wCountryID
+@ iCodePage
+@ dwLangID
+@ dwSecurity
+@ qos
+t _SECURITY_QUALITY_OF_SERVICE 1 7548 7553
+t _SECURITY_QUALITY_OF_SERVICE 1 7548 7553
+@ Length
+@ ImpersonationLevel
+@ ContextTrackingMode
+@ EffectiveOnly
+t _CRITICAL_SECTION 1 7540 7547
+t _CRITICAL_SECTION 1 7540 7547
+@ DebugInfo
+@ LockCount
+@ RecursionCount
+@ OwningThread
+@ LockSemaphore
+@ Reserved
+t _CRITICAL_SECTION_DEBUG 1 7530 7539
+t _CRITICAL_SECTION_DEBUG 1 7530 7539
+@ Type
+@ CreatorBackTraceIndex
+@ CriticalSection
+@ ProcessLocksList
+@ EntryCount
+@ ContentionCount
+@ Depth
+@ OwnerBackTrace
+t _LIST_ENTRY 1 7528 7529
+t _LIST_ENTRY 1 7528 7529
+@ Flink
+@ Blink
+t _POWER_DEVICE_TIMEOUTS 1 7522 7525
+t _POWER_DEVICE_TIMEOUTS 1 7522 7525
+@ ConservationIdleTime
+@ PerformanceIdleTime
+t _CONTEXT 1 7495 7521
+t _CONTEXT 1 7495 7521
+@ ContextFlags
+@ Dr0
+@ Dr1
+@ Dr2
+@ Dr3
+@ Dr6
+@ Dr7
+@ FloatSave
+@ SegGs
+@ SegFs
+@ SegEs
+@ SegDs
+@ Edi
+@ Esi
+@ Ebx
+@ Edx
+@ Ecx
+@ Eax
+@ Ebp
+@ Eip
+@ SegCs
+@ EFlags
+@ Esp
+@ SegSs
+@ ExtendedRegisters
+t _FLOATING_SAVE_AREA 1 7484 7494
+t _FLOATING_SAVE_AREA 1 7484 7494
+@ ControlWord
+@ StatusWord
+@ TagWord
+@ ErrorOffset
+@ ErrorSelector
+@ DataOffset
+@ DataSelector
+@ RegisterArea
+@ Cr0NpxState
+t _CONSOLE_SCREEN_BUFFER_INFO 1 7476 7482
+t _CONSOLE_SCREEN_BUFFER_INFO 1 7476 7482
+@ dwSize
+@ dwCursorPosition
+@ wAttributes
+@ srWindow
+@ dwMaximumWindowSize
+t _SMALL_RECT 1 7470 7475
+t _SMALL_RECT 1 7470 7475
+@ Left
+@ Top
+@ Right
+@ Bottom
+t _COORD 1 7466 7469
+t _COORD 1 7466 7469
+@ X
+@ Y
+t _CONSOLE_CURSOR_INFO 1 7462 7465
+t _CONSOLE_CURSOR_INFO 1 7462 7465
+@ dwSize
+@ bVisible
+t _COMSTAT 1 7450 7461
+t _COMSTAT 1 7450 7461
+@ fCtsHold
+@ fDsrHold
+@ fRlsdHold
+@ fXoffHold
+@ fXoffSent
+@ fEof
+@ fTxim
+@ fReserved
+@ cbInQue
+@ cbOutQue
+t tagCOMPAREITEMSTRUCT 1 7436 7444
+t tagCOMPAREITEMSTRUCT 1 7436 7444
+@ CtlType
+@ CtlID
+@ hwndItem
+@ itemID1
+@ itemData1
+@ itemID2
+@ itemData2
+t _COMMTIMEOUTS 1 7429 7435
+t _COMMTIMEOUTS 1 7429 7435
+@ ReadIntervalTimeout
+@ ReadTotalTimeoutMultiplier
+@ ReadTotalTimeoutConstant
+@ WriteTotalTimeoutMultiplier
+@ WriteTotalTimeoutConstant
+t _COMMPROP 1 7409 7428
+t _COMMPROP 1 7409 7428
+@ wPacketLength
+@ wPacketVersion
+@ dwServiceMask
+@ dwReserved1
+@ dwMaxTxQueue
+@ dwMaxRxQueue
+@ dwMaxBaud
+@ dwProvSubType
+@ dwProvCapabilities
+@ dwSettableParams
+@ dwSettableBaud
+@ wSettableData
+@ wSettableStopParity
+@ dwCurrentTxQueue
+@ dwCurrentRxQueue
+@ dwProvSpec1
+@ dwProvSpec2
+@ wcProvChar
+t _COMM_CONFIG 1 7399 7408
+t _COMM_CONFIG 1 7399 7408
+@ dwSize
+@ wVersion
+@ wReserved
+@ dcb
+@ dwProviderSubType
+@ dwProviderOffset
+@ dwProviderSize
+@ wcProviderData
+t tagBLOB 1 7396 7397
+t tagBLOB 1 7396 7397
+@ cbSize
+@ pBlobData
+t _DEC 1 7394 7395
+t _DEC 1 7394 7395
+@ wReserved
+@ scale
+@ sign
+@ Hi32
+@ Lo64
+t _DCB 1 7364 7393
+t _DCB 1 7364 7393
+@ DCBlength
+@ BaudRate
+@ fBinary
+@ fParity
+@ fOutxCtsFlow
+@ fOutxDsrFlow
+@ fDtrControl
+@ fDsrSensitivity
+@ fTXContinueOnXoff
+@ fOutX
+@ fInX
+@ fErrorChar
+@ fNull
+@ fRtsControl
+@ fAbortOnError
+@ fDummy2
+@ wReserved
+@ XonLim
+@ XoffLim
+@ ByteSize
+@ Parity
+@ StopBits
+@ XonChar
+@ XoffChar
+@ ErrorChar
+@ EofChar
+@ EvtChar
+@ wReserved1
+t _COLORMAP 1 7360 7363
+t _COLORMAP 1 7360 7363
+@ from
+@ to
+t tagCOLORADJUSTMENT 1 7346 7359
+t tagCOLORADJUSTMENT 1 7346 7359
+@ caSize
+@ caFlags
+@ caIlluminantIndex
+@ caRedGamma
+@ caGreenGamma
+@ caBlueGamma
+@ caReferenceBlack
+@ caReferenceWhite
+@ caContrast
+@ caBrightness
+@ caColorfulness
+@ caRedGreenTint
+t tagCLIENTCREATESTRUCT 1 7329 7332
+t tagCLIENTCREATESTRUCT 1 7329 7332
+@ hWindowMenu
+@ idFirstChild
+t _IDA 1 7327 7327
+t _IDA 1 7327 7327
+@ cidl
+@ aoffset
+t tagLOGFONTW 1 7279 7295
+t tagLOGFONTW 1 7279 7295
+@ lfHeight
+@ lfWidth
+@ lfEscapement
+@ lfOrientation
+@ lfWeight
+@ lfItalic
+@ lfUnderline
+@ lfStrikeOut
+@ lfCharSet
+@ lfOutPrecision
+@ lfClipPrecision
+@ lfQuality
+@ lfPitchAndFamily
+@ lfFaceName
+t tagLOGFONTA 1 7263 7278
+t tagLOGFONTA 1 7263 7278
+@ lfHeight
+@ lfWidth
+@ lfEscapement
+@ lfOrientation
+@ lfWeight
+@ lfItalic
+@ lfUnderline
+@ lfStrikeOut
+@ lfCharSet
+@ lfOutPrecision
+@ lfClipPrecision
+@ lfQuality
+@ lfPitchAndFamily
+@ lfFaceName
+t tagFONTSIGNATURE 1 7245 7246
+t tagFONTSIGNATURE 1 7245 7246
+@ fsUsb
+@ fsCsb
+t tagCHARSET 1 7244 7244
+t tagCHARSET 1 7244 7244
+@ aflBlock
+@ flLang
+t _charrange 1 7242 7242
+t _charrange 1 7242 7242
+@ cpMin
+@ cpMax
+t _CHAR_INFO 1 7236 7239
+t _CHAR_INFO 1 7236 7239
+@ Char
+@ Attributes
+t tagCBTACTIVATESTRUCT 1 7232 7235
+t tagCBTACTIVATESTRUCT 1 7232 7235
+@ fMouse
+@ hWndActive
+t tagCBT_CREATEWND 1 7228 7231
+t tagCBT_CREATEWND 1 7228 7231
+@ lpcs
+@ hwndInsertAfter
+t tagCREATESTRUCT 1 7214 7227
+t tagCREATESTRUCT 1 7214 7227
+@ lpCreateParams
+@ hInstance
+@ hMenu
+@ hwndParent
+@ cy
+@ cx
+@ y
+@ x
+@ style
+@ lpszName
+@ lpszClass
+@ dwExStyle
+t tagPOINTS 1 7210 7213
+t tagPOINTS 1 7210 7213
+@ x
+@ y
+t _POINTL 1 7206 7209
+t _POINTL 1 7206 7209
+@ x
+@ y
+t tagPOINTFX 1 7202 7205
+t tagPOINTFX 1 7202 7205
+@ x
+@ y
+t tagPOINT 1 7197 7200
+t tagPOINT 1 7197 7200
+@ x
+@ y
+t _FIXED 1 7193 7196
+t _FIXED 1 7193 7196
+@ fract
+@ value
+t _BY_HANDLE_FILE_INFORMATION 1 7181 7192
+t _BY_HANDLE_FILE_INFORMATION 1 7181 7192
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ dwVolumeSerialNumber
+@ nFileSizeHigh
+@ nFileSizeLow
+@ nNumberOfLinks
+@ nFileIndexHigh
+@ nFileIndexLow
+t tagFILETIME 1 7176 7179
+t tagFILETIME 1 7176 7179
+@ dwLowDateTime
+@ dwHighDateTime
+t _browseinfo 1 7166 7175
+t _browseinfo 1 7166 7175
+@ hwndOwner
+@ pidlRoot
+@ pszDisplayName
+@ lpszTitle
+@ ulFlags
+@ lpfn
+@ lParam
+@ iImage
+t _ITEMIDLIST 1 7163 7163
+t _ITEMIDLIST 1 7163 7163
+@ mkid
+t _SHITEMID 1 7157 7157
+t _SHITEMID 1 7157 7157
+@ cb
+@ abID
+t tagCIEXYZTRIPLE 1 7128 7132
+t tagCIEXYZTRIPLE 1 7128 7132
+@ ciexyzRed
+@ ciexyzGreen
+@ ciexyzBlue
+t tagCIEXYZ 1 7122 7126
+t tagCIEXYZ 1 7122 7126
+@ ciexyzX
+@ ciexyzY
+@ ciexyzZ
+t tagBITMAPINFO 1 7117 7120
+t tagBITMAPINFO 1 7117 7120
+@ bmiHeader
+@ bmiColors
+t tagRGBQUAD 1 7111 7116
+t tagRGBQUAD 1 7111 7116
+@ rgbBlue
+@ rgbGreen
+@ rgbRed
+@ rgbReserved
+t tagBITMAPINFOHEADER 1 7098 7110
+t tagBITMAPINFOHEADER 1 7098 7110
+@ biSize
+@ biWidth
+@ biHeight
+@ biPlanes
+@ biBitCount
+@ biCompression
+@ biSizeImage
+@ biXPelsPerMeter
+@ biYPelsPerMeter
+@ biClrUsed
+@ biClrImportant
+t tagBITMAPFILEHEADER 1 7091 7097
+t tagBITMAPFILEHEADER 1 7091 7097
+@ bfType
+@ bfSize
+@ bfReserved1
+@ bfReserved2
+@ bfOffBits
+t _BITMAPCOREINFO 1 7085 7088
+t _BITMAPCOREINFO 1 7085 7088
+@ bmciHeader
+@ bmciColors
+t tagRGBTRIPLE 1 7080 7084
+t tagRGBTRIPLE 1 7080 7084
+@ rgbtBlue
+@ rgbtGreen
+@ rgbtRed
+t tagBITMAPCOREHEADER 1 7071 7077
+t tagBITMAPCOREHEADER 1 7071 7077
+@ bcSize
+@ bcWidth
+@ bcHeight
+@ bcPlanes
+@ bcBitCount
+t tagBITMAP 1 7062 7070
+t tagBITMAP 1 7062 7070
+@ bmType
+@ bmWidth
+@ bmHeight
+@ bmWidthBytes
+@ bmPlanes
+@ bmBitsPixel
+@ bmBits
+t _RECTL 1 7055 7060
+t _RECTL 1 7055 7060
+@ left
+@ top
+@ right
+@ bottom
+t _RECT 1 7052 7053
+t _RECT 1 7052 7053
+@ left
+@ top
+@ right
+@ bottom
+t tagANIMATIONINFO 1 7043 7046
+t tagANIMATIONINFO 1 7043 7046
+@ cbSize
+@ iMinAnimate
+t _ADDJOB_INFO_1 1 7039 7042
+t _ADDJOB_INFO_1 1 7039 7042
+@ Path
+@ JobId
+t _ADAPTER_STATUS 1 7010 7038
+t _ADAPTER_STATUS 1 7010 7038
+@ adapter_address
+@ rev_major
+@ reserved0
+@ adapter_type
+@ rev_minor
+@ duration
+@ frmr_recv
+@ frmr_xmit
+@ iframe_recv_err
+@ xmit_aborts
+@ xmit_success
+@ recv_success
+@ iframe_xmit_err
+@ recv_buff_unavail
+@ t1_timeouts
+@ ti_timeouts
+@ reserved1
+@ free_ncbs
+@ max_cfg_ncbs
+@ max_ncbs
+@ xmit_buf_unavail
+@ max_dgram_size
+@ pending_sess
+@ max_cfg_sess
+@ max_sess
+@ max_sess_pkt_size
+@ name_count
+t _ACTION_HEADER 1 7005 7009
+t _ACTION_HEADER 1 7005 7009
+@ transport_id
+@ action_code
+@ reserved
+t _ACL_SIZE_INFORMATION 1 7000 7004
+t _ACL_SIZE_INFORMATION 1 7000 7004
+@ AceCount
+@ AclBytesInUse
+@ AclBytesFree
+t _ACL_REVISION_INFORMATION 1 6997 6999
+t _ACL_REVISION_INFORMATION 1 6997 6999
+@ AclRevision
+t _ACL 1 6990 6996
+t _ACL 1 6990 6996
+@ AclRevision
+@ Sbz1
+@ AclSize
+@ AceCount
+@ Sbz2
+t tagACCESSTIMEOUT 1 6985 6989
+t tagACCESSTIMEOUT 1 6985 6989
+@ cbSize
+@ dwFlags
+@ iTimeOutMSec
+t _ACCESS_DENIED_ACE 1 6980 6984
+t _ACCESS_DENIED_ACE 1 6980 6984
+@ Header
+@ Mask
+@ SidStart
+t _ACCESS_ALLOWED_ACE 1 6975 6979
+t _ACCESS_ALLOWED_ACE 1 6975 6979
+@ Header
+@ Mask
+@ SidStart
+t _ACE_HEADER 1 6968 6972
+t _ACE_HEADER 1 6968 6972
+@ AceType
+@ AceFlags
+@ AceSize
+t tagACCEL 1 6962 6966
+t tagACCEL 1 6962 6966
+@ fVirt
+@ key
+@ cmd
+t _ABCFLOAT 1 6956 6960
+t _ABCFLOAT 1 6956 6960
+@ abcfA
+@ abcfB
+@ abcfC
+t _ABC 1 6951 6955
+t _ABC 1 6951 6955
+@ abcA
+@ abcB
+@ abcC
+t _LARGE_INTEGER 1 6945 6949
+t _LARGE_INTEGER 1 6945 6949
+@ LowPart
+@ HighPart
+@ u
+@ QuadPart
+t tagRAWINPUTDEVICELIST 1 6944 6944
+t tagRAWINPUTDEVICELIST 1 6944 6944
+@ hDevice
+@ dwType
+t tagRAWINPUTDEVICE 1 6937 6942
+t tagRAWINPUTDEVICE 1 6937 6942
+@ usUsagePage
+@ usUsage
+@ dwFlags
+@ hwndTarget
+t tagRAWINPUT 1 6929 6936
+t tagRAWINPUT 1 6929 6936
+@ header
+@ data
+t tagRAWMOUSE 1 6915 6928
+t tagRAWMOUSE 1 6915 6928
+@ usFlags
+@ ulButtons
+@ usButtonFlags
+@ usButtonData
+@ ulRawButtons
+@ lLastX
+@ lLastY
+@ ulExtraInformation
+t tagRAWINPUTHEADER 1 6909 6914
+t tagRAWINPUTHEADER 1 6909 6914
+@ dwType
+@ dwSize
+@ hDevice
+@ wParam
+t tagRAWKEYBOARD 1 6901 6908
+t tagRAWKEYBOARD 1 6901 6908
+@ MakeCode
+@ Flags
+@ Reserved
+@ VKey
+@ Message
+@ ExtraInformation
+t tagRID_DEVICE_INFO 1 6892 6900
+t tagRID_DEVICE_INFO 1 6892 6900
+@ cbSize
+@ dwType
+@ mouse
+@ keyboard
+@ hid
+t tagRID_DEVICE_INFO_HID 1 6885 6891
+t tagRID_DEVICE_INFO_HID 1 6885 6891
+@ dwVendorId
+@ dwProductId
+@ dwVersionNumber
+@ usUsagePage
+@ usUsage
+t tagRID_DEVICE_INFO_KEYBOARD 1 6877 6884
+t tagRID_DEVICE_INFO_KEYBOARD 1 6877 6884
+@ dwType
+@ dwSubType
+@ dwKeyboardMode
+@ dwNumberOfFunctionKeys
+@ dwNumberOfIndicators
+@ dwNumberOfKeysTotal
+t tagRID_DEVICE_INFO_MOUSE 1 6872 6876
+t tagRID_DEVICE_INFO_MOUSE 1 6872 6876
+@ dwId
+@ dwNumberOfButtons
+@ dwSampleRate
+t tagRAWHID 1 6871 6871
+t tagRAWHID 1 6871 6871
+@ dwSizeHid
+@ dwCount
+@ bRawData
+t tagWTSSESSION_NOTIFICATION 1 6869 6869
+t tagWTSSESSION_NOTIFICATION 1 6869 6869
+@ cbSize
+@ dwSessionId
+T WAITORTIMERCALLBACK 1 15453 15453
+T LPLAYERPLANEDESCRIPTOR 1 15397 15397
+@ nSize
+@ nVersion
+@ dwFlags
+@ iPixelType
+@ cColorBits
+@ cRedBits
+@ cRedShift
+@ cGreenBits
+@ cGreenShift
+@ cBlueBits
+@ cBlueShift
+@ cAlphaBits
+@ cAlphaShift
+@ cAccumBits
+@ cAccumRedBits
+@ cAccumGreenBits
+@ cAccumBlueBits
+@ cAccumAlphaBits
+@ cDepthBits
+@ cStencilBits
+@ cAuxBuffers
+@ iLayerPlane
+@ bReserved
+@ crTransparent
+T LPGLYPHMETRICSFLOAT 1 15362 15362
+@ gmfBlackBoxX
+@ gmfBlackBoxY
+@ gmfptGlyphOrigin
+@ gmfCellIncX
+@ gmfCellIncY
+T PPOINTFLOAT 1 15355 15355
+@ x
+@ y
+T LPINITCOMMONCONTROLSEX 1 14984 14984
+@ dwSize
+@ dwICC
+T LPGRADIENT_RECT 1 12393 12393
+@ UpperLeft
+@ LowerRight
+T LPGRADIENT_TRIANGLE 1 12391 12391
+@ Vertex1
+@ Vertex2
+@ Vertex3
+T LPTRIVERTEX 1 12389 12389
+@ x
+@ y
+@ Red
+@ Green
+@ Blue
+@ Alpha
+T COLOR16 1 12387 12387
+T PFLS_CALLBACK_FUNCTION 1 12386 12386
+T LPWIN32_FILE_ATTRIBUTE_DATA 1 12385 12385
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+T PBLENDFUNCTION 1 12377 12377
+@ BlendOp
+@ BlendFlags
+@ SourceConstantAlpha
+@ AlphaFormat
+T GET_FILEEX_INFO_LEVELS 1 12371 12371
+t _GET_FILEEX_INFO_LEVELS 1 0 12371
+T PFLASHWINFO 1 12370 12370
+t 117 1 12370 12370
+@ cbSize
+@ hwnd
+@ dwFlags
+@ uCount
+@ dwTimeout
+T LPLVCOLUMNW 1 12369 12369
+@ mask
+@ fmt
+@ cx
+@ pszText
+@ cchTextMax
+@ iSubItem
+@ iImage
+@ iOrder
+T LPLVCOLUMNA 1 12359 12359
+@ mask
+@ fmt
+@ cx
+@ pszText
+@ cchTextMax
+@ iSubItem
+@ iImage
+@ iOrder
+T LPGUITHREADINFO 1 12344 12344
+@ cbSize
+@ flags
+@ hwndActive
+@ hwndFocus
+@ hwndCapture
+@ hwndMenuOwner
+@ hwndMoveSize
+@ hwndCaret
+@ rcCaret
+T LPPRINTDLG 1 12332 12332
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ hDC
+@ Flags
+@ nFromPage
+@ nToPage
+@ nMinPage
+@ nMaxPage
+@ nCopies
+@ hInstance
+@ lCustData
+@ lpfnPrintHook
+@ lpfnSetupHook
+@ lpPrintTemplateName
+@ lpSetupTemplateName
+@ hPrintTemplate
+@ hSetupTemplate
+T LPHW_PROFILE_INFO 1 12330 12330
+@ dwDockInfo
+@ szHwProfileGuid
+@ szHwProfileName
+T LPNMDAYSTATE 1 12322 12322
+@ nmhdr
+@ stStart
+@ cDayState
+@ prgDayState
+T LPNMSELCHANGE 1 12321 12321
+@ nmhdr
+@ stSelStart
+@ stSelEnd
+T PMCHITTESTINFO 1 12320 12320
+t 116 1 12320 12320
+@ cbSize
+@ pt
+@ uHit
+@ st
+T FINDEX_SEARCH_OPS 1 12319 12319
+t _FINDEX_SEARCH_OPS 1 0 12319
+T FINDEX_INFO_LEVELS 1 12318 12318
+t _FINDEX_INFO_LEVELS 1 0 12318
+T PTIMERAPCROUTINE 1 12317 12317
+T WINEVENTPROC 1 12316 12316
+T LPALTTABINFO 1 12315 12315
+@ cbSize
+@ cItems
+@ cColumns
+@ cRows
+@ iColFocus
+@ iRowFocus
+@ cxItem
+@ cyItem
+@ ptStart
+T PFILE_SEGMENT_ELEMENT 1 12304 12304
+@ Buffer
+@ Alignment
+T PFILE_NOTIFY_INFORMATION 1 12300 12300
+@ NextEntryOffset
+@ Action
+@ FileNameLength
+@ FileName
+T LPHW_PROFILE_INFOW 1 12294 12294
+@ dwDockInfo
+@ szHwProfileGuid
+@ szHwProfileName
+T LPPRINTDLGW 1 12285 12285
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ hDC
+@ Flags
+@ nFromPage
+@ nToPage
+@ nMinPage
+@ nMaxPage
+@ nCopies
+@ hInstance
+@ lCustData
+@ lpfnPrintHook
+@ lpfnSetupHook
+@ lpPrintTemplateName
+@ lpSetupTemplateName
+@ hPrintTemplate
+@ hSetupTemplate
+T LPNMHDDISPINFOA 1 12236 12236
+@ hdr
+@ iItem
+@ mask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+T LPNMHDDISPINFOW 1 12227 12227
+@ hdr
+@ iItem
+@ mask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+T PCCOMBOEXITEMW 1 12218 12218
+T PCOMBOBOXEXITEMW 1 12217 12217
+@ mask
+@ iItem
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ iOverlay
+@ iIndent
+@ lParam
+T PCCOMBOEXITEMA 1 12206 12206
+T PCOMBOBOXEXITEMA 1 12205 12205
+@ mask
+@ iItem
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ iOverlay
+@ iIndent
+@ lParam
+T PNMCBEENDEDITA 1 12194 12194
+t 115 1 12188 12194
+@ hdr
+@ fChanged
+@ iNewSelection
+@ szText
+@ iWhy
+T PNMCBEENDEDITW 1 12186 12186
+t 114 1 12180 12186
+@ hdr
+@ fChanged
+@ iNewSelection
+@ szText
+@ iWhy
+T PNMCBEDRAGBEGINA 1 12179 12179
+t 113 1 12175 12179
+@ hdr
+@ iItemid
+@ szText
+T PNMCBEDRAGBEGINW 1 12174 12174
+t 112 1 12170 12174
+@ hdr
+@ iItemid
+@ szText
+T LPCURSORINFO 1 12169 12169
+@ cbSize
+@ flags
+@ hCursor
+@ ptScreenPos
+T LPTITLEBARINFO 1 12163 12163
+@ cbSize
+@ rcTitleBar
+@ rgstate
+T LPSCROLLBARINFO 1 12158 12158
+@ cbSize
+@ rcScrollBar
+@ dxyLineButton
+@ xyThumbTop
+@ xyThumbBottom
+@ reserved
+@ rgstate
+T LPMENUBARINFO 1 12149 12149
+@ cbSize
+@ rcBar
+@ hMenu
+@ hwndMenu
+@ fBarFocused
+@ fFocused
+T LPINPUT 1 12141 12141
+@ type
+@ mi
+@ ki
+@ hi
+T LPKEYBDINPUT 1 12133 12133
+@ wVk
+@ wScan
+@ dwFlags
+@ time
+@ dwExtraInfo
+T LPHARDWAREINPUT 1 12126 12126
+@ uMsg
+@ wParamL
+@ wParamH
+T LPMOUSEINPUT 1 12121 12121
+@ dx
+@ dy
+@ mouseData
+@ dwFlags
+@ time
+@ dwExtraInfo
+T PAPCFUNC 1 12110 12110
+T LPWINDOWINFO 1 12109 12109
+@ cbSize
+@ rcWindow
+@ rcClient
+@ dwStyle
+@ dwExStyle
+@ dwWindowStatus
+@ cxWindowBorders
+@ cyWindowBorders
+@ atomWindowType
+@ wCreatorVersion
+T LPCOMBOBOXINFO 1 12097 12097
+@ cbSize
+@ rcItem
+@ rcButton
+@ stateButton
+@ hwndCombo
+@ hwndItem
+@ hwndList
+T LPLVHITTESTINFO 1 12088 12088
+@ pt
+@ flags
+@ iItem
+@ iSubItem
+T LPNMITEMACTIVATE 1 12082 12082
+@ hdr
+@ iItem
+@ iSubItem
+@ uNewState
+@ uOldState
+@ uChanged
+@ ptAction
+@ lParam
+@ uKeyFlags
+T LPNMLVODSTATECHANGE 1 12065 12065
+@ hdr
+@ iFrom
+@ iTo
+@ uNewState
+@ uOldState
+T LPNMLVFINDITEM 1 12055 12055
+@ hdr
+@ iStart
+@ lvfi
+T LPFINDINFOW 1 12050 12050
+@ flags
+@ psz
+@ lParam
+@ pt
+@ vkDirection
+T LPFINDINFOA 1 12043 12043
+@ flags
+@ psz
+@ lParam
+@ pt
+@ vkDirection
+T LPCOLORSCHEME 1 12033 12033
+@ dwSize
+@ clrBtnHighlight
+@ clrBtnShadow
+T LPNMLVCACHEHINT 1 12028 12028
+@ hdr
+@ iFrom
+@ iTo
+T LPNMCLICK 1 12023 12023
+@ hdr
+@ dwItemSpec
+@ dwItemData
+@ pt
+@ dwHitInfo
+T LPNMTOOLTIPSCREATED 1 12014 12014
+@ hdr
+@ hwndToolTips
+T LPNMLVGETINFOTIPW 1 12007 12007
+@ hdr
+@ dwFlags
+@ pszText
+@ cchTextMax
+@ iItem
+@ iSubItem
+@ lParam
+T LPNMLVGETINFOTIPA 1 11998 11998
+@ hdr
+@ dwFlags
+@ pszText
+@ cchTextMax
+@ iItem
+@ iSubItem
+@ lParam
+T LPNMLVKEYDOWN 1 11988 11988
+@ hdr
+@ wVKey
+@ flags
+T LPNMLVDISPINFOW 1 11981 11981
+@ hdr
+@ item
+T LPNMLVDISPINFOA 1 11977 11977
+@ hdr
+@ item
+T LPLVITEMW 1 11973 11973
+@ mask
+@ iItem
+@ iSubItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+@ iIndent
+T LPLVITEMA 1 11961 11961
+@ mask
+@ iItem
+@ iSubItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+@ iIndent
+T LPCREBARBANDINFOW 1 11949 11949
+T LPREBARBANDINFOW 1 11948 11948
+@ cbSize
+@ fMask
+@ fStyle
+@ clrFore
+@ clrBack
+@ lpText
+@ cch
+@ iImage
+@ hwndChild
+@ cxMinChild
+@ cyMinChild
+@ cx
+@ hbmBack
+@ wID
+@ cyChild
+@ cyMaxChild
+@ cyIntegral
+@ cxIdeal
+@ lParam
+@ cxHeader
+T LPREBARBANDINFOA 1 11926 11926
+@ cbSize
+@ fMask
+@ fStyle
+@ clrFore
+@ clrBack
+@ lpText
+@ cch
+@ iImage
+@ hwndChild
+@ cxMinChild
+@ cyMinChild
+@ cx
+@ hbmBack
+@ wID
+@ cyChild
+@ cyMaxChild
+@ cyIntegral
+@ cxIdeal
+@ lParam
+@ cxHeader
+T LPREBARINFO 1 11904 11904
+@ cbSize
+@ fMask
+@ himl
+T LPTRACKMOUSEEVENT 1 11899 11899
+@ cbSize
+@ dwFlags
+@ hwndTrack
+@ dwHoverTime
+T ULONGLONG 1 11811 11811
+T CLASSPATHTYPE 1 11808 11810
+t _CLASSPATHTYPE 1 0 11808
+T REFFMTID 1 11807 11807
+@ Data1
+@ Data2
+@ Data3
+@ Data4
+T LPOLESTR 1 11805 11805
+T PROPID 1 11804 11804
+T wireCLIPFORMAT 1 11802 11802
+@ fContext
+@ u
+T wireHBITMAP 1 11801 11801
+@ fContext
+@ u
+T wireHPALETTE 1 11800 11800
+@ fContext
+@ u
+T wireHMETAFILE 1 11799 11799
+@ fContext
+@ u
+T wireHGLOBAL 1 11797 11797
+@ fContext
+@ u
+T wireHENHMETAFILE 1 11796 11796
+@ fContext
+@ u
+T wireBSTR 1 11795 11795
+@ fFlags
+@ clSize
+@ asData
+T LPBSTRBLOB 1 11767 11767
+@ cbSize
+@ pData
+T LPNMDATETIMEFORMATQUERYW 1 11656 11656
+@ nmhdr
+@ pszFormat
+@ szMax
+T LPNMDATETIMEFORMATQUERYA 1 11651 11651
+@ nmhdr
+@ pszFormat
+@ szMax
+T LPNMDATETIMEFORMATW 1 11646 11646
+@ nmhdr
+@ pszFormat
+@ st
+@ pszDisplay
+@ szDisplay
+T LPNMDATETIMEFORMATA 1 11639 11639
+@ nmhdr
+@ pszFormat
+@ st
+@ pszDisplay
+@ szDisplay
+T LPNMDATETIMEWMKEYDOWNW 1 11632 11632
+@ nmhdr
+@ nVirtKey
+@ pszFormat
+@ st
+T LPNMDATETIMEWMKEYDOWNA 1 11626 11626
+@ nmhdr
+@ nVirtKey
+@ pszFormat
+@ st
+T LPNMDATETIMESTRINGW 1 11620 11620
+@ nmhdr
+@ pszUserString
+@ st
+@ dwFlags
+T LPNMDATETIMESTRINGA 1 11614 11614
+@ nmhdr
+@ pszUserString
+@ st
+@ dwFlags
+T LPNMDATETIMECHANGE 1 11608 11608
+@ nmhdr
+@ dwFlags
+@ st
+T LPFIBER_START_ROUTINE 1 11603 11603
+T LPWIN_SPUB_TRUSTED_PUBLISHER_DATA 1 11601 11601
+@ hClientToken
+@ lpCertificate
+T LPWIN_TRUST_SUBJECT_FILE 1 11594 11594
+@ hFile
+@ lpPath
+T LPWIN_TRUST_ACTDATA_SUBJECT_ONLY 1 11587 11587
+@ SubjectType
+@ Subject
+T LPWIN_TRUST_ACTDATA_CONTEXT_WITH_SUBJECT 1 11583 11583
+@ hClientToken
+@ SubjectType
+@ Subject
+T WIN_TRUST_SUBJECT 1 11578 11578
+T LPWIN_CERTIFICATE 1 11573 11573
+@ dwLength
+@ wRevision
+@ wCertificateType
+@ bCertificate
+T LPPIXELFORMATDESCRIPTOR 1 11567 11567
+@ nSize
+@ nVersion
+@ dwFlags
+@ iPixelType
+@ cColorBits
+@ cRedBits
+@ cRedShift
+@ cGreenBits
+@ cGreenShift
+@ cBlueBits
+@ cBlueShift
+@ cAlphaBits
+@ cAlphaShift
+@ cAccumBits
+@ cAccumRedBits
+@ cAccumGreenBits
+@ cAccumBlueBits
+@ cAccumAlphaBits
+@ cDepthBits
+@ cStencilBits
+@ cAuxBuffers
+@ iLayerType
+@ bReserved
+@ dwLayerMask
+@ dwVisibleMask
+@ dwDamageMask
+T PNT_TIB 1 11535 11535
+@ ExceptionList
+@ StackBase
+@ StackLimit
+@ SubSystemTib
+@ FiberData
+@ Version
+@ ArbitraryUserPointer
+@ Self
+T MFENUMPROC 1 11525 11525
+T ENHMFENUMPROC 1 11524 11524
+T LPOVERLAPPED_COMPLETION_ROUTINE 1 11523 11523
+T FONTENUMEXPROC 1 11522 11522
+T FONTENUMPROC 1 11521 11521
+T ENUMFONTSPROC 1 11520 11520
+T ENHMETAFILEPROC 1 11519 11519
+T ENUMMETAFILEPROC 1 11518 11518
+T PIMAGE_SEPARATE_DEBUG_HEADER 1 11517 11517
+@ Signature
+@ Flags
+@ Machine
+@ Characteristics
+@ TimeDateStamp
+@ CheckSum
+@ ImageBase
+@ SizeOfImage
+@ NumberOfSections
+@ ExportedNamesSize
+@ DebugDirectorySize
+@ SectionAlignment
+@ Reserved
+T PIMAGE_FUNCTION_ENTRY 1 11502 11502
+@ StartingAddress
+@ EndingAddress
+@ EndOfPrologue
+T PIMAGE_DEBUG_MISC 1 11497 11497
+@ DataType
+@ Length
+@ Unicode
+@ Reserved
+@ Data
+T PFPO_DATA 1 11489 11489
+@ ulOffStart
+@ cbProcSize
+@ cdwLocals
+@ cdwParams
+@ cbProlog
+@ cbRegs
+@ fHasSEH
+@ fUseBP
+@ reserved
+@ cbFrame
+T PIMAGE_COFF_SYMBOLS_HEADER 1 11473 11473
+@ NumberOfSymbols
+@ LvaToFirstSymbol
+@ NumberOfLinenumbers
+@ LvaToFirstLinenumber
+@ RvaToFirstByteOfCode
+@ RvaToLastByteOfCode
+@ RvaToFirstByteOfData
+@ RvaToLastByteOfData
+T PIMAGE_DEBUG_DIRECTORY 1 11463 11463
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ Type
+@ SizeOfData
+@ AddressOfRawData
+@ PointerToRawData
+T PIMAGE_RUNTIME_FUNCTION_ENTRY 1 11453 11453
+@ BeginAddress
+@ EndAddress
+@ ExceptionHandler
+@ HandlerData
+@ PrologEndAddress
+T PIMAGE_LOAD_CONFIG_DIRECTORY 1 11446 11446
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ GlobalFlagsClear
+@ GlobalFlagsSet
+@ CriticalSectionDefaultTimeout
+@ DeCommitFreeBlockThreshold
+@ DeCommitTotalFreeThreshold
+@ LockPrefixTable
+@ MaximumAllocationSize
+@ VirtualMemoryThreshold
+@ ProcessHeapFlags
+@ Reserved
+T PIMAGE_RESOURCE_DATA_ENTRY 1 11430 11430
+@ OffsetToData
+@ Size
+@ CodePage
+@ Reserved
+T PIMAGE_RESOURCE_DIR_STRING_U 1 11424 11424
+@ Length
+@ NameString
+T PIMAGE_RESOURCE_DIRECTORY_STRING 1 11420 11420
+@ Length
+@ NameString
+T PIMAGE_RESOURCE_DIRECTORY_ENTRY 1 11416 11416
+@ NameOffset
+@ NameIsString
+@ Name
+@ Id
+@ OffsetToData
+@ OffsetToDirectory
+@ DataIsDirectory
+T PIMAGE_RESOURCE_DIRECTORY 1 11405 11405
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ NumberOfNamedEntries
+@ NumberOfIdEntries
+T PIMAGE_TLS_DIRECTORY 1 11397 11397
+@ StartAddressOfRawData
+@ EndAddressOfRawData
+@ AddressOfIndex
+@ AddressOfCallBacks
+@ SizeOfZeroFill
+@ Characteristics
+T PIMAGE_TLS_CALLBACK 1 11389 11389
+T PIMAGE_BOUND_FORWARDER_REF 1 11388 11388
+@ TimeDateStamp
+@ OffsetModuleName
+@ Reserved
+T PIMAGE_BOUND_IMPORT_DESCRIPTOR 1 11383 11383
+@ TimeDateStamp
+@ OffsetModuleName
+@ NumberOfModuleForwarderRefs
+T PIMAGE_IMPORT_DESCRIPTOR 1 11378 11378
+@ Characteristics
+@ OriginalFirstThunk
+@ TimeDateStamp
+@ ForwarderChain
+@ Name
+@ FirstThunk
+T PIMAGE_THUNK_DATA 1 11368 11368
+@ ForwarderString
+@ Function
+@ Ordinal
+@ AddressOfData
+T PIMAGE_IMPORT_BY_NAME 1 11360 11360
+@ Hint
+@ Name
+T PIMAGE_EXPORT_DIRECTORY 1 11356 11356
+@ Characteristics
+@ TimeDateStamp
+@ MajorVersion
+@ MinorVersion
+@ Name
+@ Base
+@ NumberOfFunctions
+@ NumberOfNames
+@ AddressOfFunctions
+@ AddressOfNames
+@ AddressOfNameOrdinals
+T PIMAGE_ARCHIVE_MEMBER_HEADER 1 11343 11343
+@ Name
+@ Date
+@ UserID
+@ GroupID
+@ Mode
+@ Size
+@ EndHeader
+T PIMAGE_LINENUMBER 1 11334 11334
+@ Type
+@ Linenumber
+T PIMAGE_BASE_RELOCATION 1 11326 11326
+@ VirtualAddress
+@ SizeOfBlock
+T PIMAGE_RELOCATION 1 11322 11322
+@ VirtualAddress
+@ SymbolTableIndex
+@ Type
+T PIMAGE_AUX_SYMBOL 1 11309 11309
+@ Sym
+@ File
+@ Section
+T PIMAGE_SYMBOL 1 11278 11278
+@ N
+@ Value
+@ SectionNumber
+@ Type
+@ StorageClass
+@ NumberOfAuxSymbols
+T PIMAGE_SECTION_HEADER 1 11262 11262
+@ Name
+@ Misc
+@ VirtualAddress
+@ SizeOfRawData
+@ PointerToRawData
+@ PointerToRelocations
+@ PointerToLinenumbers
+@ NumberOfRelocations
+@ NumberOfLinenumbers
+@ Characteristics
+T PIMAGE_ROM_HEADERS 1 11247 11247
+@ FileHeader
+@ OptionalHeader
+T PIMAGE_NT_HEADERS 1 11242 11242
+@ Signature
+@ FileHeader
+@ OptionalHeader
+T PIMAGE_ROM_OPTIONAL_HEADER 1 11232 11232
+@ Magic
+@ MajorLinkerVersion
+@ MinorLinkerVersion
+@ SizeOfCode
+@ SizeOfInitializedData
+@ SizeOfUninitializedData
+@ AddressOfEntryPoint
+@ BaseOfCode
+@ BaseOfData
+@ BaseOfBss
+@ GprMask
+@ CprMask
+@ GpValue
+T PIMAGE_OPTIONAL_HEADER 1 11217 11217
+@ Magic
+@ MajorLinkerVersion
+@ MinorLinkerVersion
+@ SizeOfCode
+@ SizeOfInitializedData
+@ SizeOfUninitializedData
+@ AddressOfEntryPoint
+@ BaseOfCode
+@ BaseOfData
+@ ImageBase
+@ SectionAlignment
+@ FileAlignment
+@ MajorOperatingSystemVersion
+@ MinorOperatingSystemVersion
+@ MajorImageVersion
+@ MinorImageVersion
+@ MajorSubsystemVersion
+@ MinorSubsystemVersion
+@ Win32VersionValue
+@ SizeOfImage
+@ SizeOfHeaders
+@ CheckSum
+@ Subsystem
+@ DllCharacteristics
+@ SizeOfStackReserve
+@ SizeOfStackCommit
+@ SizeOfHeapReserve
+@ SizeOfHeapCommit
+@ LoaderFlags
+@ NumberOfRvaAndSizes
+@ DataDirectory
+T PIMAGE_DATA_DIRECTORY 1 11184 11184
+@ VirtualAddress
+@ Size
+T PIMAGE_FILE_HEADER 1 11180 11180
+@ Machine
+@ NumberOfSections
+@ TimeDateStamp
+@ PointerToSymbolTable
+@ NumberOfSymbols
+@ SizeOfOptionalHeader
+@ Characteristics
+T PIMAGE_VXD_HEADER 1 11171 11171
+@ e32_magic
+@ e32_border
+@ e32_worder
+@ e32_level
+@ e32_cpu
+@ e32_os
+@ e32_ver
+@ e32_mflags
+@ e32_mpages
+@ e32_startobj
+@ e32_eip
+@ e32_stackobj
+@ e32_esp
+@ e32_pagesize
+@ e32_lastpagesize
+@ e32_fixupsize
+@ e32_fixupsum
+@ e32_ldrsize
+@ e32_ldrsum
+@ e32_objtab
+@ e32_objcnt
+@ e32_objmap
+@ e32_itermap
+@ e32_rsrctab
+@ e32_rsrccnt
+@ e32_restab
+@ e32_enttab
+@ e32_dirtab
+@ e32_dircnt
+@ e32_fpagetab
+@ e32_frectab
+@ e32_impmod
+@ e32_impmodcnt
+@ e32_impproc
+@ e32_pagesum
+@ e32_datapage
+@ e32_preload
+@ e32_nrestab
+@ e32_cbnrestab
+@ e32_nressum
+@ e32_autodata
+@ e32_debuginfo
+@ e32_debuglen
+@ e32_instpreload
+@ e32_instdemand
+@ e32_heapsize
+@ e32_res3
+@ e32_winresoff
+@ e32_winreslen
+@ e32_devid
+@ e32_ddkver
+T PIMAGE_OS2_HEADER 1 11118 11118
+@ ne_magic
+@ ne_ver
+@ ne_rev
+@ ne_enttab
+@ ne_cbenttab
+@ ne_crc
+@ ne_flags
+@ ne_autodata
+@ ne_heap
+@ ne_stack
+@ ne_csip
+@ ne_sssp
+@ ne_cseg
+@ ne_cmod
+@ ne_cbnrestab
+@ ne_segtab
+@ ne_rsrctab
+@ ne_restab
+@ ne_modtab
+@ ne_imptab
+@ ne_nrestab
+@ ne_cmovent
+@ ne_align
+@ ne_cres
+@ ne_exetyp
+@ ne_flagsothers
+@ ne_pretthunks
+@ ne_psegrefbytes
+@ ne_swaparea
+@ ne_expver
+T PIMAGE_DOS_HEADER 1 11086 11086
+@ e_magic
+@ e_cblp
+@ e_cp
+@ e_crlc
+@ e_cparhdr
+@ e_minalloc
+@ e_maxalloc
+@ e_ss
+@ e_sp
+@ e_csum
+@ e_ip
+@ e_cs
+@ e_lfarlc
+@ e_ovno
+@ e_res
+@ e_oemid
+@ e_oeminfo
+@ e_res2
+@ e_lfanew
+T LPMONTHDAYSTATE 1 10844 10844
+T LPTCITEMW 1 10825 10825
+@ mask
+@ dwState
+@ dwStateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+T LPTCITEMA 1 10816 10816
+@ mask
+@ dwState
+@ dwStateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ lParam
+T LPTCITEMHEADERW 1 10807 10807
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+T LPTCITEMHEADERA 1 10799 10799
+@ mask
+@ lpReserved1
+@ lpReserved2
+@ pszText
+@ cchTextMax
+@ iImage
+T LPUDACCEL 1 10791 10791
+@ nSec
+@ nInc
+T PPBRANGE 1 10783 10783
+t 81 1 10780 10783
+@ iLow
+@ iHigh
+T LPNMPGCALCSIZE 1 10778 10778
+t 80 1 10773 10778
+@ hdr
+@ dwFlag
+@ iWidth
+@ iHeight
+T LPNMPGSCROLL 1 10772 10772
+t 79 1 10764 10772
+@ hdr
+@ fwKeys
+@ rcParent
+@ iDir
+@ iXpos
+@ iYpos
+@ iScroll
+T LPTBREPLACEBITMAP 1 10761 10761
+t 78 1 10755 10761
+@ hInstOld
+@ nIDOld
+@ hInstNew
+@ nIDNew
+@ nButtons
+T LPTBINSERTMARK 1 10754 10754
+t 77 1 10751 10754
+@ iButton
+@ dwFlags
+T LPNMTBGETINFOTIPW 1 10750 10750
+@ hdr
+@ pszText
+@ cchTextMax
+@ iItem
+@ lParam
+T LPNMTBGETINFOTIPA 1 10743 10743
+@ hdr
+@ pszText
+@ cchTextMax
+@ iItem
+@ lParam
+T LPNMTBHOTITEM 1 10736 10736
+@ hdr
+@ idOld
+@ idNew
+@ dwFlags
+T LPNMOBJECTNOTIFY 1 10730 10730
+@ hdr
+@ iItem
+@ piid
+@ pObject
+@ hResult
+@ dwFlags
+T LPNMTBDISPINFOW 1 10722 10722
+t 76 1 10714 10722
+@ hdr
+@ dwMask
+@ idCommand
+@ lParam
+@ iImage
+@ pszText
+@ cchText
+T LPNMTBDISPINFOA 1 10713 10713
+t 75 1 10705 10713
+@ hdr
+@ dwMask
+@ idCommand
+@ lParam
+@ iImage
+@ pszText
+@ cchText
+T LPNMTBCUSTOMDRAW 1 10704 10704
+@ nmcd
+@ hbrMonoDither
+@ hbrLines
+@ hpenLines
+@ clrText
+@ clrMark
+@ clrTextHighlight
+@ clrBtnFace
+@ clrBtnHighlight
+@ clrHighlightHotTrack
+@ rcText
+@ nStringBkMode
+@ nHLStringBkMode
+T LPNMLVCUSTOMDRAW 1 10689 10689
+@ nmcd
+@ clrText
+@ clrTextBk
+@ iSubItem
+T LPNMCUSTOMDRAW 1 10683 10683
+@ hdr
+@ dwDrawStage
+@ hdc
+@ rc
+@ dwItemSpec
+@ uItemState
+@ lItemlParam
+T LPNMCHAR 1 10674 10674
+@ hdr
+@ ch
+@ dwItemPrev
+@ dwItemNext
+T LPNMKEY 1 10668 10668
+@ hdr
+@ nVKey
+@ uFlags
+T LPTBBUTTONINFOW 1 10663 10663
+t 74 1 10652 10663
+@ cbSize
+@ dwMask
+@ idCommand
+@ iImage
+@ fsState
+@ fsStyle
+@ cx
+@ lParam
+@ pszText
+@ cchText
+T LPTBBUTTONINFOA 1 10651 10651
+t 73 1 10640 10651
+@ cbSize
+@ dwMask
+@ idCommand
+@ iImage
+@ fsState
+@ fsStyle
+@ cx
+@ lParam
+@ pszText
+@ cchText
+T LPLVBKIMAGEW 1 10639 10639
+@ ulFlags
+@ hbm
+@ pszImage
+@ cchImageMax
+@ xOffsetPercent
+@ yOffsetPercent
+T LPLVBKIMAGEA 1 10631 10631
+@ ulFlags
+@ hbm
+@ pszImage
+@ cchImageMax
+@ xOffsetPercent
+@ yOffsetPercent
+T STATFLAG 1 10622 10622
+t tagSTATFLAG 1 0 10622
+T STGMOVE 1 10621 10621
+t tagSTGMOVE 1 0 10621
+T STGC 1 10619 10620
+t tagSTGC 1 0 10619
+T DVASPECT 1 10617 10618
+t _DVASPECT 1 0 10617
+T MSHCTX 1 10615 10616
+t tagMSHCTX 1 0 10615
+T MSHLFLAGS 1 10613 10614
+t tagMSHLFLAGS 1 0 10613
+T CLSCTX 1 10611 10612
+t tagCLSCTX 1 0 10611
+T MEMCTX 1 10610 10610
+t tagMEMCTX 1 0 10610
+T PMESSAGE_RESOURCE_DATA 1 10609 10609
+@ NumberOfBlocks
+@ Blocks
+T PMESSAGE_RESOURCE_BLOCK 1 10605 10605
+@ LowId
+@ HighId
+@ OffsetToEntries
+T PMESSAGE_RESOURCE_ENTRY 1 10599 10599
+@ Length
+@ Flags
+@ Text
+T LPNETCONNECTINFOSTRUCT 1 10594 10594
+@ cbStructure
+@ dwFlags
+@ dwSpeed
+@ dwDelay
+@ dwOptDataSize
+T LPNETINFOSTRUCT 1 10587 10587
+@ cbStructure
+@ dwProviderVersion
+@ dwStatus
+@ dwCharacteristics
+@ dwHandle
+@ wNetType
+@ dwPrinters
+@ dwDrives
+T LPDISCDLGSTRUCT 1 10577 10577
+@ cbStructure
+@ hwndOwner
+@ lpLocalName
+@ lpRemoteName
+@ dwFlags
+T LPCONNECTDLGSTRUCT 1 10570 10570
+@ cbStructure
+@ hwndOwner
+@ lpConnRes
+@ dwFlags
+@ dwDevNum
+T LPWNDCLASS 1 10561 10561
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+T LPWNDCLASSW 1 10550 10550
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+T LPWNDCLASSEX 1 10525 10525
+@ cbSize
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+@ hIconSm
+T LPWNDCLASSEXW 1 10515 10515
+@ cbSize
+@ style
+@ lpfnWndProc
+@ cbClsExtra
+@ cbWndExtra
+@ hInstance
+@ hIcon
+@ hCursor
+@ hbrBackground
+@ lpszMenuName
+@ lpszClassName
+@ hIconSm
+T PWINDOWPLACEMENT 1 10487 10487
+@ length
+@ flags
+@ showCmd
+@ ptMinPosition
+@ ptMaxPosition
+@ rcNormalPosition
+T PWIN32_FIND_DATAW 1 10472 10472
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+@ dwReserved0
+@ dwReserved1
+@ cFileName
+@ cAlternateFileName
+@ dummy
+T PWIN32_FIND_DATAA 1 10459 10459
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ nFileSizeHigh
+@ nFileSizeLow
+@ dwReserved0
+@ dwReserved1
+@ cFileName
+@ cAlternateFileName
+@ dummy
+T PVALENT 1 10437 10437
+@ ve_valuename
+@ ve_valuelen
+@ ve_valueptr
+@ ve_type
+T PPVALUE 1 10435 10435
+@ pv_valuename
+@ pv_valuelen
+@ pv_value_context
+@ pv_type
+T PPVALUEW 1 10419 10419
+@ pv_valuename
+@ pv_valuelen
+@ pv_value_context
+@ pv_type
+T PVALENTW 1 10417 10417
+@ ve_valuename
+@ ve_valuelen
+@ ve_valueptr
+@ ve_type
+T PULARGE_INTEGER 1 10397 10397
+@ LowPart
+@ HighPart
+@ QuadPart
+T LPTV_SORTCB 1 10393 10393
+@ hParent
+@ lpfnCompare
+@ lParam
+T LPTV_INSERTSTRUCT 1 10383 10383
+@ hParent
+@ hInsertAfter
+@ item
+T LPTV_HITTESTINFO 1 10378 10378
+@ pt
+@ flags
+@ hItem
+T LPTTPOLYGONHEADER 1 10369 10369
+@ cb
+@ dwType
+@ pfxStart
+T LPTTPOLYCURVE 1 10364 10364
+@ wType
+@ cpfx
+@ apfx
+T LPHITTESTINFO 1 10359 10359
+@ hwnd
+@ pt
+@ ti
+T LPTPMPARAMS 1 10354 10354
+@ cbSize
+@ rcExclude
+T LPTOOLTIPTEXT 1 10350 10350
+t 70 1 10344 10350
+@ hdr
+@ lpszText
+@ szText
+@ hinst
+@ uFlags
+T LPTOOLINFO 1 10343 10343
+t 69 1 10335 10343
+@ cbSize
+@ uFlags
+@ hwnd
+@ uId
+@ rect
+@ hinst
+@ lpszText
+T LPTOKEN_PRIVILEGES 1 10319 10319
+@ PrivilegeCount
+@ Privileges
+T LPTOKEN_GROUPS 1 10309 10309
+@ GroupCount
+@ Groups
+T LPTIME_ZONE_INFORMATION 1 10288 10288
+@ Bias
+@ StandardName
+@ StandardDate
+@ StandardBias
+@ DaylightName
+@ DaylightDate
+@ DaylightBias
+T LPTBSAVEPARAMW 1 10242 10242
+@ hkr
+@ pszSubKey
+@ pszValueName
+T LPTBSAVEPARAMSA 1 10237 10237
+@ hkr
+@ pszSubKey
+@ pszValueName
+T LPNMTOOLBARW 1 10232 10232
+@ hdr
+@ iItem
+@ tbButton
+@ cchText
+@ pszText
+@ rcButton
+T LPNMTOOLBARA 1 10224 10224
+@ hdr
+@ iItem
+@ tbButton
+@ cchText
+@ pszText
+@ rcButton
+T LPCTBBUTTON 1 10216 10216
+T LPTBBUTTON 1 10215 10215
+@ iBitmap
+@ idCommand
+@ fsState
+@ fsStyle
+@ bReserved
+@ dwData
+@ iString
+T LPTBADDBITMAP 1 10206 10206
+t 68 1 10203 10206
+@ hInst
+@ nID
+T LPSYSTEM_POWER_STATUS 1 10150 10150
+@ ACLineStatus
+@ BatteryFlag
+@ BatteryLifePercent
+@ Reserved1
+@ BatteryLifeTime
+@ BatteryFullLifeTime
+T LPSYSTEM_INFO 1 10141 10141
+@ wProcessorArchitecture
+@ wReserved
+@ dwPageSize
+@ lpMinimumApplicationAddress
+@ lpMaximumApplicationAddress
+@ dwActiveProcessorMask
+@ dwNumberOfProcessors
+@ dwProcessorType
+@ dwAllocationGranularity
+@ wProcessorLevel
+@ wProcessorRevision
+T LPSTYLESTRUCT 1 10123 10123
+@ styleOld
+@ styleNew
+T LPSTRRET 1 10116 10116
+@ uType
+@ pOleStr
+@ uOffset
+@ cStr
+T LPSTICKYKEYS 1 10112 10112
+@ cbSize
+@ dwFlags
+T LPSTARTUPINFO 1 10107 10107
+@ cb
+@ lpReserved
+@ lpDesktop
+@ lpTitle
+@ dwX
+@ dwY
+@ dwXSize
+@ dwYSize
+@ dwXCountChars
+@ dwYCountChars
+@ dwFillAttribute
+@ dwFlags
+@ wShowWindow
+@ cbReserved2
+@ lpReserved2
+@ hStdInput
+@ hStdOutput
+@ hStdError
+T LPSTARTUPINFOW 1 10101 10101
+@ cb
+@ lpReserved
+@ lpDesktop
+@ lpTitle
+@ dwX
+@ dwY
+@ dwXSize
+@ dwYSize
+@ dwXCountChars
+@ dwYCountChars
+@ dwFillAttribute
+@ dwFlags
+@ wShowWindow
+@ cbReserved2
+@ lpReserved2
+@ hStdInput
+@ hStdOutput
+@ hStdError
+T LPSOUNDSENTRY 1 10061 10061
+@ cbSize
+@ dwFlags
+@ iFSTextEffect
+@ iFSTextEffectMSec
+@ iFSTextEffectColorBits
+@ iFSGrafEffect
+@ iFSGrafEffectMSec
+@ iFSGrafEffectColor
+@ iWindowsEffect
+@ iWindowsEffectMSec
+@ lpszWindowsEffectDLL
+@ iWindowsEffectOrdinal
+T PSID_AND_ATTRIBUTES_ARRAY 1 10044 10044
+T SID_AND_ATTRIBUTES_ARRAY 1 10043 10043
+T PSID_AND_ATTRIBUTES 1 10042 10042
+@ Sid
+@ Attributes
+T SHGNO 1 10035 10036
+t tagSHGDN 1 0 10035
+T LPSERIALKEYS 1 10008 10008
+@ cbSize
+@ dwFlags
+@ lpszActivePort
+@ lpszPort
+@ iBaudRate
+@ iPortState
+T LPSECURITY_ATTRIBUTES 1 9999 9999
+@ nLength
+@ lpSecurityDescriptor
+@ bInheritHandle
+T LPCSCROLLINFO 1 9994 9994
+T LPSCROLLINFO 1 9993 9993
+@ cbSize
+@ fMask
+@ nMin
+@ nMax
+@ nPage
+@ nPos
+@ nTrackPos
+T LPRGNDATA 1 9984 9984
+@ rdh
+@ Buffer
+T LPRASTERIZER_STATUS 1 9968 9968
+@ nSize
+@ wFlags
+@ nLanguageID
+T LPPSHNOTIFY 1 9953 9953
+@ hdr
+@ lParam
+T LPFNADDPROPSHEETPAGES 1 9933 9934
+T LPFNADDPROPSHEETPAGE 1 9932 9932
+T LPCPROPSHEETHEADER 1 9931 9931
+T LPPROPSHEETHEADER 1 9930 9930
+@ dwSize
+@ dwFlags
+@ hwndParent
+@ hInstance
+@ hIcon
+@ pszIcon
+@ pszCaption
+@ nPages
+@ nStartPage
+@ pStartPage
+@ ppsp
+@ phpage
+@ pfnCallback
+T HPROPSHEETPAGE 1 9909 9909
+T LPCPROPSHEETPAGE 1 9908 9908
+T LPPROPSHEETPAGE 1 9907 9907
+@ dwSize
+@ dwFlags
+@ hInstance
+@ pszTemplate
+@ pResource
+@ hIcon
+@ pszIcon
+@ pszTitle
+@ pfnDlgProc
+@ lParam
+@ pfnCallback
+@ pcRefParent
+T LPFNPSPCALLBACK 1 9889 9889
+T PPROCESS_INFORMATION 1 9888 9888
+@ hProcess
+@ hThread
+@ dwProcessId
+@ dwThreadId
+T LPPROCESS_HEAP_ENTRY 1 9881 9881
+@ lpData
+@ cbData
+@ cbOverhead
+@ iRegionIndex
+@ wFlags
+@ dwCommittedSize
+@ dwUnCommittedSize
+@ lpFirstBlock
+@ lpLastBlock
+@ hMem
+T LPPRIVILEGE_SET 1 9869 9869
+@ PrivilegeCount
+@ Control
+@ Privilege
+T LPPAINTSTRUCT 1 9825 9825
+@ hdc
+@ fErase
+@ rcPaint
+@ fRestore
+@ fIncUpdate
+@ rgbReserved
+T LPPAGESETUPDLG 1 9817 9817
+@ lStructSize
+@ hwndOwner
+@ hDevMode
+@ hDevNames
+@ Flags
+@ ptPaperSize
+@ rtMinMargin
+@ rtMargin
+@ hInstance
+@ lCustData
+@ lpfnPageSetupHook
+@ lpfnPagePaintHook
+@ lpPageSetupTemplateName
+@ hPageSetupTemplate
+T LPOVERLAPPED 1 9801 9801
+@ Internal
+@ InternalHigh
+@ Offset
+@ OffsetHigh
+@ hEvent
+T LPOUTLINETEXTMETRIC 1 9794 9794
+@ otmSize
+@ otmTextMetrics
+@ otmFiller
+@ otmPanoseNumber
+@ otmfsSelection
+@ otmfsType
+@ otmsCharSlopeRise
+@ otmsCharSlopeRun
+@ otmItalicAngle
+@ otmEMSquare
+@ otmAscent
+@ otmDescent
+@ otmLineGap
+@ otmsCapEmHeight
+@ otmsXHeight
+@ otmrcFontBox
+@ otmMacAscent
+@ otmMacDescent
+@ otmMacLineGap
+@ otmusMinimumPPEM
+@ otmptSubscriptSize
+@ otmptSubscriptOffset
+@ otmptSuperscriptSize
+@ otmptSuperscriptOffset
+@ otmsStrikeoutSize
+@ otmsStrikeoutPosition
+@ otmsUnderscoreSize
+@ otmsUnderscorePosition
+@ otmpFamilyName
+@ otmpFaceName
+@ otmpStyleName
+@ otmpFullName
+T LPTEXTMETRICW 1 9760 9760
+@ tmHeight
+@ tmAscent
+@ tmDescent
+@ tmInternalLeading
+@ tmExternalLeading
+@ tmAveCharWidth
+@ tmMaxCharWidth
+@ tmWeight
+@ tmOverhang
+@ tmDigitizedAspectX
+@ tmDigitizedAspectY
+@ tmFirstChar
+@ tmLastChar
+@ tmDefaultChar
+@ tmBreakChar
+@ tmItalic
+@ tmUnderlined
+@ tmStruckOut
+@ tmPitchAndFamily
+@ tmCharSet
+T PTEXTMETRIC 1 9738 9738
+@ tmHeight
+@ tmAscent
+@ tmDescent
+@ tmInternalLeading
+@ tmExternalLeading
+@ tmAveCharWidth
+@ tmMaxCharWidth
+@ tmWeight
+@ tmOverhang
+@ tmDigitizedAspectX
+@ tmDigitizedAspectY
+@ tmFirstChar
+@ tmLastChar
+@ tmDefaultChar
+@ tmBreakChar
+@ tmItalic
+@ tmUnderlined
+@ tmStruckOut
+@ tmPitchAndFamily
+@ tmCharSet
+@ pad1
+@ pad2
+@ pad3
+@ pad4
+T OLDFONTENUMPROC 1 9737 9737
+T LPOSVERSIONINFO 1 9709 9709
+@ dwOSVersionInfoSize
+@ dwMajorVersion
+@ dwMinorVersion
+@ dwBuildNumber
+@ dwPlatformId
+@ szCSDVersion
+T PRTL_OSVERSIONINFOW 1 9701 9701
+@ dwOSVersionInfoSize
+@ dwMajorVersion
+@ dwMinorVersion
+@ dwBuildNumber
+@ dwPlatformId
+@ szCSDVersion
+T LPOFNOTIFY 1 9684 9684
+@ hdr
+@ lpOFN
+@ pszFile
+T LPTVITEMEX 1 9675 9675
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+@ iIntegral
+T LPOPENFILENAMEW 1 9662 9662
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ lpstrFilter
+@ lpstrCustomFilter
+@ nMaxCustFilter
+@ nFilterIndex
+@ lpstrFile
+@ nMaxFile
+@ lpstrFileTitle
+@ nMaxFileTitle
+@ lpstrInitialDir
+@ lpstrTitle
+@ Flags
+@ nFileOffset
+@ nFileExtension
+@ lpstrDefExt
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+T LPOPENFILENAMEA 1 9640 9640
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ lpstrFilter
+@ lpstrCustomFilter
+@ nMaxCustFilter
+@ nFilterIndex
+@ lpstrFile
+@ nMaxFile
+@ lpstrFileTitle
+@ nMaxFileTitle
+@ lpstrInitialDir
+@ lpstrTitle
+@ Flags
+@ nFileOffset
+@ nFileExtension
+@ lpstrDefExt
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+T LPOFSTRUCT 1 9618 9618
+@ cBytes
+@ fFixedDisk
+@ nErrCode
+@ Reserved1
+@ Reserved2
+@ szPathName
+T LPSERVICE_ADDRESSES 1 9548 9548
+@ dwAddressCount
+@ Addresses
+T LPNONCLIENTMETRICS 1 9536 9536
+@ cbSize
+@ iBorderWidth
+@ iScrollWidth
+@ iScrollHeight
+@ iCaptionWidth
+@ iCaptionHeight
+@ lfCaptionFont
+@ iSmCaptionWidth
+@ iSmCaptionHeight
+@ lfSmCaptionFont
+@ iMenuWidth
+@ iMenuHeight
+@ lfMenuFont
+@ lfStatusFont
+@ lfMessageFont
+T LPNMUPDOWN 1 9519 9519
+@ hdr
+@ iPos
+@ iDelta
+T LPNMTREEVIEW 1 9514 9514
+@ hdr
+@ action
+@ itemOld
+@ itemNew
+@ ptDrag
+T LPTVINSERTSTRUCTW 1 9505 9505
+@ hParent
+@ hInsertAfter
+@ itemex
+@ item
+T LPTVINSERTSTRUCTA 1 9497 9497
+@ hParent
+@ hInsertAfter
+@ itemex
+@ item
+T LPTVITEMEXW 1 9489 9489
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+@ iIntegral
+T LPTVITEMW 1 9454 9454
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+T LPTVITEMA 1 9442 9442
+@ mask
+@ hItem
+@ state
+@ stateMask
+@ pszText
+@ cchTextMax
+@ iImage
+@ iSelectedImage
+@ cChildren
+@ lParam
+T HTREEITEM 1 9430 9430
+T LPNM_LISTVIEW 1 9429 9429
+@ hdr
+@ iItem
+@ iSubItem
+@ uNewState
+@ uOldState
+@ uChanged
+@ ptAction
+@ lParam
+T LPNETRESOURCE 1 9386 9386
+@ dwScope
+@ dwType
+@ dwDisplayType
+@ dwUsage
+@ lpLocalName
+@ lpRemoteName
+@ lpComment
+@ lpProvider
+T PNCB 1 9357 9357
+@ ncb_command
+@ ncb_retcode
+@ ncb_lsn
+@ ncb_num
+@ ncb_buffer
+@ ncb_length
+@ ncb_callname
+@ ncb_name
+@ ncb_rto
+@ ncb_sto
+@ ncb_post
+@ ncb_lana_num
+@ ncb_cmd_cplt
+@ ncb_reserve
+@ ncb_event
+T LPMSGBOXPARAMS 1 9330 9330
+t 51 1 9319 9330
+@ cbSize
+@ hwndOwner
+@ hInstance
+@ lpszText
+@ lpszCaption
+@ dwStyle
+@ lpszIcon
+@ dwContextHelpId
+@ lpfnMsgBoxCallback
+@ dwLanguageId
+T MSGBOXCALLBACK 1 9318 9318
+T PMSG 1 9317 9317
+@ hwnd
+@ message
+@ wParam
+@ lParam
+@ time
+@ pt
+T PMOUSEHOOKSTRUCT 1 9300 9300
+@ pt
+@ hwnd
+@ wHitTestCode
+@ dwExtraInfo
+T LPMODEMSETTINGS 1 9221 9221
+@ dwActualSize
+@ dwRequiredSize
+@ dwDevSpecificOffset
+@ dwDevSpecificSize
+@ dwCallSetupFailTimer
+@ dwInactivityTimeout
+@ dwSpeakerVolume
+@ dwSpeakerMode
+@ dwPreferredModemOptions
+@ dwNegotiatedModemOptions
+@ dwNegotiatedDCERate
+@ abVariablePortion
+T LPMODEMDEVCAPS 1 9207 9207
+@ dwActualSize
+@ dwRequiredSize
+@ dwDevSpecificOffset
+@ dwDevSpecificSize
+@ dwModemProviderVersion
+@ dwModemManufacturerOffset
+@ dwModemManufacturerSize
+@ dwModemModelOffset
+@ dwModemModelSize
+@ dwModemVersionOffset
+@ dwModemVersionSize
+@ dwDialOptions
+@ dwCallSetupFailTimer
+@ dwInactivityTimeout
+@ dwSpeakerVolume
+@ dwSpeakerMode
+@ dwModemOptions
+@ dwMaxDTERate
+@ dwMaxDCERate
+@ abVariablePortion
+T LPMINMAXINFO 1 9185 9185
+@ ptReserved
+@ ptMaxSize
+@ ptMaxPosition
+@ ptMinTrackSize
+@ ptMaxTrackSize
+T LPMINIMIZEDMETRICS 1 9178 9178
+@ cbSize
+@ iWidth
+@ iHorzGap
+@ iVertGap
+@ iArrange
+T LPMETARECORD 1 9171 9171
+@ rdSize
+@ rdFunction
+@ rdParm
+T LPMETAHEADER 1 9166 9166
+@ mtType
+@ mtHeaderSize
+@ mtVersion
+@ mtSize
+@ mtNoObjects
+@ mtMaxRecord
+@ mtNoParameters
+T LPMETAFILEPICT 1 9157 9157
+@ mm
+@ xExt
+@ yExt
+@ hMF
+T MENUTEMPLATE 1 9151 9151
+T MENUITEMTEMPLATEHEADER 1 9147 9150
+t 50 1 9147 9150
+@ versionNumber
+@ offset
+T MENUITEMTEMPLATE 1 9142 9146
+t 49 1 9142 9146
+@ mtOption
+@ mtID
+@ mtString
+T LPCMENUITEMINFO 1 9141 9141
+T LPMENUITEMINFO 1 9140 9140
+@ cbSize
+@ fMask
+@ fType
+@ fState
+@ wID
+@ hSubMenu
+@ hbmpChecked
+@ hbmpUnchecked
+@ dwItemData
+@ dwTypeData
+@ cch
+T MENUEX_TEMPLATE_ITEM 1 9120 9127
+t 48 1 9120 9127
+@ dwType
+@ dwState
+@ uId
+@ bResInfo
+@ szText
+@ dwHelpId
+T MENUEX_TEMPLATE_HEADER 1 9115 9119
+t 47 1 9115 9119
+@ wVersion
+@ wOffset
+@ dwHelpId
+T LPMEMORYSTATUSEX 1 9114 9114
+@ dwLength
+@ dwMemoryLoad
+@ ullTotalPhys
+@ ullAvailPhys
+@ ullTotalPageFile
+@ ullAvailPageFile
+@ ullTotalVirtual
+@ ullAvailVirtual
+@ ullAvailExtendedVirtual
+T LPMEMORYSTATUS 1 9103 9103
+@ dwLength
+@ dwMemoryLoad
+@ dwTotalPhys
+@ dwAvailPhys
+@ dwTotalPageFile
+@ dwAvailPageFile
+@ dwTotalVirtual
+@ dwAvailVirtual
+T PMEMORY_BASIC_INFORMATION 1 9093 9093
+@ BaseAddress
+@ AllocationBase
+@ AllocationProtect
+@ RegionSize
+@ State
+@ Protect
+@ Type
+T PMEASUREITEMSTRUCT 1 9083 9083
+@ CtlType
+@ CtlID
+@ itemID
+@ itemWidth
+@ itemHeight
+@ itemData
+T LPMDICREATESTRUCT 1 9074 9074
+@ szClass
+@ szTitle
+@ hOwner
+@ x
+@ y
+@ cx
+@ cy
+@ style
+@ lParam
+T PLUID_AND_ATTRIBUTES_ARRAY 1 9016 9016
+T LUID_AND_ATTRIBUTES_ARRAY 1 9015 9015
+T PLUID_AND_ATTRIBUTES 1 9014 9014
+@ Luid
+@ Attributes
+T PLUID 1 9010 9010
+@ LowPart
+@ HighPart
+@ u
+@ QuadPart
+T LPFXPT16DOT16 1 9009 9009
+T FXPT16DOT16 1 9009 9009
+T LPLDT_ENTRY 1 9003 9003
+@ LimitLow
+@ BaseLow
+@ HighWord
+T LPKERNINGPAIR 1 8975 8975
+@ wFirst
+@ wSecond
+@ iKernAmount
+T PSECURITY_DESCRIPTOR 1 8945 8945
+@ Revision
+@ Sbz1
+@ Control
+@ Owner
+@ Group
+@ Sacl
+@ Dacl
+T PISECURITY_DESCRIPTOR_RELATIVE 1 8936 8936
+@ Revision
+@ Sbz1
+@ Control
+@ Owner
+@ Group
+@ Sacl
+@ Dacl
+T PSID 1 8926 8926
+@ Revision
+@ SubAuthorityCount
+@ IdentifierAuthority
+@ SubAuthority
+T LPSID_IDENTIFIER_AUTHORITY 1 8919 8920
+@ Value
+T PSYSTEMTIME 1 8901 8901
+@ wYear
+@ wMonth
+@ wDayOfWeek
+@ wDay
+@ wHour
+@ wMinute
+@ wSecond
+@ wMilliseconds
+T PINPUT_RECORD 1 8891 8891
+@ EventType
+@ __alignmentDummy
+@ Event
+T PMENU_EVENT_RECORD 1 8880 8880
+@ dwCommandId
+T LPICONMETRICS 1 8853 8853
+@ cbSize
+@ iHorzSpacing
+@ iVertSpacing
+@ iTitleWrap
+@ lfFont
+T PICONINFO 1 8846 8846
+@ fIcon
+@ xHotspot
+@ yHotspot
+@ hbmMask
+@ hbmColor
+T LPHIGHCONTRAST 1 8835 8835
+@ cbSize
+@ dwFlags
+@ lpszDefaultScheme
+T HELPWININFO 1 8822 8830
+t 41 1 8822 8830
+@ wStructSize
+@ x
+@ y
+@ dx
+@ dy
+@ wMax
+@ rgchMember
+T LPHELPINFO 1 8821 8821
+@ cbSize
+@ iContextType
+@ iCtrlId
+@ hItemHandle
+@ dwContextId
+@ MousePos
+T LPNMHEADERW 1 8806 8806
+@ hdr
+@ iItem
+@ iButton
+@ pitem
+T LPNMHEADERA 1 8800 8800
+@ hdr
+@ iItem
+@ iButton
+@ pitem
+T LPHDITEMW 1 8785 8785
+@ mask
+@ cxy
+@ pszText
+@ hbm
+@ cchTextMax
+@ fmt
+@ lParam
+@ iImage
+@ iOrder
+@ type
+@ pvFilter
+T LPHDITEMA 1 8770 8770
+@ mask
+@ cxy
+@ pszText
+@ hbm
+@ cchTextMax
+@ fmt
+@ lParam
+@ iImage
+@ iOrder
+@ type
+@ pvFilter
+T LPHDLAYOUT 1 8750 8750
+@ prc
+@ pwpos
+T LPWINDOWPOS 1 8746 8746
+@ hwnd
+@ hwndInsertAfter
+@ x
+@ y
+@ cx
+@ cy
+@ flags
+T LPHDHITTESTINFO 1 8727 8727
+@ pt
+@ flags
+@ iItem
+T LPHANDLETABLE 1 8722 8722
+@ objectHandle
+T LPGLYPHMETRICS 1 8719 8719
+@ gmBlackBoxX
+@ gmBlackBoxY
+@ gmptGlyphOrigin
+@ gmCellIncX
+@ gmCellIncY
+T PGENERIC_MAPPING 1 8712 8712
+@ GenericRead
+@ GenericWrite
+@ GenericExecute
+@ GenericAll
+T LPGCP_RESULTS 1 8706 8706
+@ lStructSize
+@ lpOutString
+@ lpOrder
+@ lpDx
+@ lpCaretPos
+@ lpClass
+@ lpGlyphs
+@ nGlyphs
+@ nMaxFit
+T LPFINDREPLACE 1 8650 8650
+t 40 1 8638 8650
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ Flags
+@ lpstrFindWhat
+@ lpstrReplaceWith
+@ wFindWhatLen
+@ wReplaceWithLen
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+T LPEXT_BUTTON 1 8616 8616
+@ idCommand
+@ idsHelp
+@ fsStyle
+T LPENHMETARECORD 1 8573 8573
+@ iType
+@ nSize
+@ dParm
+T LPENHMETAHEADER 1 8568 8568
+@ iType
+@ nSize
+@ rclBounds
+@ rclFrame
+@ dSignature
+@ nVersion
+@ nBytes
+@ nRecords
+@ nHandles
+@ sReserved
+@ nDescription
+@ offDescription
+@ nPalEntries
+@ szlDevice
+@ szlMillimeters
+T ENOLEOPFAILED 1 8546 8551
+t 39 1 8546 8551
+@ nmhdr
+@ iob
+@ lOper
+@ hr
+T ENSAVECLIPBOARD 1 8541 8545
+t 38 1 8541 8545
+@ nmhdr
+@ cObjectCount
+@ cch
+T LPNMHDR 1 8540 8540
+@ hwndFrom
+@ idFrom
+@ code
+T LPNMIPADDRESS 1 8539 8539
+@ hdr
+@ iField
+@ iValue
+T PEMRENABLEICM 1 8533 8533
+@ emr
+@ iMode
+T PEMRREALIZEPALETTE 1 8522 8522
+@ emr
+T PEMRSTRETCHDIBITS 1 8511 8511
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ iUsageSrc
+@ dwRop
+@ cxDest
+@ cyDest
+T PEMRSTRETCHBLT 1 8493 8493
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ cxSrc
+@ cySrc
+T PEMRSETWORLDTRANSFORM 1 8473 8473
+@ emr
+@ xform
+T PEMRSETBRUSHORGEX 1 8469 8469
+@ emr
+@ ptlOrigin
+T PEMRSETWINDOWEXTEX 1 8463 8463
+@ emr
+@ szlExtent
+T PEMRSETPIXELV 1 8458 8458
+@ emr
+@ ptlPixel
+@ crColor
+T PEMRSETPALETTEENTRIES 1 8453 8453
+@ emr
+@ ihPal
+@ iStart
+@ cEntries
+@ aPalEntries
+T PEMRSETMITERLIMIT 1 8446 8446
+@ emr
+@ eMiterLimit
+T PEMRSETMAPPERFLAGS 1 8442 8442
+@ emr
+@ dwFlags
+T PEMRSETDIBITSTODEVICE 1 8438 8438
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ iUsageSrc
+@ iStartScan
+@ cScans
+T PEMRSETCOLORADJUSTMENT 1 8421 8421
+@ emr
+@ ColorAdjustment
+T PEMRSETTEXTCOLOR 1 8417 8417
+@ emr
+@ crColor
+T PEMRSETARCDIRECTION 1 8412 8412
+@ emr
+@ iArcDirection
+T PEMRSELECTPALETTE 1 8408 8408
+@ emr
+@ ihPal
+T PEMRDELETEOBJECT 1 8404 8404
+@ emr
+@ ihObject
+T PEMRDELETECOLORSPACE 1 8399 8399
+@ emr
+@ ihCS
+T PEMRSCALEWINDOWEXTEX 1 8394 8394
+@ emr
+@ xNum
+@ xDenom
+@ yNum
+@ yDenom
+T PEMRROUNDRECT 1 8386 8386
+@ emr
+@ rclBox
+@ szlCorner
+T PEMRRESTOREDC 1 8381 8381
+@ emr
+@ iRelative
+T PEMRRESIZEPALETTE 1 8377 8377
+@ emr
+@ ihPal
+@ cEntries
+T PEMRPOLYTEXTOUTW 1 8372 8372
+@ emr
+@ rclBounds
+@ iGraphicsMode
+@ exScale
+@ eyScale
+@ cStrings
+@ aemrtext
+T PEMRPOLYPOLYGON16 1 8362 8362
+@ emr
+@ rclBounds
+@ nPolys
+@ cpts
+@ aPolyCounts
+@ apts
+T PEMRPOLYPOLYGON 1 8353 8353
+@ emr
+@ rclBounds
+@ nPolys
+@ cptl
+@ aPolyCounts
+@ aptl
+T PEMRPOLYLINETO16 1 8344 8344
+@ emr
+@ rclBounds
+@ cpts
+@ apts
+T PEMRPOLYLINETO 1 8334 8334
+@ emr
+@ rclBounds
+@ cptl
+@ aptl
+T PEMRPOLYDRAW16 1 8324 8324
+@ emr
+@ rclBounds
+@ cpts
+@ apts
+@ abTypes
+T PEMRPOLYDRAW 1 8317 8317
+@ emr
+@ rclBounds
+@ cptl
+@ aptl
+@ abTypes
+T PEMRPLGBLT 1 8310 8310
+@ emr
+@ rclBounds
+@ aptlDest
+@ xSrc
+@ ySrc
+@ cxSrc
+@ cySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ xMask
+@ yMask
+@ iUsageMask
+@ offBmiMask
+@ cbBmiMask
+@ offBitsMask
+@ cbBitsMask
+T PEMROFFSETCLIPRGN 1 8287 8287
+@ emr
+@ ptlOffset
+T PEMRMASKBLT 1 8277 8277
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ cbBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+@ xMask
+@ yMask
+@ iUsageMask
+@ offBmiMask
+@ cbBmiMask
+@ offBitsMask
+@ cbBitsMask
+T PEMRMOVETOEX 1 8252 8252
+@ emr
+@ ptl
+T PEMRPAINTRGN 1 8247 8247
+@ emr
+@ rclBounds
+@ cbRgnData
+@ RgnData
+T PEMRGDICOMMENT 1 8240 8240
+@ emr
+@ cbData
+@ Data
+T PEMRFRAMERGN 1 8235 8235
+@ emr
+@ rclBounds
+@ cbRgnData
+@ ihBrush
+@ szlStroke
+@ RgnData
+T LPSIZEL 1 8227 8227
+@ cx
+@ cy
+T PEMRFILLRGN 1 8217 8217
+@ emr
+@ rclBounds
+@ cbRgnData
+@ ihBrush
+@ RgnData
+T PEMRSTROKEPATH 1 8210 8210
+@ emr
+@ rclBounds
+T PEMREXTTEXTOUTW 1 8204 8204
+@ emr
+@ rclBounds
+@ iGraphicsMode
+@ exScale
+@ eyScale
+@ emrtext
+T PEMRTEXT 1 8195 8195
+@ ptlReference
+@ nChars
+@ offString
+@ fOptions
+@ rcl
+@ offDx
+T PEMREXTSELECTCLIPRGN 1 8187 8187
+@ emr
+@ cbRgnData
+@ iMode
+@ RgnData
+T PEMREXTFLOODFILL 1 8181 8181
+@ emr
+@ ptlStart
+@ crColor
+@ iMode
+T PEMREXTCREATEPEN 1 8175 8175
+@ emr
+@ ihPen
+@ offBmi
+@ cbBmi
+@ offBits
+@ cbBits
+@ elp
+T PEMRINTERSECTCLIPRECT 1 8127 8127
+@ emr
+@ rclClip
+T PEMREOF 1 8122 8122
+@ emr
+@ nPalEntries
+@ offPalEntries
+@ nSizeLast
+T PEMRRECTANGLE 1 8116 8116
+@ emr
+@ rclBox
+T PEMRCREATEPEN 1 8111 8111
+@ emr
+@ ihPen
+@ lopn
+T LPLOGPEN 1 8106 8106
+@ lopnStyle
+@ lopnWidth
+@ lopnColor
+T PEMRCREATEPALETTE 1 8101 8101
+@ emr
+@ ihPal
+@ lgpl
+T LPLOGPALETTE 1 8096 8096
+@ palVersion
+@ palNumEntries
+@ palPalEntry
+T PPALETTEENTRY 1 8090 8090
+@ peRed
+@ peGreen
+@ peBlue
+@ peFlags
+T PEMRCREATEMONOBRUSH 1 8084 8084
+@ emr
+@ ihBrush
+@ iUsage
+@ offBmi
+@ cbBmi
+@ offBits
+@ cbBits
+T PEMRCREATECOLORSPACE 1 8065 8065
+@ emr
+@ ihCS
+@ lcs
+T LPLOGCOLORSPACE 1 8060 8060
+@ lcsSignature
+@ lcsVersion
+@ lcsSize
+@ lcsCSType
+@ lcsIntent
+@ lcsEndpoints
+@ lcsGammaRed
+@ lcsGammaGreen
+@ lcsGammaBlue
+@ lcsFilename
+T PEMRCREATEBRUSHINDIRECT 1 8046 8046
+@ emr
+@ ihBrush
+@ lb
+T LPLOGBRUSH 1 8041 8041
+@ lbStyle
+@ lbColor
+@ lbHatch
+T PEMRBITBLT 1 8036 8036
+@ emr
+@ rclBounds
+@ xDest
+@ yDest
+@ cxDest
+@ cyDest
+@ dwRop
+@ xSrc
+@ ySrc
+@ xformSrc
+@ crBkColorSrc
+@ iUsageSrc
+@ offBmiSrc
+@ offBitsSrc
+@ cbBitsSrc
+T LPXFORM 1 8019 8019
+@ eM11
+@ eM12
+@ eM21
+@ eM22
+@ eDx
+@ eDy
+T PEMRPIE 1 8011 8011
+@ emr
+@ rclBox
+@ ptlStart
+@ ptlEnd
+T PEMRANGLEARC 1 8002 8002
+@ emr
+@ ptlCenter
+@ nRadius
+@ eStartAngle
+@ eSweepAngle
+T PEMR 1 7995 7995
+@ iType
+@ nSize
+T LPDRAWTEXTPARAMS 1 7968 7968
+t 37 1 7962 7968
+@ cbSize
+@ iTabLength
+@ iLeftMargin
+@ iRightMargin
+@ uiLengthDrawn
+T PDRAWITEMSTRUCT 1 7961 7961
+@ CtlType
+@ CtlID
+@ itemID
+@ itemAction
+@ itemState
+@ hwndItem
+@ hDC
+@ rcItem
+@ itemData
+T LPDRAGLISTINFO 1 7950 7950
+t 36 1 7946 7950
+@ uNotification
+@ hWnd
+@ ptCursor
+T DOCINFO 1 7939 7945
+t 35 1 7939 7945
+@ cbSize
+@ lpszDocName
+@ lpszOutput
+@ lpszDatatype
+@ fwType
+T LPCDLGTEMPLATE 1 7926 7926
+T LPDLGTEMPLATE 1 7925 7925
+t 34 1 7917 7925
+@ style
+@ dwExtendedStyle
+@ cdit
+@ x
+@ y
+@ cx
+@ cy
+T LPDLGITEMTEMPLATE 1 7916 7916
+t 33 1 7908 7916
+@ style
+@ dwExtendedStyle
+@ x
+@ y
+@ cx
+@ cy
+@ id
+T LPDEVNAMES 1 7900 7900
+@ wDriverOffset
+@ wDeviceOffset
+@ wOutputOffset
+@ wDefault
+T LPCURRENCYFMT 1 7893 7893
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+@ PositiveOrder
+@ lpCurrencySymbol
+T LPDEVMODE 1 7891 7891
+@ dmDeviceName
+@ dmSpecVersion
+@ dmDriverVersion
+@ dmSize
+@ dmDriverExtra
+@ dmFields
+@ dmOrientation
+@ dmPaperSize
+@ dmPaperLength
+@ dmPaperWidth
+@ dmPosition
+@ dmScale
+@ dmCopies
+@ dmDefaultSource
+@ dmPrintQuality
+@ dmColor
+@ dmDuplex
+@ dmYResolution
+@ dmTTOption
+@ dmCollate
+@ dmFormName
+@ dmLogPixels
+@ dmBitsPerPel
+@ dmPelsWidth
+@ dmPelsHeight
+@ dmDisplayFlags
+@ dmDisplayFrequency
+@ dmICMMethod
+@ dmICMIntent
+@ dmMediaType
+@ dmDitherType
+@ dmReserved1
+@ dmReserved2
+@ dmPanningWidth
+@ dmPanningHeight
+T LPDEVMODEW 1 7879 7879
+@ dmDeviceName
+@ dmSpecVersion
+@ dmDriverVersion
+@ dmSize
+@ dmDriverExtra
+@ dmFields
+@ dmOrientation
+@ dmPaperSize
+@ dmPaperLength
+@ dmPaperWidth
+@ dmPosition
+@ dmScale
+@ dmCopies
+@ dmDefaultSource
+@ dmPrintQuality
+@ dmColor
+@ dmDuplex
+@ dmYResolution
+@ dmTTOption
+@ dmCollate
+@ dmFormName
+@ dmLogPixels
+@ dmBitsPerPel
+@ dmPelsWidth
+@ dmPelsHeight
+@ dmDisplayFlags
+@ dmDisplayFrequency
+@ dmICMMethod
+@ dmICMIntent
+@ dmMediaType
+@ dmDitherType
+@ dmReserved1
+@ dmReserved2
+@ dmPanningWidth
+@ dmPanningHeight
+T PDEV_BROADCAST_VOLUME 1 7797 7797
+@ dbcv_size
+@ dbcv_devicetype
+@ dbcv_reserved
+@ dbcv_unitmask
+@ dbcv_flags
+T PDEV_BROADCAST_PORT 1 7784 7784
+@ dbcp_size
+@ dbcp_devicetype
+@ dbcp_reserved
+@ dbcp_name
+T PDEV_BROADCAST_OEM 1 7777 7777
+@ dbco_size
+@ dbco_devicetype
+@ dbco_reserved
+@ dbco_identifier
+@ dbco_suppfunc
+T PDEV_BROADCAST_HDR 1 7769 7769
+@ dbch_size
+@ dbch_devicetype
+@ dbch_reserved
+T PDELETEITEMSTRUCT 1 7763 7763
+@ CtlType
+@ CtlID
+@ itemID
+@ hwndItem
+@ itemData
+T LPTOP_LEVEL_EXCEPTION_FILTER 1 7756 7756
+T LPEXCEPTION_POINTERS 1 7754 7754
+@ ExceptionRecord
+@ ContextRecord
+T LPDEBUG_EVENT 1 7743 7743
+@ dwDebugEventCode
+@ dwProcessId
+@ dwThreadId
+@ u
+T LPEXCEPTION_RECORD 1 7697 7697
+@ ExceptionCode
+@ ExceptionFlags
+@ ExceptionRecord
+@ ExceptionAddress
+@ NumberParameters
+@ ExceptionInformation
+T DDEUP 1 7685 7689
+t 23 1 7685 7689
+@ unused
+@ fAck
+@ fRelease
+@ fReserved
+@ fAckReq
+@ cfFormat
+@ rgb
+T DDEPOKE 1 7680 7684
+t 22 1 7680 7684
+@ unused
+@ fRelease
+@ fReserved
+@ cfFormat
+@ Value
+T DDELN 1 7670 7673
+t 21 1 7670 7673
+@ unused
+@ fRelease
+@ fDeferUpd
+@ fAckReq
+@ cfFormat
+T DDEDATA 1 7665 7669
+t 20 1 7665 7669
+@ unused
+@ fResponse
+@ fRelease
+@ reserved
+@ fAckReq
+@ cfFormat
+@ Value
+T DDEADVISE 1 7661 7664
+t 19 1 7661 7664
+@ reserved
+@ fDeferUpd
+@ fAckReq
+@ cfFormat
+T DDEACK 1 7658 7660
+t 18 1 7658 7660
+@ bAppReturnCode
+@ reserved
+@ fBusy
+@ fAck
+T PWCWPSTRUCT 1 7654 7654
+@ lParam
+@ wParam
+@ message
+@ hwnd
+T LPCURSORSHAPE 1 7641 7641
+@ xHotSpot
+@ yHotSpot
+@ cx
+@ cy
+@ cbWidth
+@ Planes
+@ BitsPixel
+T LPCURRENCYFMTW 1 7632 7632
+@ NumDigits
+@ LeadingZero
+@ Grouping
+@ lpDecimalSep
+@ lpThousandSep
+@ NegativeOrder
+@ PositiveOrder
+@ lpCurrencySymbol
+T LPCREATE_THREAD_DEBUG_INFO 1 7612 7612
+@ hThread
+@ lpThreadLocalBase
+@ lpStartAddress
+T LPCREATE_PROCESS_DEBUG_INFO 1 7607 7607
+@ hFile
+@ hProcess
+@ hThread
+@ lpBaseOfImage
+@ dwDebugInfoFileOffset
+@ nDebugInfoSize
+@ lpThreadLocalBase
+@ lpStartAddress
+@ lpImageName
+@ fUnicode
+T LPCPINFO 1 7595 7595
+@ MaxCharSize
+@ DefaultChar
+@ LeadByte
+T LPMDINEXTMENU 1 7590 7590
+@ hmenuIn
+@ hmenuNext
+@ hwndNext
+T PCOPYDATASTRUCT 1 7585 7585
+@ dwData
+@ cbData
+@ lpData
+T LPCRITICAL_SECTION 1 7547 7547
+@ DebugInfo
+@ LockCount
+@ RecursionCount
+@ OwningThread
+@ LockSemaphore
+@ Reserved
+T PCRITICAL_SECTION_DEBUG 1 7539 7539
+@ Type
+@ CreatorBackTraceIndex
+@ CriticalSection
+@ ProcessLocksList
+@ EntryCount
+@ ContentionCount
+@ Depth
+@ OwnerBackTrace
+T PLIST_ENTRY 1 7529 7529
+@ Flink
+@ Blink
+T PPOWER_DEVICE_TIMEOUTS 1 7525 7525
+@ ConservationIdleTime
+@ PerformanceIdleTime
+T LPCONTEXT 1 7521 7521
+@ ContextFlags
+@ Dr0
+@ Dr1
+@ Dr2
+@ Dr3
+@ Dr6
+@ Dr7
+@ FloatSave
+@ SegGs
+@ SegFs
+@ SegEs
+@ SegDs
+@ Edi
+@ Esi
+@ Ebx
+@ Edx
+@ Ecx
+@ Eax
+@ Ebp
+@ Eip
+@ SegCs
+@ EFlags
+@ Esp
+@ SegSs
+@ ExtendedRegisters
+T PCONSOLE_SCREEN_BUFFER_INFO 1 7482 7482
+@ dwSize
+@ dwCursorPosition
+@ wAttributes
+@ srWindow
+@ dwMaximumWindowSize
+T PSMALL_RECT 1 7475 7475
+@ Left
+@ Top
+@ Right
+@ Bottom
+T PCONSOLE_CURSOR_INFO 1 7465 7465
+@ dwSize
+@ bVisible
+T LPCOMSTAT 1 7461 7461
+@ fCtsHold
+@ fDsrHold
+@ fRlsdHold
+@ fXoffHold
+@ fXoffSent
+@ fEof
+@ fTxim
+@ fReserved
+@ cbInQue
+@ cbOutQue
+T COMPCOLOR 1 7445 7449
+t 17 1 7445 7449
+@ crText
+@ crBackground
+@ dwEffects
+T LPCOMMTIMEOUTS 1 7435 7435
+@ ReadIntervalTimeout
+@ ReadTotalTimeoutMultiplier
+@ ReadTotalTimeoutConstant
+@ WriteTotalTimeoutMultiplier
+@ WriteTotalTimeoutConstant
+T LPCOMMPROP 1 7428 7428
+@ wPacketLength
+@ wPacketVersion
+@ dwServiceMask
+@ dwReserved1
+@ dwMaxTxQueue
+@ dwMaxRxQueue
+@ dwMaxBaud
+@ dwProvSubType
+@ dwProvCapabilities
+@ dwSettableParams
+@ dwSettableBaud
+@ wSettableData
+@ wSettableStopParity
+@ dwCurrentTxQueue
+@ dwCurrentRxQueue
+@ dwProvSpec1
+@ dwProvSpec2
+@ wcProvChar
+T LPCOMMCONFIG 1 7408 7408
+@ dwSize
+@ wVersion
+@ wReserved
+@ dcb
+@ dwProviderSubType
+@ dwProviderOffset
+@ dwProviderSize
+@ wcProviderData
+T LPBLOB 1 7397 7397
+@ cbSize
+@ pBlobData
+T LPDCB 1 7393 7393
+@ DCBlength
+@ BaudRate
+@ fBinary
+@ fParity
+@ fOutxCtsFlow
+@ fOutxDsrFlow
+@ fDtrControl
+@ fDsrSensitivity
+@ fTXContinueOnXoff
+@ fOutX
+@ fInX
+@ fErrorChar
+@ fNull
+@ fRtsControl
+@ fAbortOnError
+@ fDummy2
+@ wReserved
+@ XonLim
+@ XoffLim
+@ ByteSize
+@ Parity
+@ StopBits
+@ XonChar
+@ XoffChar
+@ ErrorChar
+@ EofChar
+@ EvtChar
+@ wReserved1
+T LPCOLORMAP 1 7363 7363
+@ from
+@ to
+T LPCOLORADJUSTMENT 1 7359 7359
+@ caSize
+@ caFlags
+@ caIlluminantIndex
+@ caRedGamma
+@ caGreenGamma
+@ caBlueGamma
+@ caReferenceBlack
+@ caReferenceWhite
+@ caContrast
+@ caBrightness
+@ caColorfulness
+@ caRedGreenTint
+T LPIDA 1 7327 7327
+@ cidl
+@ aoffset
+T LPCHOOSEFONT 1 7324 7324
+t 16 1 7307 7324
+@ lStructSize
+@ hwndOwner
+@ hDC
+@ lpLogFont
+@ iPointSize
+@ Flags
+@ rgbColors
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+@ hInstance
+@ lpszStyle
+@ nFontType
+@ ___MISSING_ALIGNMENT__
+@ nSizeMin
+@ nSizeMax
+T LPLOGFONT 1 7305 7305
+@ lfHeight
+@ lfWidth
+@ lfEscapement
+@ lfOrientation
+@ lfWeight
+@ lfItalic
+@ lfUnderline
+@ lfStrikeOut
+@ lfCharSet
+@ lfOutPrecision
+@ lfClipPrecision
+@ lfQuality
+@ lfPitchAndFamily
+@ lfFaceName
+T LPLOGFONTW 1 7295 7295
+@ lfHeight
+@ lfWidth
+@ lfEscapement
+@ lfOrientation
+@ lfWeight
+@ lfItalic
+@ lfUnderline
+@ lfStrikeOut
+@ lfCharSet
+@ lfOutPrecision
+@ lfClipPrecision
+@ lfQuality
+@ lfPitchAndFamily
+@ lfFaceName
+T LPCHOOSECOLOR 1 7262 7262
+t 15 1 7252 7262
+@ lStructSize
+@ hwndOwner
+@ hInstance
+@ rgbResult
+@ lpCustColors
+@ Flags
+@ lCustData
+@ lpfnHook
+@ lpTemplateName
+T LPCHARSETINFO 1 7251 7251
+t 14 1 7247 7251
+@ ciCharset
+@ ciACP
+@ fs
+T LPFONTSIGNATURE 1 7246 7246
+@ fsUsb
+@ fsCsb
+T PCHAR_INFO 1 7239 7239
+@ Char
+@ Attributes
+T LPCREATESTRUCT 1 7227 7227
+@ lpCreateParams
+@ hInstance
+@ hMenu
+@ hwndParent
+@ cy
+@ cx
+@ y
+@ x
+@ style
+@ lpszName
+@ lpszClass
+@ dwExStyle
+T PPOINT 1 7200 7200
+@ x
+@ y
+T LPBY_HANDLE_FILE_INFORMATION 1 7192 7192
+@ dwFileAttributes
+@ ftCreationTime
+@ ftLastAccessTime
+@ ftLastWriteTime
+@ dwVolumeSerialNumber
+@ nFileSizeHigh
+@ nFileSizeLow
+@ nNumberOfLinks
+@ nFileIndexHigh
+@ nFileIndexLow
+T PFILETIME 1 7179 7179
+@ dwLowDateTime
+@ dwHighDateTime
+T LPBROWSEINFO 1 7175 7175
+@ hwndOwner
+@ pidlRoot
+@ pszDisplayName
+@ lpszTitle
+@ ulFlags
+@ lpfn
+@ lParam
+@ iImage
+T LPCITEMIDLIST 1 7165 7165
+T LPITEMIDLIST 1 7163 7163
+@ mkid
+T LPCSHITEMID 1 7160 7160
+T LPSHITEMID 1 7157 7157
+@ cb
+@ abID
+T PBITMAPV4HEADER 1 7155 7155
+t 12 1 7134 7155
+@ bV4Size
+@ bV4Width
+@ bV4Height
+@ bV4Planes
+@ bV4BitCount
+@ bV4V4Compression
+@ bV4SizeImage
+@ bV4XPelsPerMeter
+@ bV4YPelsPerMeter
+@ bV4ClrUsed
+@ bV4ClrImportant
+@ bV4RedMask
+@ bV4GreenMask
+@ bV4BlueMask
+@ bV4AlphaMask
+@ bV4CSType
+@ bV4Endpoints
+@ bV4GammaRed
+@ bV4GammaGreen
+@ bV4GammaBlue
+T LPCIEXYZTRIPLE 1 7133 7133
+@ ciexyzRed
+@ ciexyzGreen
+@ ciexyzBlue
+T LPCIEXYZ 1 7127 7127
+@ ciexyzX
+@ ciexyzY
+@ ciexyzZ
+T PBITMAPINFO 1 7120 7120
+@ bmiHeader
+@ bmiColors
+T LPRGBQUAD 1 7116 7116
+@ rgbBlue
+@ rgbGreen
+@ rgbRed
+@ rgbReserved
+T PBITMAPINFOHEADER 1 7110 7110
+@ biSize
+@ biWidth
+@ biHeight
+@ biPlanes
+@ biBitCount
+@ biCompression
+@ biSizeImage
+@ biXPelsPerMeter
+@ biYPelsPerMeter
+@ biClrUsed
+@ biClrImportant
+T PBITMAPFILEHEADER 1 7097 7097
+@ bfType
+@ bfSize
+@ bfReserved1
+@ bfReserved2
+@ bfOffBits
+T LPBITMAPCOREINFO 1 7090 7090
+@ bmciHeader
+@ bmciColors
+T LPBITMAPCOREHEADER 1 7079 7079
+@ bcSize
+@ bcWidth
+@ bcHeight
+@ bcPlanes
+@ bcBitCount
+T LPBITMAP 1 7070 7070
+@ bmType
+@ bmWidth
+@ bmHeight
+@ bmWidthBytes
+@ bmPlanes
+@ bmBitsPixel
+@ bmBits
+T LPCRECTL 1 7061 7061
+T LPRECTL 1 7060 7060
+@ left
+@ top
+@ right
+@ bottom
+T LPCRECT 1 7054 7054
+T PRECT 1 7053 7053
+@ left
+@ top
+@ right
+@ bottom
+T LPANIMATIONINFO 1 7046 7046
+@ cbSize
+@ iMinAnimate
+T PACL 1 6996 6996
+@ AclRevision
+@ Sbz1
+@ AclSize
+@ AceCount
+@ Sbz2
+T LPACCEL 1 6966 6966
+@ fVirt
+@ key
+@ cmd
+T LPABCFLOAT 1 6960 6960
+@ abcfA
+@ abcfB
+@ abcfC
+T LPABC 1 6955 6955
+@ abcA
+@ abcB
+@ abcC
+T LPPROGRESS_ROUTINE 1 6950 6950
+T PRAWINPUTDEVICELIST 1 6944 6944
+@ hDevice
+@ dwType
+T PCRAWINPUTDEVICE 1 6943 6943
+T LPRAWINPUTDEVICE 1 6942 6942
+@ usUsagePage
+@ usUsage
+@ dwFlags
+@ hwndTarget
+T LPRAWINPUT 1 6936 6936
+@ header
+@ data
+T LPRAWMOUSE 1 6928 6928
+@ usFlags
+@ ulButtons
+@ usButtonFlags
+@ usButtonData
+@ ulRawButtons
+@ lLastX
+@ lLastY
+@ ulExtraInformation
+T LPRAWINPUTHEADER 1 6914 6914
+@ dwType
+@ dwSize
+@ hDevice
+@ wParam
+T LPRAWKEYBOARD 1 6908 6908
+@ MakeCode
+@ Flags
+@ Reserved
+@ VKey
+@ Message
+@ ExtraInformation
+T LPRID_DEVICE_INFO 1 6900 6900
+@ cbSize
+@ dwType
+@ mouse
+@ keyboard
+@ hid
+T PRID_DEVICE_INFO_HID 1 6891 6891
+@ dwVendorId
+@ dwProductId
+@ dwVersionNumber
+@ usUsagePage
+@ usUsage
+T PRID_DEVICE_INFO_KEYBOARD 1 6884 6884
+@ dwType
+@ dwSubType
+@ dwKeyboardMode
+@ dwNumberOfFunctionKeys
+@ dwNumberOfIndicators
+@ dwNumberOfKeysTotal
+T PRID_DEVICE_INFO_MOUSE 1 6876 6876
+@ dwId
+@ dwNumberOfButtons
+@ dwSampleRate
+T LPRAWHID 1 6871 6871
+@ dwSizeHid
+@ dwCount
+@ bRawData
+T PWTSSESSION_NOTIFICATION 1 6869 6869
+@ cbSize
+@ dwSessionId
+T DESKTOPENUMPROCW 1 570 570
+T DESKTOPENUMPROCA 1 568 568
+T PFNPROCESSPOLICIES 1 564 564
+T PFNRECONCILEPROFILE 1 563 563
+T PFNGETPROFILEPATH 1 562 562
+T PHANDLER_ROUTINE 1 561 561
+T CALINFO_ENUMPROC 1 560 560
+T TIMEFMT_ENUMPROC 1 559 559
+T DATEFMT_ENUMPROC 1 558 558
+T CODEPAGE_ENUMPROC 1 557 557
+T LOCALE_ENUMPROC 1 556 556
+T PFNLVCOMPARE 1 555 555
+T EDITWORDBREAKPROCEX 1 554 554
+T ICMENUMPROC 1 553 553
+T LPPAGESETUPHOOK 1 552 552
+T LPPAGEPAINTHOOK 1 551 551
+T ABORTPROC 1 550 550
+T LINEDDAPROC 1 549 549
+T ENUMOBJECTSPROC 1 548 548
+T HOOKPROC 1 547 547
+T PROPENUMPROC 1 546 546
+T PROPENUMPROCEX 1 545 545
+T DRAWSTATEPROC 1 544 544
+T GRAYSTRINGPROC 1 543 543
+T TIMERPROC 1 542 542
+T SENDASYNCPROC 1 541 541
+T ENUMWINDOWSTATIONPROC 1 540 540
+T ENUMWINDOWSPROC 1 539 539
+T ENUMRESLANGPROC 1 538 538
+T ENUMRESNAMEPROC 1 537 537
+T ENUMRESTYPEPROC 1 536 536
+T WNDENUMPROC 1 535 535
+T PROC 1 534 534
+T FARPROC 1 533 533
+T WNDPROC 1 532 532
+T PFNTVCOMPARE 1 531 531
+T LPSERVICE_MAIN_FUNCTION 1 530 530
+T PFNPROPSHEETCALLBACK 1 529 529
+T DLGPROC 1 528 528
+T LPSETUPHOOKPROC 1 527 527
+T LPPRINTHOOKPROC 1 526 526
+T LPOFNHOOKPROC 1 525 525
+T LPFRHOOKPROC 1 524 524
+T LPTHREAD_START_ROUTINE 1 523 523
+T LPCFHOOKPROC 1 521 521
+T LPCCHOOKPROC 1 520 520
+T BFFCALLBACK 1 519 519
+T LATENCY_TIME 1 476 476
+t 1 1 0 476
+T TOKEN_TYPE 1 473 475
+t tagTOKEN_TYPE 1 0 473
+T TOKEN_INFORMATION_CLASS 1 468 472
+t _TOKEN_INFORMATION_CLASS 1 0 468
+T PSID_NAME_USE 1 467 467
+t _SID_NAME_USE 1 0 463
+T SECURITY_IMPERSONATION_LEVEL 1 459 462
+t _SECURITY_IMPERSONATION_LEVEL 1 0 459
+T ACL_INFORMATION_CLASS 1 456 458
+t _ACL_INFORMATION_CLASS 1 0 456
+T WPARAM 1 446 446
+T UCHAR 1 439 439
+T SHORT 1 438 438
+T PUINT 1 431 431
+T PUCHAR 1 430 430
+T PSZ 1 429 429
+T PSHORT 1 427 427
+T PINT 1 425 425
+T PHANDLE 1 424 424
+T PFLOAT 1 423 423
+T PCWSTR 1 421 421
+T PCSTR 1 419 419
+T LPCVOID 1 407 407
+T TCHAR 1 278 278
+T SCHAR 1 102 102
+T INT 1 86 86
+T DOUBLE 1 41 41
+T FLOAT 1 38 38
+T PDWORDLONG 1 37 37
+E VT_TYPEMASK 1 0 16628 VARENUM 
+E VT_ILLEGALMASKED 1 0 16628 VARENUM 
+E VT_ILLEGAL 1 0 16628 VARENUM 
+E VT_RESERVED 1 0 16627 VARENUM 
+E VT_BYREF 1 0 16627 VARENUM 
+E VT_ARRAY 1 0 16627 VARENUM 
+E VT_VECTOR 1 0 16627 VARENUM 
+E VT_BSTR_BLOB 1 0 16626 VARENUM 
+E VT_VERSIONED_STREAM 1 0 16626 VARENUM 
+E VT_CLSID 1 0 16626 VARENUM 
+E VT_CF 1 0 16626 VARENUM 
+E VT_BLOB_OBJECT 1 0 16626 VARENUM 
+E VT_STORED_OBJECT 1 0 16625 VARENUM 
+E VT_STREAMED_OBJECT 1 0 16625 VARENUM 
+E VT_STORAGE 1 0 16625 VARENUM 
+E VT_STREAM 1 0 16625 VARENUM 
+E VT_BLOB 1 0 16625 VARENUM 
+E VT_FILETIME 1 0 16624 VARENUM 
+E VT_RECORD 1 0 16624 VARENUM 
+E VT_LPWSTR 1 0 16624 VARENUM 
+E VT_LPSTR 1 0 16624 VARENUM 
+E VT_USERDEFINED 1 0 16624 VARENUM 
+E VT_CARRAY 1 0 16623 VARENUM 
+E VT_SAFEARRAY 1 0 16623 VARENUM 
+E VT_PTR 1 0 16623 VARENUM 
+E VT_HRESULT 1 0 16623 VARENUM 
+E VT_VOID 1 0 16623 VARENUM 
+E VT_UINT 1 0 16622 VARENUM 
+E VT_INT 1 0 16622 VARENUM 
+E VT_UI8 1 0 16622 VARENUM 
+E VT_I8 1 0 16622 VARENUM 
+E VT_UI4 1 0 16622 VARENUM 
+E VT_UI2 1 0 16622 VARENUM 
+E VT_UI1 1 0 16621 VARENUM 
+E VT_I1 1 0 16621 VARENUM 
+E VT_DECIMAL 1 0 16621 VARENUM 
+E VT_UNKNOWN 1 0 16621 VARENUM 
+E VT_VARIANT 1 0 16621 VARENUM 
+E VT_BOOL 1 0 16620 VARENUM 
+E VT_ERROR 1 0 16620 VARENUM 
+E VT_DISPATCH 1 0 16620 VARENUM 
+E VT_BSTR 1 0 16620 VARENUM 
+E VT_DATE 1 0 16620 VARENUM 
+E VT_CY 1 0 16620 VARENUM 
+E VT_R8 1 0 16619 VARENUM 
+E VT_R4 1 0 16619 VARENUM 
+E VT_I4 1 0 16619 VARENUM 
+E VT_I2 1 0 16619 VARENUM 
+E VT_NULL 1 0 16619 VARENUM 
+E VT_EMPTY 1 0 16619 VARENUM 
+T WAITORTIMERCALLBACKFUNC 1 15452 15452 15452 * 
+T PLAYERPLANEDESCRIPTOR 1 15397 15397 15397 * _LAYERPLANEDESCRIPTOR 
+T LAYERPLANEDESCRIPTOR 1 15372 15397 15372 _LAYERPLANEDESCRIPTOR 
+T PGLYPHMETRICSFLOAT 1 15362 15362 15362 * _GLYPHMETRICSFLOAT 
+T GLYPHMETRICSFLOAT 1 15356 15362 15356 _GLYPHMETRICSFLOAT 
+T POINTFLOAT 1 15352 15355 15352 _POINTFLOAT 
+T INITCOMMONCONTROLSEX 1 14984 14984 14984 tagINITCOMMONCONTROLSEX 
+T PGRADIENT_RECT 1 12393 12393 12393 * _GRADIENT_RECT 
+T GRADIENT_RECT 1 12392 12393 12392 _GRADIENT_RECT 
+T PGRADIENT_TRIANGLE 1 12391 12391 12391 * _GRADIENT_TRIANGLE 
+T GRADIENT_TRIANGLE 1 12390 12391 12390 _GRADIENT_TRIANGLE 
+T PTRIVERTEX 1 12389 12389 12389 * _TRIVERTEX 
+T TRIVERTEX 1 12388 12389 12388 _TRIVERTEX 
+T WIN32_FILE_ATTRIBUTE_DATA 1 12378 12385 12378 _WIN32_FILE_ATTRIBUTE_DATA 
+T BLENDFUNCTION 1 12372 12377 12372 _BLENDFUNCTION 
+E GetFileExMaxInfoLevel 1 0 12371 _GET_FILEEX_INFO_LEVELS 
+E GetFileExInfoStandard 1 0 12371 _GET_FILEEX_INFO_LEVELS 
+T FLASHWINFO 1 12370 12370 12370 117 
+T LVCOLUMNW 1 12360 12369 12360 tagLVCOLUMNW 
+T LVCOLUMNA 1 12350 12359 12350 tagLVCOLUMNA 
+T PGUITHREADINFO 1 12344 12344 12344 * tagGUITHREADINFO 
+T GUITHREADINFO 1 12334 12344 12334 tagGUITHREADINFO 
+T PRINTDLG 1 12331 12331 12331 tagPDA 
+T HW_PROFILE_INFO 1 12329 12329 12329 tagHW_PROFILE_INFOA 
+T NMDAYSTATE 1 12322 12322 12322 tagNMDAYSTATE 
+T NMSELCHANGE 1 12321 12321 12321 tagNMSELCHANGE 
+T MCHITTESTINFO 1 12320 12320 12320 116 
+E FindExSearchMaxSearchOp 1 0 12319 _FINDEX_SEARCH_OPS 
+E FindExSearchLimitToDevices 1 0 12319 _FINDEX_SEARCH_OPS 
+E FindExSearchLimitToDirectories 1 0 12319 _FINDEX_SEARCH_OPS 
+E FindExSearchNameMatch 1 0 12319 _FINDEX_SEARCH_OPS 
+E FindExInfoMaxInfoLevel 1 0 12318 _FINDEX_INFO_LEVELS 
+E FindExInfoStandard 1 0 12318 _FINDEX_INFO_LEVELS 
+T PALTTABINFO 1 12315 12315 12315 * tagALTTABINFO 
+T ALTTABINFO 1 12305 12315 12305 tagALTTABINFO 
+T FILE_SEGMENT_ELEMENT 1 12301 12304 12301 _FILE_SEGMENT_ELEMENT 
+T FILE_NOTIFY_INFORMATION 1 12295 12300 12295 _FILE_NOTIFY_INFORMATION 
+T HW_PROFILE_INFOW 1 12290 12294 12290 tagHW_PROFILE_INFOW 
+T LPHW_PROFILE_INFOA 1 12289 12289 12289 * tagHW_PROFILE_INFOA 
+T HW_PROFILE_INFOA 1 12286 12289 12286 tagHW_PROFILE_INFOA 
+T PRINTDLGW 1 12265 12285 12265 tagPDW 
+T LPPRINTDLGA 1 12264 12264 12264 * tagPDA 
+T PRINTDLGA 1 12244 12264 12244 tagPDA 
+T NMHDDISPINFOA 1 12228 12236 12228 tagNMHDDISPINFOA 
+T NMHDDISPINFOW 1 12219 12227 12219 tagNMHDDISPINFOW 
+T COMBOBOXEXITEMW 1 12207 12217 12207 tagCOMBOBOXEXITEMW 
+T COMBOBOXEXITEMA 1 12195 12205 12195 tagCOMBOBOXEXITEMA 
+T LPNMCBEENDEDITA 1 12194 12194 12194 * 115 
+T NMCBEENDEDITA 1 12188 12194 12188 115 
+T LPNMCBEENDEDITW 1 12186 12186 12186 * 114 
+T NMCBEENDEDITW 1 12180 12186 12180 114 
+T LPNMCBEDRAGBEGINA 1 12179 12179 12179 * 113 
+T NMCBEDRAGBEGINA 1 12175 12179 12175 113 
+T LPNMCBEDRAGBEGINW 1 12174 12174 12174 * 112 
+T NMCBEDRAGBEGINW 1 12170 12174 12170 112 
+T PCURSORINFO 1 12169 12169 12169 * tagCURSORINFO 
+T CURSORINFO 1 12164 12169 12164 tagCURSORINFO 
+T PTITLEBARINFO 1 12163 12163 12163 * tagTITLEBARINFO 
+T TITLEBARINFO 1 12159 12163 12159 tagTITLEBARINFO 
+T PSCROLLBARINFO 1 12158 12158 12158 * tagSCROLLBARINFO 
+T SCROLLBARINFO 1 12150 12158 12150 tagSCROLLBARINFO 
+T PMENUBARINFO 1 12149 12149 12149 * tagMENUBARINFO 
+T MENUBARINFO 1 12142 12149 12142 tagMENUBARINFO 
+T PINPUT 1 12141 12141 12141 * tagINPUT 
+T INPUT 1 12134 12141 12134 tagINPUT 
+T PKEYBDINPUT 1 12133 12133 12133 * tagKEYBDINPUT 
+T KEYBDINPUT 1 12127 12133 12127 tagKEYBDINPUT 
+T PHARDWAREINPUT 1 12126 12126 12126 * tagHARDWAREINPUT 
+T HARDWAREINPUT 1 12122 12126 12122 tagHARDWAREINPUT 
+T PMOUSEINPUT 1 12121 12121 12121 * tagMOUSEINPUT 
+T MOUSEINPUT 1 12114 12121 12114 tagMOUSEINPUT 
+T PWINDOWINFO 1 12109 12109 12109 * tagWINDOWINFO 
+T WINDOWINFO 1 12098 12109 12098 tagWINDOWINFO 
+T PCOMBOBOXINFO 1 12097 12097 12097 * tagCOMBOBOXINFO 
+T COMBOBOXINFO 1 12089 12097 12089 tagCOMBOBOXINFO 
+T LVHITTESTINFO 1 12083 12088 12083 _LVHITTESTINFO 
+T NMITEMACTIVATE 1 12072 12082 12072 tagNMITEMACTIVATE 
+T NMLVODSTATECHANGE 1 12059 12065 12059 tagNMLVODSTATECHANGE 
+T NMLVFINDITEM 1 12051 12055 12051 tagNMLVFINDITEM 
+T LVFINDINFOW 1 12044 12050 12044 tagLVFINDINFOW 
+T LVFINDINFOA 1 12037 12043 12037 tagLVFINDINFOA 
+T COLORSCHEME 1 12029 12033 12029 tagCOLORSCHEME 
+T NMLVCACHEHINT 1 12024 12028 12024 tagNMLVCACHEHINT 
+T NMCLICK 1 12022 12022 12022 tagNMMOUSE 
+T LPNMMOUSE 1 12021 12021 12021 * tagNMMOUSE 
+T NMMOUSE 1 12015 12021 12015 tagNMMOUSE 
+T NMTOOLTIPSCREATED 1 12011 12014 12011 tagNMTOOLTIPS 
+T NMLVGETINFOTIPW 1 11999 12007 11999 tagNMLVGETINFOTIPW 
+T NMLVGETINFOTIPA 1 11990 11998 11990 tagNMLVGETINFOTIPA 
+T NMLVKEYDOWN 1 11984 11988 11984 tagLVKEYDOWN 
+T NMLVDISPINFOW 1 11978 11981 11978 tagLVDISPINFOW 
+T NMLVDISPINFOA 1 11974 11977 11974 tagLVDISPINFO 
+T LVITEMW 1 11962 11973 11962 tagLVITEMW 
+T LVITEMA 1 11950 11961 11950 tagLVITEMA 
+T REBARBANDINFOW 1 11927 11948 11927 tagREBARBANDINFOW 
+T REBARBANDINFOA 1 11905 11926 11905 tagREBARBANDINFOA 
+T REBARINFO 1 11900 11904 11900 tagREBARINFO 
+T TRACKMOUSEEVENT 1 11894 11899 11894 tagTRACKMOUSEEVENT 
+T PACKAGEDETAIL 1 11883 11893 11883 tagPACKAGEDETAIL 
+T INSTALLINFO 1 11864 11882 11864 tagINSTALLINFO 
+T PLATFORMINFO 1 11858 11863 11858 _PLATFORMINFO 
+T ACTIVATIONINFO 1 11847 11857 11847 _ACTIVATIONINFO 
+T CLASSDETAIL 1 11840 11846 11840 _CLASSDETAIL 
+T QUERYCONTEXT 1 11833 11839 11833 _QUERYCONTEXT 
+T CSPLATFORM 1 11827 11832 11827 _CSPLATFORM 
+T uCLSSPEC 1 11812 11826 11812 __MIDL___MIDL_itf_wtypes_0002_0001 
+E SetupNamePath 1 0 11810 _CLASSPATHTYPE 
+E DrwFilePath 1 0 11809 _CLASSPATHTYPE 
+E InfFilePath 1 0 11809 _CLASSPATHTYPE 
+E CabFilePath 1 0 11809 _CLASSPATHTYPE 
+E TlbNamePath 1 0 11808 _CLASSPATHTYPE 
+E DllNamePath 1 0 11808 _CLASSPATHTYPE 
+E ExeNamePath 1 0 11808 _CLASSPATHTYPE 
+T FMTID 1 11806 11806 11806 _GUID 
+T CLIPFORMAT 1 11803 11803 11803 unsigned short 
+T wireHMETAFILEPICT 1 11798 11798 11798 _userHMETAFILEPICT 
+T HYPER_SIZEDARR 1 11791 11794 11791 _HYPER_SIZEDARR 
+T DWORD_SIZEDARR 1 11787 11790 11787 _LONG_SIZEDARR 
+T WORD_SIZEDARR 1 11783 11786 11783 _SHORT_SIZEDARR 
+T BYTE_SIZEDARR 1 11779 11782 11779 _BYTE_SIZEDARR 
+T FLAGGED_WORD_BLOB 1 11774 11778 11774 _FLAGGED_WORD_BLOB 
+T CLIPDATA 1 11769 11773 11769 _CLIPDATA 
+T BSTRBLOB 1 11763 11766 11763 tagBSTRBLOB 
+T userHPALETTE 1 11753 11760 11753 _userHPALETTE 
+T userHGLOBAL 1 11745 11752 11745 _userHGLOBAL 
+T userHMETAFILEPICT 1 11737 11744 11737 _userHMETAFILEPICT 
+T userHENHMETAFILE 1 11729 11736 11729 _userHENHMETAFILE 
+T remoteMETAFILEPICT 1 11723 11728 11723 _remoteMETAFILEPICT 
+T userHMETAFILE 1 11715 11722 11715 _userHMETAFILE 
+T BYTE_BLOB 1 11711 11714 11711 _BYTE_BLOB 
+T FLAGGED_BYTE_BLOB 1 11706 11710 11706 _FLAGGED_BYTE_BLOB 
+T rpcLOGPALETTE 1 11701 11705 11701 tagrpcLOGPALETTE 
+T userHBITMAP 1 11693 11700 11693 _userHBITMAP 
+T userBITMAP 1 11683 11692 11683 _userBITMAP 
+T userCLIPFORMAT 1 11676 11682 11676 _userCLIPFORMAT 
+T OLECHAR 1 11675 11675 11675 unsigned short 
+T COAUTHINFO 1 11666 11674 11666 _COAUTHINFO 
+T COAUTHIDENTITY 1 11657 11665 11657 _COAUTHIDENTITY 
+T NMDATETIMEFORMATQUERYW 1 11652 11656 11652 tagNMDATETIMEFORMATQUERYW 
+T NMDATETIMEFORMATQUERYA 1 11647 11651 11647 tagNMDATETIMEFORMATQUERYA 
+T NMDATETIMEFORMATW 1 11640 11646 11640 tagNMDATETIMEFORMATW 
+T NMDATETIMEFORMATA 1 11633 11639 11633 tagNMDATETIMEFORMATA 
+T NMDATETIMEWMKEYDOWNW 1 11627 11632 11627 tagNMDATETIMEWMKEYDOWNW 
+T NMDATETIMEWMKEYDOWNA 1 11621 11626 11621 tagNMDATETIMEWMKEYDOWNA 
+T NMDATETIMESTRINGW 1 11615 11620 11615 tagNMDATETIMESTRINGW 
+T NMDATETIMESTRINGA 1 11609 11614 11609 tagNMDATETIMESTRINGA 
+T NMDATETIMECHANGE 1 11604 11608 11604 tagNMDATETIMECHANGE 
+T PFIBER_START_ROUTINE 1 11602 11602 11602 * 
+T WIN_SPUB_TRUSTED_PUBLISHER_DATA 1 11599 11601 11599 _WIN_SPUB_TRUSTED_PUBLISHER_DATA 
+T WIN_TRUST_SUBJECT_FILE 1 11592 11594 11592 _WIN_TRUST_SUBJECT_FILE 
+T WIN_TRUST_ACTDATA_SUBJECT_ONLY 1 11584 11587 11584 _WIN_TRUST_ACTDATA_SUBJECT_ONLY 
+T WIN_TRUST_ACTDATA_CONTEXT_WITH_SUBJECT 1 11579 11583 11579 _WIN_TRUST_ACTDATA_CONTEXT_WITH_SUBJECT 
+T WIN_CERTIFICATE 1 11568 11573 11568 _WIN_CERTIFICATE 
+T PPIXELFORMATDESCRIPTOR 1 11567 11567 11567 * tagPIXELFORMATDESCRIPTOR 
+T PIXELFORMATDESCRIPTOR 1 11540 11567 11540 tagPIXELFORMATDESCRIPTOR 
+T NT_TIB 1 11526 11534 11526 _NT_TIB 
+T IMAGE_SEPARATE_DEBUG_HEADER 1 11503 11517 11503 _IMAGE_SEPARATE_DEBUG_HEADER 
+T IMAGE_FUNCTION_ENTRY 1 11498 11502 11498 _IMAGE_FUNCTION_ENTRY 
+T IMAGE_DEBUG_MISC 1 11491 11497 11491 _IMAGE_DEBUG_MISC 
+T FPO_DATA 1 11478 11489 11478 _FPO_DATA 
+T IMAGE_COFF_SYMBOLS_HEADER 1 11464 11473 11464 _IMAGE_COFF_SYMBOLS_HEADER 
+T IMAGE_DEBUG_DIRECTORY 1 11454 11463 11454 _IMAGE_DEBUG_DIRECTORY 
+T IMAGE_RUNTIME_FUNCTION_ENTRY 1 11447 11453 11447 _IMAGE_RUNTIME_FUNCTION_ENTRY 
+T IMAGE_LOAD_CONFIG_DIRECTORY 1 11431 11446 11431 _IMAGE_LOAD_CONFIG_DIRECTORY 
+T IMAGE_RESOURCE_DATA_ENTRY 1 11425 11430 11425 _IMAGE_RESOURCE_DATA_ENTRY 
+T IMAGE_RESOURCE_DIR_STRING_U 1 11421 11424 11421 _IMAGE_RESOURCE_DIR_STRING_U 
+T IMAGE_RESOURCE_DIRECTORY_STRING 1 11417 11420 11417 _IMAGE_RESOURCE_DIRECTORY_STRING 
+T IMAGE_RESOURCE_DIRECTORY_ENTRY 1 11406 11416 11406 _IMAGE_RESOURCE_DIRECTORY_ENTRY 
+T IMAGE_RESOURCE_DIRECTORY 1 11398 11405 11398 _IMAGE_RESOURCE_DIRECTORY 
+T IMAGE_TLS_DIRECTORY 1 11390 11397 11390 _IMAGE_TLS_DIRECTORY 
+T IMAGE_BOUND_FORWARDER_REF 1 11384 11388 11384 _IMAGE_BOUND_FORWARDER_REF 
+T IMAGE_BOUND_IMPORT_DESCRIPTOR 1 11379 11383 11379 _IMAGE_BOUND_IMPORT_DESCRIPTOR 
+T IMAGE_IMPORT_DESCRIPTOR 1 11369 11378 11369 _IMAGE_IMPORT_DESCRIPTOR 
+T IMAGE_THUNK_DATA 1 11361 11368 11361 _IMAGE_THUNK_DATA 
+T IMAGE_IMPORT_BY_NAME 1 11357 11360 11357 _IMAGE_IMPORT_BY_NAME 
+T IMAGE_EXPORT_DIRECTORY 1 11344 11356 11344 _IMAGE_EXPORT_DIRECTORY 
+T IMAGE_ARCHIVE_MEMBER_HEADER 1 11335 11343 11335 _IMAGE_ARCHIVE_MEMBER_HEADER 
+T IMAGE_LINENUMBER 1 11327 11333 11327 _IMAGE_LINENUMBER 
+T IMAGE_BASE_RELOCATION 1 11323 11326 11323 _IMAGE_BASE_RELOCATION 
+T IMAGE_RELOCATION 1 11310 11321 11310 _IMAGE_RELOCATION 
+T IMAGE_AUX_SYMBOL 1 11279 11308 11279 _IMAGE_AUX_SYMBOL 
+T IMAGE_SYMBOL 1 11263 11277 11263 _IMAGE_SYMBOL 
+T IMAGE_SECTION_HEADER 1 11248 11262 11248 _IMAGE_SECTION_HEADER 
+T IMAGE_ROM_HEADERS 1 11244 11247 11244 _IMAGE_ROM_HEADERS 
+T IMAGE_NT_HEADERS 1 11238 11242 11238 _IMAGE_NT_HEADERS 
+T IMAGE_ROM_OPTIONAL_HEADER 1 11218 11232 11218 _IMAGE_ROM_OPTIONAL_HEADER 
+T IMAGE_OPTIONAL_HEADER 1 11185 11217 11185 _IMAGE_OPTIONAL_HEADER 
+T IMAGE_DATA_DIRECTORY 1 11181 11184 11181 _IMAGE_DATA_DIRECTORY 
+T IMAGE_FILE_HEADER 1 11172 11180 11172 _IMAGE_FILE_HEADER 
+T IMAGE_VXD_HEADER 1 11119 11171 11119 _IMAGE_VXD_HEADER 
+T IMAGE_OS2_HEADER 1 11087 11118 11087 _IMAGE_OS2_HEADER 
+T IMAGE_DOS_HEADER 1 11066 11086 11066 _IMAGE_DOS_HEADER 
+T HRAWINPUT 1 10845 10845 10845 * void 
+T MONTHDAYSTATE 1 10844 10844 10844 unsigned long 
+T TCITEMW 1 10817 10825 10817 tagTCITEMW 
+T TCITEMA 1 10808 10816 10808 tagTCITEMA 
+T TCITEMHEADERW 1 10800 10807 10800 tagTCITEMHEADERW 
+T TCITEMHEADERA 1 10792 10799 10792 tagTCITEMHEADERA 
+T UDACCEL 1 10788 10791 10788 _UDACCEL 
+T PBRANGE 1 10780 10783 10780 81 
+T NMPGCALCSIZE 1 10773 10778 10773 80 
+T NMPGSCROLL 1 10764 10772 10764 79 
+T TBREPLACEBITMAP 1 10755 10761 10755 78 
+T TBINSERTMARK 1 10751 10754 10751 77 
+T NMTBGETINFOTIPW 1 10744 10750 10744 tagNMTBGETINFOTIPW 
+T NMTBGETINFOTIPA 1 10737 10743 10737 tagNMTBGETINFOTIPA 
+T NMTBHOTITEM 1 10731 10736 10731 tagNMTBHOTITEM 
+T NMOBJECTNOTIFY 1 10723 10730 10723 tagNMOBJECTNOTIFY 
+T NMTBDISPINFOW 1 10714 10722 10714 76 
+T NMTBDISPINFOA 1 10705 10713 10705 75 
+T NMTBCUSTOMDRAW 1 10690 10704 10690 _NMTBCUSTOMDRAW 
+T NMLVCUSTOMDRAW 1 10684 10689 10684 tagNMLVCUSTOMDRAW 
+T NMCUSTOMDRAW 1 10675 10683 10675 tagNMCUSTOMDRAWINFO 
+T NMCHAR 1 10669 10674 10669 tagNMCHAR 
+T NMKEY 1 10664 10668 10664 tagNMKEY 
+T TBBUTTONINFOW 1 10652 10663 10652 74 
+T TBBUTTONINFOA 1 10640 10651 10640 73 
+T LVBKIMAGEW 1 10632 10639 10632 tagLVBKIMAGEW 
+T LVBKIMAGEA 1 10624 10631 10624 tagLVBKIMAGEA 
+T HCONTEXT 1 10623 10623 10623 * void 
+E STATFLAG_NOOPEN 1 0 10622 tagSTATFLAG 
+E STATFLAG_NONAME 1 0 10622 tagSTATFLAG 
+E STATFLAG_DEFAULT 1 0 10622 tagSTATFLAG 
+E STGMOVE_SHALLOWCOPY 1 0 10621 tagSTGMOVE 
+E STGMOVE_COPY 1 0 10621 tagSTGMOVE 
+E STGMOVE_MOVE 1 0 10621 tagSTGMOVE 
+E STGC_CONSOLIDATE 1 0 10620 tagSTGC 
+E STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE 1 0 10620 tagSTGC 
+E STGC_ONLYIFCURRENT 1 0 10620 tagSTGC 
+E STGC_OVERWRITE 1 0 10619 tagSTGC 
+E STGC_DEFAULT 1 0 10619 tagSTGC 
+E DVASPECT_DOCPRINT 1 0 10618 _DVASPECT 
+E DVASPECT_ICON 1 0 10618 _DVASPECT 
+E DVASPECT_THUMBNAIL 1 0 10617 _DVASPECT 
+E DVASPECT_CONTENT 1 0 10617 _DVASPECT 
+E MSHCTX_CROSSCTX 1 0 10616 tagMSHCTX 
+E MSHCTX_INPROC 1 0 10616 tagMSHCTX 
+E MSHCTX_DIFFERENTMACHINE 1 0 10616 tagMSHCTX 
+E MSHCTX_NOSHAREDMEM 1 0 10615 tagMSHCTX 
+E MSHCTX_LOCAL 1 0 10615 tagMSHCTX 
+E MSHLFLAGS_NOPING 1 0 10614 tagMSHLFLAGS 
+E MSHLFLAGS_TABLEWEAK 1 0 10614 tagMSHLFLAGS 
+E MSHLFLAGS_TABLESTRONG 1 0 10613 tagMSHLFLAGS 
+E MSHLFLAGS_NORMAL 1 0 10613 tagMSHLFLAGS 
+E CLSCTX_REMOTE_SERVER 1 0 10612 tagCLSCTX 
+E CLSCTX_INPROC_SERVER16 1 0 10612 tagCLSCTX 
+E CLSCTX_LOCAL_SERVER 1 0 10612 tagCLSCTX 
+E CLSCTX_INPROC_HANDLER 1 0 10611 tagCLSCTX 
+E CLSCTX_INPROC_SERVER 1 0 10611 tagCLSCTX 
+E MEMCTX_SAME 1 0 10610 tagMEMCTX 
+E MEMCTX_UNKNOWN 1 0 10610 tagMEMCTX 
+E MEMCTX_MACSYSTEM 1 0 10610 tagMEMCTX 
+E MEMCTX_SHARED 1 0 10610 tagMEMCTX 
+E MEMCTX_TASK 1 0 10610 tagMEMCTX 
+T MESSAGE_RESOURCE_DATA 1 10606 10609 10606 _MESSAGE_RESOURCE_DATA 
+T MESSAGE_RESOURCE_BLOCK 1 10601 10605 10601 _MESSAGE_RESOURCE_BLOCK 
+T MESSAGE_RESOURCE_ENTRY 1 10595 10599 10595 _MESSAGE_RESOURCE_ENTRY 
+T NETCONNECTINFOSTRUCT 1 10588 10594 10588 _NETCONNECTINFOSTRUCT 
+T NETINFOSTRUCT 1 10578 10587 10578 _NETINFOSTRUCT 
+T DISCDLGSTRUCT 1 10571 10577 10571 _DISCDLGSTRUCT 
+T CONNECTDLGSTRUCT 1 10564 10570 10564 _CONNECTDLGSTRUCT 
+T TVITEMEX 1 10562 10562 10562 tagTVITEMEXA 
+T NPWNDCLASS 1 10560 10560 10560 * tagWNDCLASSA 
+T PWNDCLASS 1 10559 10559 10559 * tagWNDCLASSA 
+T WNDCLASS 1 10558 10558 10558 tagWNDCLASSA 
+T NPWNDCLASSW 1 10550 10550 10550 * tagWNDCLASSW 
+T PWNDCLASSW 1 10550 10550 10550 * tagWNDCLASSW 
+T WNDCLASSW 1 10539 10550 10539 tagWNDCLASSW 
+T LPWNDCLASSA 1 10538 10538 10538 * tagWNDCLASSA 
+T NPWNDCLASSA 1 10538 10538 10538 * tagWNDCLASSA 
+T PWNDCLASSA 1 10538 10538 10538 * tagWNDCLASSA 
+T WNDCLASSA 1 10527 10538 10527 tagWNDCLASSA 
+T NPWNDCLASSEX 1 10524 10524 10524 * tagWNDCLASSEXA 
+T PWNDCLASSEX 1 10523 10523 10523 * tagWNDCLASSEXA 
+T WNDCLASSEX 1 10522 10522 10522 tagWNDCLASSEXA 
+T NPWNDCLASSEXW 1 10515 10515 10515 * tagWNDCLASSEXW 
+T PWNDCLASSEXW 1 10515 10515 10515 * tagWNDCLASSEXW 
+T WNDCLASSEXW 1 10502 10515 10502 tagWNDCLASSEXW 
+T LPWNDCLASSEXA 1 10501 10501 10501 * tagWNDCLASSEXA 
+T NPWNDCLASSEXA 1 10501 10501 10501 * tagWNDCLASSEXA 
+T PWNDCLASSEXA 1 10501 10501 10501 * tagWNDCLASSEXA 
+T WNDCLASSEXA 1 10488 10501 10488 tagWNDCLASSEXA 
+T LPWINDOWPLACEMENT 1 10487 10487 10487 * _WINDOWPLACEMENT 
+T WINDOWPLACEMENT 1 10480 10487 10480 _WINDOWPLACEMENT 
+T WIN32_STREAM_ID 1 10473 10479 10473 _WIN32_STREAM_ID 
+T LPWIN32_FIND_DATAW 1 10472 10472 10472 * _WIN32_FIND_DATAW 
+T WIN32_FIND_DATAW 1 10460 10472 10460 _WIN32_FIND_DATAW 
+T LPWIN32_FIND_DATAA 1 10459 10459 10459 * _WIN32_FIND_DATAA 
+T WIN32_FIND_DATAA 1 10447 10459 10447 _WIN32_FIND_DATAA 
+T VALENT 1 10436 10436 10436 value_entA 
+T PVALUE 1 10434 10434 10434 pvalueA 
+T PVALUEW 1 10419 10419 10419 pvalueW 
+T PPVALUEA 1 10418 10418 10418 * pvalueA 
+T PVALUEA 1 10418 10418 10418 pvalueA 
+T VALENTW 1 10412 10417 10412 value_entW 
+T PVALENTA 1 10411 10411 10411 * value_entA 
+T VALENTA 1 10406 10411 10406 value_entA 
+T USEROBJECTFLAGS 1 10401 10405 10401 tagUSEROBJECTFLAGS 
+T UNIVERSAL_NAME_INFO 1 10398 10400 10398 _UNIVERSAL_NAME_INFO 
+T ULARGE_INTEGER 1 10394 10397 10394 _ULARGE_INTEGER 
+T TV_SORTCB 1 10389 10393 10389 _TV_SORTCB 
+T TV_KEYDOWN 1 10384 10388 10384 _TV_KEYDOWN 
+T TV_INSERTSTRUCT 1 10379 10383 10379 _TV_INSERTSTRUCT 
+T TV_HITTESTINFO 1 10374 10378 10374 _TVHITTESTINFO 
+T TV_DISPINFO 1 10370 10373 10370 _TV_DISPINFO 
+T TTPOLYGONHEADER 1 10365 10369 10365 _TTPOLYGONHEADER 
+T TTPOLYCURVE 1 10360 10364 10360 tagTTPOLYCURVE 
+T TTHITTESTINFO 1 10355 10359 10355 _TT_HITTESTINFO 
+T TPMPARAMS 1 10351 10354 10351 tagTPMPARAMS 
+T TOOLTIPTEXT 1 10344 10350 10344 70 
+T PTOOLINFO 1 10343 10343 10343 * 69 
+T TOOLINFO 1 10335 10343 10335 69 
+T TOKEN_USER 1 10332 10334 10332 _TOKEN_USER 
+T TOKEN_STATISTICS 1 10320 10331 10320 _TOKEN_STATISTICS 
+T PTOKEN_PRIVILEGES 1 10319 10319 10319 * _TOKEN_PRIVILEGES 
+T TOKEN_PRIVILEGES 1 10316 10319 10316 _TOKEN_PRIVILEGES 
+T TOKEN_PRIMARY_GROUP 1 10313 10315 10313 _TOKEN_PRIMARY_GROUP 
+T TOKEN_OWNER 1 10310 10312 10310 _TOKEN_OWNER 
+T PTOKEN_GROUPS 1 10309 10309 10309 * _TOKEN_GROUPS 
+T TOKEN_GROUPS 1 10306 10309 10306 _TOKEN_GROUPS 
+T TOKEN_DEFAULT_DACL 1 10303 10305 10303 _TOKEN_DEFAULT_DACL 
+T TOKEN_CONTROL 1 10297 10302 10297 _TOKEN_CONTROL 
+T TOKEN_SOURCE 1 10293 10296 10293 _TOKEN_SOURCE 
+T TOGGLEKEYS 1 10289 10292 10289 tagTOGGLEKEYS 
+T TIME_ZONE_INFORMATION 1 10280 10288 10280 _TIME_ZONE_INFORMATION 
+T TEXTRANGE 1 10278 10278 10278 _textrange 
+T NMTCKEYDOWN 1 10271 10275 10271 _TC_KEYDOWN 
+T TC_ITEMHEADER 1 10263 10270 10263 _TC_ITEMHEADER 
+T TC_ITEM 1 10254 10262 10254 _TC_ITEM 
+T TCHITTESTINFO 1 10250 10253 10250 _TC_HITTESTINFO 
+T TBSAVEPARAMSW 1 10238 10242 10238 tagTBSAVEPARAMSW 
+T TBSAVEPARAMSA 1 10233 10237 10233 tagTBSAVEPARAMSA 
+T NMTOOLBARW 1 10225 10232 10225 tagNMTOOLBARW 
+T NMTOOLBARA 1 10217 10224 10217 tagNMTOOLBARA 
+T PTBBUTTON 1 10215 10215 10215 * _TBBUTTON 
+T TBBUTTON 1 10207 10215 10207 _TBBUTTON 
+T TBADDBITMAP 1 10203 10206 10203 68 
+T TAPE_WRITE_MARKS 1 10199 10202 10199 _TAPE_WRITE_MARKS 
+T TAPE_SET_POSITION 1 10193 10198 10193 _TAPE_SET_POSITION 
+T TAPE_SET_MEDIA_PARAMETERS 1 10190 10192 10190 _TAPE_SET_MEDIA_PARAMETERS 
+T TAPE_SET_DRIVE_PARAMETERS 1 10183 10189 10183 _TAPE_SET_DRIVE_PARAMETERS 
+T TAPE_PREPARE 1 10180 10182 10180 _TAPE_PREPARE 
+T TAPE_GET_POSITION 1 10174 10179 10174 _TAPE_GET_POSITION 
+T TAPE_GET_MEDIA_PARAMETERS 1 10167 10173 10167 _TAPE_GET_MEDIA_PARAMETERS 
+T TAPE_GET_DRIVE_PARAMETERS 1 10154 10166 10154 _TAPE_GET_DRIVE_PARAMETERS 
+T TAPE_ERASE 1 10151 10153 10151 _TAPE_ERASE 
+T SYSTEM_POWER_STATUS 1 10142 10149 10142 _SYSTEM_POWER_STATUS 
+T SYSTEM_INFO 1 10129 10141 10129 _SYSTEM_INFO 
+T SYSTEM_AUDIT_ACE 1 10124 10128 10124 _SYSTEM_AUDIT_ACE 
+T STYLESTRUCT 1 10120 10123 10120 tagSTYLESTRUCT 
+T STRRET 1 10115 10116 10115 _STRRET 
+T STICKYKEYS 1 10109 10112 10109 tagSTICKYKEYS 
+T STARTUPINFO 1 10106 10106 10106 _STARTUPINFOA 
+T STARTUPINFOW 1 10082 10101 10082 _STARTUPINFOW 
+T LPSTARTUPINFOA 1 10081 10081 10081 * _STARTUPINFOA 
+T STARTUPINFOA 1 10062 10081 10062 _STARTUPINFOA 
+T SOUNDSENTRY 1 10048 10061 10048 tagSOUNDSENTRY 
+T SINGLE_LIST_ENTRY 1 10045 10047 10045 _SINGLE_LIST_ENTRY 
+T SID_AND_ATTRIBUTES 1 10039 10042 10039 _SID_AND_ATTRIBUTES 
+E SHGDN_FORPARSING 1 0 10036 tagSHGDN 
+E SHGDN_FORADDRESSBAR 1 0 10036 tagSHGDN 
+E SHGDN_FOREDITING 1 0 10035 tagSHGDN 
+E SHGDN_INFOLDER 1 0 10035 tagSHGDN 
+E SHGDN_NORMAL 1 0 10035 tagSHGDN 
+T FILEOP_FLAGS 1 10031 10031 10031 unsigned short 
+T SHCONTF 1 10027 10027 10027 unsigned long 
+E SHCONTF_STORAGE 1 0 10026 tagSHCONTF 
+E SHCONTF_SHAREABLE 1 0 10025 tagSHCONTF 
+E SHCONTF_NETPRINTERSRCH 1 0 10025 tagSHCONTF 
+E SHCONTF_INIT_ON_FIRST_NEXT 1 0 10025 tagSHCONTF 
+E SHCONTF_INCLUDEHIDDEN 1 0 10024 tagSHCONTF 
+E SHCONTF_NONFOLDERS 1 0 10024 tagSHCONTF 
+E SHCONTF_FOLDERS 1 0 10024 tagSHCONTF 
+T SESSION_HEADER 1 10017 10022 10017 _SESSION_HEADER 
+T SESSION_BUFFER 1 10009 10016 10009 _SESSION_BUFFER 
+T SERIALKEYS 1 10001 10008 10001 tagSERIALKEYS 
+T PSECURITY_INFORMATION 1 10000 10000 10000 * unsigned long 
+T SECURITY_INFORMATION 1 10000 10000 10000 unsigned long 
+T SECURITY_ATTRIBUTES 1 9995 9999 9995 _SECURITY_ATTRIBUTES 
+T SCROLLINFO 1 9985 9993 9985 tagSCROLLINFO 
+T RGNDATA 1 9981 9984 9981 _RGNDATA 
+T RGNDATAHEADER 1 9974 9980 9974 _RGNDATAHEADER 
+T REMOTE_NAME_INFO 1 9969 9973 9969 _REMOTE_NAME_INFO 
+T RASTERIZER_STATUS 1 9964 9968 9964 _RASTERIZER_STATUS 
+T RASAMB 1 9958 9963 9958 _RASAMB 
+T PUNCTUATION 1 9954 9957 9954 _punctuation 
+T PSHNOTIFY 1 9950 9953 9950 _PSHNOTIFY 
+T PROVIDOR_INFO_1 1 9945 9949 9945 _PROVIDOR_INFO_1 
+T PROTOCOL_INFO 1 9935 9944 9935 _PROTOCOL_INFO 
+T PROPSHEETHEADER 1 9910 9930 9910 _PROPSHEETHEADER 
+T PROPSHEETPAGE 1 9890 9907 9890 _PROPSHEETPAGE 
+T LPPROCESS_INFORMATION 1 9887 9887 9887 * _PROCESS_INFORMATION 
+T PROCESS_INFORMATION 1 9882 9887 9882 _PROCESS_INFORMATION 
+T PROCESS_HEAP_ENTRY 1 9870 9881 9870 _PROCESS_HEAP_ENTRY 
+T PPRIVILEGE_SET 1 9869 9869 9869 * _PRIVILEGE_SET 
+T PRIVILEGE_SET 1 9865 9869 9865 _PRIVILEGE_SET 
+T PRINTPROCESSOR_INFO_1 1 9862 9864 9862 _PRINTPROCESSOR_INFO_1 
+T PRINTER_DEFAULTS 1 9857 9861 9857 _PRINTER_DEFAULTS 
+T PORT_INFO_2 1 9850 9856 9850 _PORT_INFO_2 
+T PORT_INFO_1 1 9847 9849 9847 _PORT_INFO_1 
+T POLYTEXT 1 9838 9846 9838 _POLYTEXT 
+T PARAFORMAT 1 9826 9837 9826 _paraformat 
+T PAINTSTRUCT 1 9818 9825 9818 tagPAINTSTRUCT 
+T PAGESETUPDLG 1 9802 9817 9802 tagPSD 
+T OVERLAPPED 1 9795 9801 9795 _OVERLAPPED 
+T OUTLINETEXTMETRIC 1 9761 9794 9761 _OUTLINETEXTMETRIC 
+T NPTEXTMETRICW 1 9760 9760 9760 * tagTEXTMETRICW 
+T PTEXTMETRICW 1 9760 9760 9760 * tagTEXTMETRICW 
+T TEXTMETRICW 1 9739 9760 9739 tagTEXTMETRICW 
+T LPTEXTMETRIC 1 9736 9736 9736 * tagTEXTMETRIC 
+T TEXTMETRIC 1 9711 9736 9711 tagTEXTMETRIC 
+T POSVERSIONINFO 1 9708 9708 9708 * _OSVERSIONINFOA 
+T OSVERSIONINFO 1 9707 9707 9707 _OSVERSIONINFOA 
+T RTL_OSVERSIONINFOW 1 9701 9701 9701 _OSVERSIONINFOW 
+T LPOSVERSIONINFOW 1 9701 9701 9701 * _OSVERSIONINFOW 
+T POSVERSIONINFOW 1 9701 9701 9701 * _OSVERSIONINFOW 
+T OSVERSIONINFOW 1 9694 9701 9694 _OSVERSIONINFOW 
+T LPOSVERSIONINFOA 1 9692 9692 9692 * _OSVERSIONINFOA 
+T POSVERSIONINFOA 1 9692 9692 9692 * _OSVERSIONINFOA 
+T OSVERSIONINFOA 1 9685 9692 9685 _OSVERSIONINFOA 
+T OFNOTIFY 1 9680 9684 9680 _OFNOTIFY 
+T TVITEMEX 1 9674 9674 9674 tagTVITEMEXA 
+T OPENFILENAMEW 1 9641 9662 9641 tagOFNW 
+T OPENFILENAMEA 1 9619 9640 9619 tagOFNA 
+T OFSTRUCT 1 9611 9618 9611 _OFSTRUCT 
+T NUMBERFMTW 1 9603 9610 9603 _numberfmtw 
+T NUMBERFMTA 1 9595 9602 9595 _numberfmta 
+T RemHBRUSH 1 9591 9594 9591 tagRemBRUSH 
+T RemHPALETTE 1 9587 9590 9587 tagRemHPALETTE 
+T RemHBITMAP 1 9583 9586 9583 tagRemHBITMAP 
+T RemHENHMETAFILE 1 9579 9582 9579 tagRemHENHMETAFILE 
+T HMETAFILEPICT 1 9578 9578 9578 * void 
+T RemHMETAFILEPICT 1 9571 9577 9571 tagRemHMETAFILEPICT 
+T RemHGLOBAL 1 9567 9570 9567 tagRemHGLOBAL 
+T REFGUID 1 9565 9565 9565 * _GUID 
+T REFCLSID 1 9564 9564 9564 * _GUID 
+T LPCLSID 1 9563 9563 9563 * _GUID 
+T CLSID 1 9563 9563 9563 _GUID 
+T REFIID 1 9562 9562 9562 * _GUID 
+T LPIID 1 9561 9561 9561 * _GUID 
+T IID 1 9560 9560 9560 _GUID 
+T LPGUID 1 9555 9555 9555 * _GUID 
+T GUID 1 9550 9555 9550 _GUID 
+T SERVICE_ADDRESSES 1 9545 9548 9545 _SERVICE_ADDRESSES 
+T SERVICE_ADDRESS 1 9537 9544 9537 _SERVICE_ADDRESS 
+T NONCLIENTMETRICS 1 9520 9536 9520 tagNONCLIENTMETRICS 
+T NMUPDOWN 1 9515 9519 9515 _NM_UPDOWN 
+T LPNM_TREEVIEW 1 9513 9513 9513 * _NM_TREEVIEW 
+T NM_TREEVIEW 1 9506 9512 9506 _NM_TREEVIEW 
+T TVINSERTSTRUCTW 1 9498 9505 9498 tagTVINSERTSTRUCTW 
+T TVINSERTSTRUCTA 1 9490 9497 9490 tagTVINSERTSTRUCTA 
+T TVITEMEXW 1 9477 9489 9477 tagTVITEMEXW 
+T LPTVITEMEXA 1 9476 9476 9476 * tagTVITEMEXA 
+T TVITEMEXA 1 9464 9476 9464 tagTVITEMEXA 
+T TVITEMW 1 9443 9454 9443 tagTVITEMW 
+T TVITEMA 1 9431 9442 9431 tagTVITEMA 
+T NM_LISTVIEW 1 9420 9429 9420 tagNM_LISTVIEW 
+T NEWTEXTMETRICEX 1 9416 9419 9416 tagNEWTEXTMETRICEX 
+T NEWTEXTMETRIC 1 9389 9414 9389 tagNEWTEXTMETRIC 
+T NETRESOURCE 1 9377 9386 9377 _NETRESOURCE 
+T NDDESHAREINFO 1 9362 9374 9362 _NDDESHAREINFO 
+T NCCALCSIZE_PARAMS 1 9358 9361 9358 _NCCALCSIZE_PARAMS 
+T NCB 1 9341 9357 9341 _NCB 
+T NAME_BUFFER 1 9336 9340 9336 _NAME_BUFFER 
+T MULTIKEYHELP 1 9331 9335 9331 tagMULTIKEYHELP 
+T PMSGBOXPARAMS 1 9330 9330 9330 * 51 
+T MSGBOXPARAMS 1 9319 9330 9319 51 
+T LPMSG 1 9317 9317 9317 * tagMSG 
+T MSG 1 9310 9317 9310 tagMSG 
+T MOUSEKEYS 1 9301 9309 9301 _MOUSEKEYS 
+T MOUSEHOOKSTRUCT 1 9295 9300 9295 tagMOUSEHOOKSTRUCT 
+T MONMSGSTRUCT 1 9285 9294 9285 tagMONMSGSTRUCT 
+T MONLINKSTRUCT 1 9271 9284 9271 tagMONLINKSTRUCT 
+T MONITOR_INFO_2 1 9266 9270 9266 _MONITOR_INFO_2 
+T MONITOR_INFO_1 1 9263 9265 9263 _MONITOR_INFO_1 
+T MONHSZSTRUCT 1 9255 9262 9255 tagMONHSZSTRUCT 
+T MONERRSTRUCT 1 9249 9254 9249 tagMONERRSTRUCT 
+T MONCONVSTRUCT 1 9239 9248 9239 tagMONCONVSTRUCT 
+T MONCBSTRUCT 1 9222 9238 9222 tagMONCBSTRUCT 
+T PMODEMSETTINGS 1 9221 9221 9221 * modemsettings_tag 
+T MODEMSETTINGS 1 9208 9221 9208 modemsettings_tag 
+T PMODEMDEVCAPS 1 9207 9207 9207 * modemdevcaps_tag 
+T MODEMDEVCAPS 1 9186 9207 9186 modemdevcaps_tag 
+T MINMAXINFO 1 9179 9185 9179 tagMINMAXINFO 
+T MINIMIZEDMETRICS 1 9172 9178 9172 tagMINIMIZEDMETRICS 
+T METARECORD 1 9167 9171 9167 tagMETARECORD 
+T METAHEADER 1 9158 9166 9158 tagMETAHEADER 
+T METAFILEPICT 1 9152 9157 9152 tagMETAFILEPICT 
+T LPMENUTEMPLATE 1 9151 9151 9151 * void 
+T MENUITEMINFO 1 9128 9140 9128 tagMENUITEMINFO 
+T MEMORYSTATUSEX 1 9104 9114 9104 _MEMORYSTATUSEX 
+T MEMORYSTATUS 1 9094 9103 9094 _MEMORYSTATUS 
+T MEMORY_BASIC_INFORMATION 1 9084 9092 9084 _MEMORY_BASIC_INFORMATION 
+T LPMEASUREITEMSTRUCT 1 9083 9083 9083 * tagMEASUREITEMSTRUCT 
+T MEASUREITEMSTRUCT 1 9075 9082 9075 tagMEASUREITEMSTRUCT 
+T MDICREATESTRUCT 1 9063 9073 9063 tagMDICREATESTRUCT 
+T MAT2 1 9057 9062 9057 _MAT2 
+T LV_KEYDOWN 1 9052 9056 9052 tagLV_KEYDOWN 
+T LV_HITTESTINFO 1 9047 9051 9047 _LV_HITTESTINFO 
+T LV_FINDINFO 1 9040 9046 9040 _LV_FINDINFO 
+T LV_DISPINFO 1 9036 9039 9036 tagLV_DISPINFO 
+T LV_ITEM 1 9025 9035 9025 _LV_ITEM 
+T LV_COLUMN 1 9017 9024 9017 _LV_COLUMN 
+T LUID_AND_ATTRIBUTES 1 9011 9014 9011 _LUID_AND_ATTRIBUTES 
+T LUID 1 9010 9010 9010 _LARGE_INTEGER 
+T LOCALESIGNATURE 1 9004 9008 9004 tagLOCALESIGNATURE 
+T PLDT_ENTRY 1 9003 9003 9003 * _LDT_ENTRY 
+T LDT_ENTRY 1 8980 9003 8980 _LDT_ENTRY 
+T LANA_ENUM 1 8976 8979 8976 _LANA_ENUM 
+T KERNINGPAIR 1 8971 8975 8971 tagKERNINGPAIR 
+T JOB_INFO_2 1 8946 8970 8946 _JOB_INFO_2 
+T SECURITY_DESCRIPTOR 1 8937 8945 8937 _SECURITY_DESCRIPTOR 
+T SECURITY_DESCRIPTOR_RELATIVE 1 8928 8936 8928 _SECURITY_DESCRIPTOR_RELATIVE 
+T PSECURITY_DESCRIPTOR_CONTROL 1 8927 8927 8927 * unsigned short 
+T SECURITY_DESCRIPTOR_CONTROL 1 8927 8927 8927 unsigned short 
+T SID 1 8921 8926 8921 _SID 
+T PSID_IDENTIFIER_AUTHORITY 1 8919 8919 8919 * _SID_IDENTIFIER_AUTHORITY 
+T SID_IDENTIFIER_AUTHORITY 1 8917 8919 8917 _SID_IDENTIFIER_AUTHORITY 
+T JOB_INFO_1 1 8902 8916 8902 _JOB_INFO_1 
+T LPSYSTEMTIME 1 8901 8901 8901 * _SYSTEMTIME 
+T SYSTEMTIME 1 8892 8901 8892 _SYSTEMTIME 
+T INPUT_RECORD 1 8881 8891 8881 _INPUT_RECORD 
+T MENU_EVENT_RECORD 1 8878 8880 8878 _MENU_EVENT_RECORD 
+T WINDOW_BUFFER_SIZE_RECORD 1 8875 8877 8875 _WINDOW_BUFFER_SIZE_RECORD 
+T MOUSE_EVENT_RECORD 1 8869 8874 8869 _MOUSE_EVENT_RECORD 
+T KEY_EVENT_RECORD 1 8861 8868 8861 _KEY_EVENT_RECORD 
+T IMAGEINFO 1 8854 8860 8854 _IMAGEINFO 
+T ICONMETRICS 1 8847 8853 8847 tagICONMETRICS 
+T ICONINFO 1 8840 8846 8840 _ICONINFO 
+T HSZPAIR 1 8836 8839 8836 tagHSZPAIR 
+T HIGHCONTRAST 1 8831 8835 8831 tagHIGHCONTRAST 
+T HELPINFO 1 8814 8821 8814 tagHELPINFO 
+T NMHEADERW 1 8801 8806 8801 tagNMHEADERW 
+T NMHEADERA 1 8795 8800 8795 tagNMHEADERA 
+T HDITEMW 1 8773 8785 8773 _HD_ITEMW 
+T HDITEMA 1 8758 8770 8758 _HD_ITEMA 
+T HD_NOTIFY 1 8752 8757 8752 _HD_NOTIFY 
+T HD_LAYOUT 1 8747 8750 8747 _HD_LAYOUT 
+T PWINDOWPOS 1 8746 8746 8746 * _WINDOWPOS 
+T WINDOWPOS 1 8738 8746 8738 _WINDOWPOS 
+T HD_ITEM 1 8729 8737 8729 _HD_ITEM 
+T HD_HITTESTINFO 1 8723 8727 8723 _HD_HITTESTINFO 
+T HANDLETABLE 1 8720 8722 8720 tagHANDLETABLE 
+T GLYPHMETRICS 1 8713 8719 8713 _GLYPHMETRICS 
+T GENERIC_MAPPING 1 8707 8712 8707 _GENERIC_MAPPING 
+T GCP_RESULTS 1 8696 8706 8696 tagGCP_RESULTS 
+T FORM_INFO_1 1 8690 8695 8690 _FORM_INFO_1 
+T FOCUS_EVENT_RECORD 1 8687 8689 8687 _FOCUS_EVENT_RECORD 
+T FMS_TOOLBARLOAD 1 8679 8686 8679 _FMS_TOOLBARLOAD 
+T FMS_LOAD 1 8673 8678 8673 _FMS_LOAD 
+T FMS_GETFILESEL 1 8667 8672 8667 _FMS_GETFILESEL 
+T FMS_GETDRIVEINFO 1 8660 8666 8660 _FMS_GETDRIVEINFO 
+T FINDTEXTEX 1 8655 8659 8655 _findtextex 
+T FINDTEXT 1 8651 8654 8651 _findtext 
+T FINDREPLACE 1 8638 8650 8638 40 
+T FIND_NAME_HEADER 1 8633 8637 8633 _FIND_NAME_HEADER 
+T FIND_NAME_BUFFER 1 8625 8632 8625 _FIND_NAME_BUFFER 
+T FILTERKEYS 1 8617 8624 8617 tagFILTERKEYS 
+T EXT_BUTTON 1 8612 8616 8612 _EXT_BUTTON 
+T PACCESS_MASK 1 8611 8611 8611 * unsigned long 
+T PACCESS_TOKEN 1 8610 8610 8610 * void 
+T EVENTMSG 1 8603 8609 8603 tagEVENTMSG 
+T EVENTLOGRECORD 1 8585 8602 8585 _EVENTLOGRECORD 
+T ENUMLOGFONTEX 1 8579 8584 8579 tagENUMLOGFONTEX 
+T ENUMLOGFONT 1 8574 8578 8574 tagENUMLOGFONT 
+T ENHMETARECORD 1 8569 8573 8569 tagENHMETARECORD 
+T ENHMETAHEADER 1 8552 8568 8552 tagENHMETAHEADER 
+T NMIPADDRESS 1 8539 8539 8539 tagNMIPADDRESS 
+T NMHDR 1 8534 8538 8534 tagNMHDR 
+T EMRENABLEICM 1 8532 8533 8532 tagEMRSELECTCLIPPATH 
+T PEMRSETTEXTALIGN 1 8532 8532 8532 * tagEMRSELECTCLIPPATH 
+T EMRSETTEXTALIGN 1 8531 8532 8531 tagEMRSELECTCLIPPATH 
+T PEMRSETSTRETCHBLTMODE 1 8531 8531 8531 * tagEMRSELECTCLIPPATH 
+T EMRSETSTRETCHBLTMODE 1 8530 8531 8530 tagEMRSELECTCLIPPATH 
+T PEMRSETROP2 1 8530 8530 8530 * tagEMRSELECTCLIPPATH 
+T EMRSETROP2 1 8529 8530 8529 tagEMRSELECTCLIPPATH 
+T PEMRSETPOLYFILLMODE 1 8529 8529 8529 * tagEMRSELECTCLIPPATH 
+T EMRSETPOLYFILLMODE 1 8528 8529 8528 tagEMRSELECTCLIPPATH 
+T PEMRSETMAPMODE 1 8528 8528 8528 * tagEMRSELECTCLIPPATH 
+T EMRSETMAPMODE 1 8527 8528 8527 tagEMRSELECTCLIPPATH 
+T PEMRSETBKMODE 1 8527 8527 8527 * tagEMRSELECTCLIPPATH 
+T EMRSETBKMODE 1 8526 8527 8526 tagEMRSELECTCLIPPATH 
+T PEMRSELECTCLIPPATH 1 8526 8526 8526 * tagEMRSELECTCLIPPATH 
+T EMRSELECTCLIPPATH 1 8523 8526 8523 tagEMRSELECTCLIPPATH 
+T EMRREALIZEPALETTE 1 8521 8522 8521 tagABORTPATH 
+T PEMRSAVEDC 1 8521 8521 8521 * tagABORTPATH 
+T EMRSAVEDC 1 8520 8521 8520 tagABORTPATH 
+T PEMRSETMETARGN 1 8520 8520 8520 * tagABORTPATH 
+T EMRSETMETARGN 1 8519 8520 8519 tagABORTPATH 
+T PEMRWIDENPATH 1 8519 8519 8519 * tagABORTPATH 
+T EMRWIDENPATH 1 8518 8519 8518 tagABORTPATH 
+T PEMRFLATTENPATH 1 8518 8518 8518 * tagABORTPATH 
+T EMRFLATTENPATH 1 8517 8518 8517 tagABORTPATH 
+T PEMRCLOSEFIGURE 1 8517 8517 8517 * tagABORTPATH 
+T EMRCLOSEFIGURE 1 8516 8517 8516 tagABORTPATH 
+T PEMRENDPATH 1 8516 8516 8516 * tagABORTPATH 
+T EMRENDPATH 1 8515 8516 8515 tagABORTPATH 
+T PEMRBEGINPATH 1 8515 8515 8515 * tagABORTPATH 
+T EMRBEGINPATH 1 8514 8515 8514 tagABORTPATH 
+T PEMRABORTPATH 1 8514 8514 8514 * tagABORTPATH 
+T EMRABORTPATH 1 8512 8514 8512 tagABORTPATH 
+T EMRSTRETCHDIBITS 1 8494 8511 8494 tagEMRSTRETCHDIBITS 
+T EMRSTRETCHBLT 1 8474 8493 8474 tagEMRSTRETCHBLT 
+T EMRSETWORLDTRANSFORM 1 8470 8473 8470 tagEMRSETWORLDTRANSFORM 
+T EMRSETBRUSHORGEX 1 8468 8469 8468 tagEMRSETVIEWPORTORGEX 
+T PEMRSETWINDOWORGEX 1 8468 8468 8468 * tagEMRSETVIEWPORTORGEX 
+T EMRSETWINDOWORGEX 1 8467 8468 8467 tagEMRSETVIEWPORTORGEX 
+T PEMRSETVIEWPORTORGEX 1 8467 8467 8467 * tagEMRSETVIEWPORTORGEX 
+T EMRSETVIEWPORTORGEX 1 8464 8467 8464 tagEMRSETVIEWPORTORGEX 
+T EMRSETWINDOWEXTEX 1 8462 8463 8462 tagEMRSETVIEWPORTEXTEX 
+T PEMRSETVIEWPORTEXTEX 1 8462 8462 8462 * tagEMRSETVIEWPORTEXTEX 
+T EMRSETVIEWPORTEXTEX 1 8459 8462 8459 tagEMRSETVIEWPORTEXTEX 
+T EMRSETPIXELV 1 8454 8458 8454 tagEMRSETPIXELV 
+T EMRSETPALETTEENTRIES 1 8447 8453 8447 tagEMRSETPALETTEENTRIES 
+T EMRSETMITERLIMIT 1 8443 8446 8443 tagEMRSETMITERLIMIT 
+T EMRSETMAPPERFLAGS 1 8439 8442 8439 tagEMRSETMAPPERFLAGS 
+T EMRSETDIBITSTODEVICE 1 8422 8438 8422 tagEMRSETDIBITSTODEVICE 
+T EMRSETCOLORADJUSTMENT 1 8418 8421 8418 tagEMRSETCOLORADJUSTMENT 
+T EMRSETTEXTCOLOR 1 8416 8417 8416 tagEMRSETTEXTCOLOR 
+T PEMRSETBKCOLOR 1 8416 8416 8416 * tagEMRSETTEXTCOLOR 
+T EMRSETBKCOLOR 1 8413 8416 8413 tagEMRSETTEXTCOLOR 
+T EMRSETARCDIRECTION 1 8409 8412 8409 tagEMRSETARCDIRECTION 
+T EMRSELECTPALETTE 1 8405 8408 8405 tagEMRSELECTPALETTE 
+T EMRDELETEOBJECT 1 8403 8404 8403 tagEMRSELECTOBJECT 
+T PEMRSELECTOBJECT 1 8403 8403 8403 * tagEMRSELECTOBJECT 
+T EMRSELECTOBJECT 1 8400 8403 8400 tagEMRSELECTOBJECT 
+T EMRDELETECOLORSPACE 1 8398 8399 8398 tagEMRSELECTCOLORSPACE 
+T PEMRSELECTCOLORSPACE 1 8398 8398 8398 * tagEMRSELECTCOLORSPACE 
+T EMRSELECTCOLORSPACE 1 8395 8398 8395 tagEMRSELECTCOLORSPACE 
+T EMRSCALEWINDOWEXTEX 1 8393 8394 8393 tagEMRSCALEVIEWPORTEXTEX 
+T PEMRSCALEVIEWPORTEXTEX 1 8393 8393 8393 * tagEMRSCALEVIEWPORTEXTEX 
+T EMRSCALEVIEWPORTEXTEX 1 8387 8393 8387 tagEMRSCALEVIEWPORTEXTEX 
+T EMRROUNDRECT 1 8382 8386 8382 tagEMRROUNDRECT 
+T EMRRESTOREDC 1 8378 8381 8378 tagEMRRESTOREDC 
+T EMRRESIZEPALETTE 1 8373 8377 8373 tagEMRRESIZEPALETTE 
+T EMRPOLYTEXTOUTW 1 8371 8372 8371 tagEMRPOLYTEXTOUTA 
+T PEMRPOLYTEXTOUTA 1 8371 8371 8371 * tagEMRPOLYTEXTOUTA 
+T EMRPOLYTEXTOUTA 1 8363 8371 8363 tagEMRPOLYTEXTOUTA 
+T EMRPOLYPOLYGON16 1 8361 8362 8361 tagEMRPOLYPOLYLINE16 
+T PEMRPOLYPOLYLINE16 1 8361 8361 8361 * tagEMRPOLYPOLYLINE16 
+T EMRPOLYPOLYLINE16 1 8354 8361 8354 tagEMRPOLYPOLYLINE16 
+T EMRPOLYPOLYGON 1 8352 8353 8352 tagEMRPOLYPOLYLINE 
+T PEMRPOLYPOLYLINE 1 8352 8352 8352 * tagEMRPOLYPOLYLINE 
+T EMRPOLYPOLYLINE 1 8345 8352 8345 tagEMRPOLYPOLYLINE 
+T EMRPOLYLINETO16 1 8343 8344 8343 tagEMRPOLYLINE16 
+T PEMRPOLYBEZIERTO16 1 8343 8343 8343 * tagEMRPOLYLINE16 
+T EMRPOLYBEZIERTO16 1 8342 8343 8342 tagEMRPOLYLINE16 
+T PEMRPOLYGON16 1 8342 8342 8342 * tagEMRPOLYLINE16 
+T EMRPOLYGON16 1 8341 8342 8341 tagEMRPOLYLINE16 
+T PEMRPOLYBEZIER16 1 8341 8341 8341 * tagEMRPOLYLINE16 
+T EMRPOLYBEZIER16 1 8340 8341 8340 tagEMRPOLYLINE16 
+T PEMRPOLYLINE16 1 8340 8340 8340 * tagEMRPOLYLINE16 
+T EMRPOLYLINE16 1 8335 8340 8335 tagEMRPOLYLINE16 
+T EMRPOLYLINETO 1 8333 8334 8333 tagEMRPOLYLINE 
+T PEMRPOLYBEZIERTO 1 8333 8333 8333 * tagEMRPOLYLINE 
+T EMRPOLYBEZIERTO 1 8332 8333 8332 tagEMRPOLYLINE 
+T PEMRPOLYGON 1 8332 8332 8332 * tagEMRPOLYLINE 
+T EMRPOLYGON 1 8331 8332 8331 tagEMRPOLYLINE 
+T PEMRPOLYBEZIER 1 8331 8331 8331 * tagEMRPOLYLINE 
+T EMRPOLYBEZIER 1 8330 8331 8330 tagEMRPOLYLINE 
+T PEMRPOLYLINE 1 8330 8330 8330 * tagEMRPOLYLINE 
+T EMRPOLYLINE 1 8325 8330 8325 tagEMRPOLYLINE 
+T EMRPOLYDRAW16 1 8318 8324 8318 tagEMRPOLYDRAW16 
+T EMRPOLYDRAW 1 8311 8317 8311 tagEMRPOLYDRAW 
+T EMRPLGBLT 1 8288 8310 8288 tagEMRPLGBLT 
+T EMROFFSETCLIPRGN 1 8284 8287 8284 tagEMROFFSETCLIPRGN 
+T PEMRMODIFYWORLDTRANSFORM 1 8282 8283 8282 tagEMRMODIFYWORLDTRANSFORM 
+T EMRMODIFYWORLDTRANSFORM 1 8278 8282 8278 tagEMRMODIFYWORLDTRANSFORM 
+T EMRMASKBLT 1 8253 8277 8253 tagEMRMASKBLT 
+T EMRMOVETOEX 1 8251 8252 8251 tagEMRLINETO 
+T PEMRLINETO 1 8251 8251 8251 * tagEMRLINETO 
+T EMRLINETO 1 8248 8251 8248 tagEMRLINETO 
+T EMRPAINTRGN 1 8246 8247 8246 tagEMRINVERTRGN 
+T PEMRINVERTRGN 1 8246 8246 8246 * tagEMRINVERTRGN 
+T EMRINVERTRGN 1 8241 8246 8241 tagEMRINVERTRGN 
+T EMRGDICOMMENT 1 8236 8240 8236 tagEMRGDICOMMENT 
+T EMRFRAMERGN 1 8228 8235 8228 tagEMRFRAMERGN 
+T PSIZEL 1 8227 8227 8227 * tagSIZE 
+T SIZEL 1 8227 8227 8227 tagSIZE 
+T LPSIZE 1 8227 8227 8227 * tagSIZE 
+T PSIZE 1 8227 8227 8227 * tagSIZE 
+T SIZE 1 8224 8227 8224 tagSIZE 
+T EMRFORMAT 1 8218 8223 8218 tagEMRFORMAT 
+T EMRFILLRGN 1 8211 8217 8211 tagEMRFILLRGN 
+T EMRSTROKEPATH 1 8209 8210 8209 tagEMRFILLPATH 
+T PEMRSTROKEANDFILLPATH 1 8209 8209 8209 * tagEMRFILLPATH 
+T EMRSTROKEANDFILLPATH 1 8208 8209 8208 tagEMRFILLPATH 
+T PEMRFILLPATH 1 8208 8208 8208 * tagEMRFILLPATH 
+T EMRFILLPATH 1 8205 8208 8205 tagEMRFILLPATH 
+T EMREXTTEXTOUTW 1 8203 8204 8203 tagEMREXTTEXTOUTA 
+T PEMREXTTEXTOUTA 1 8203 8203 8203 * tagEMREXTTEXTOUTA 
+T EMREXTTEXTOUTA 1 8196 8203 8196 tagEMREXTTEXTOUTA 
+T EMRTEXT 1 8188 8195 8188 tagEMRTEXT 
+T EMREXTSELECTCLIPRGN 1 8182 8187 8182 tagEMREXTSELECTCLIPRGN 
+T EMREXTFLOODFILL 1 8176 8181 8176 tagEMREXTFLOODFILL 
+T EMREXTCREATEPEN 1 8167 8175 8167 tagEMREXTCREATEPEN 
+T EXTLOGPEN 1 8158 8166 8158 tagEXTLOGPEN 
+T PEMREXTCREATEFONTINDIRECTW 1 8156 8157 8156 tagEMREXTCREATEFONTINDIRECTW 
+T EMREXTCREATEFONTINDIRECTW 1 8152 8156 8152 tagEMREXTCREATEFONTINDIRECTW 
+T EXTLOGFONT 1 8140 8151 8140 tagEXTLOGFONT 
+T PANOSE 1 8128 8139 8128 tagPANOSE 
+T EMRINTERSECTCLIPRECT 1 8126 8127 8126 tagEMREXCLUDECLIPRECT 
+T PEMREXCLUDECLIPRECT 1 8126 8126 8126 * tagEMREXCLUDECLIPRECT 
+T EMREXCLUDECLIPRECT 1 8123 8126 8123 tagEMREXCLUDECLIPRECT 
+T EMREOF 1 8117 8122 8117 tagEMREOF 
+T EMRRECTANGLE 1 8115 8116 8115 tagEMRELLIPSE 
+T PEMRELLIPSE 1 8115 8115 8115 * tagEMRELLIPSE 
+T EMRELLIPSE 1 8112 8115 8112 tagEMRELLIPSE 
+T EMRCREATEPEN 1 8107 8111 8107 tagEMRCREATEPEN 
+T LOGPEN 1 8102 8106 8102 tagLOGPEN 
+T EMRCREATEPALETTE 1 8097 8101 8097 tagEMRCREATEPALETTE 
+T PLOGPALETTE 1 8095 8095 8095 * tagLOGPALETTE 
+T LOGPALETTE 1 8091 8095 8091 tagLOGPALETTE 
+T LPPALETTEENTRY 1 8090 8090 8090 * tagPALETTEENTRY 
+T PALETTEENTRY 1 8085 8090 8085 tagPALETTEENTRY 
+T EMRCREATEMONOBRUSH 1 8076 8084 8076 tagEMRCREATEMONOBRUSH 
+T PEMRCREATEDIBPATTERNBRUSHPT 1 8074 8075 8074 tagEMRCREATEDIBPATTERNBRUSHPT 
+T EMRCREATEDIBPATTERNBRUSHPT 1 8066 8074 8066 tagEMRCREATEDIBPATTERNBRUSHPT 
+T EMRCREATECOLORSPACE 1 8061 8065 8061 tagEMRCREATECOLORSPACE 
+T LOGCOLORSPACE 1 8049 8060 8049 tagLOGCOLORSPACE 
+T LCSGAMUTMATCH 1 8048 8048 8048 long int 
+T LCSCSTYPE 1 8047 8047 8047 long int 
+T EMRCREATEBRUSHINDIRECT 1 8042 8046 8042 tagEMRCREATEBRUSHINDIRECT 
+T LOGBRUSH 1 8037 8041 8037 tagLOGBRUSH 
+T EMRBITBLT 1 8020 8036 8020 tagEMRBITBLT 
+T PXFORM 1 8019 8019 8019 * _XFORM 
+T XFORM 1 8012 8019 8012 _XFORM 
+T EMRPIE 1 8010 8011 8010 tagEMRARC 
+T PEMRCHORD 1 8010 8010 8010 * tagEMRARC 
+T EMRCHORD 1 8009 8010 8009 tagEMRARC 
+T PEMRARCTO 1 8009 8009 8009 * tagEMRARC 
+T EMRARCTO 1 8008 8009 8008 tagEMRARC 
+T PEMRARC 1 8008 8008 8008 * tagEMRARC 
+T EMRARC 1 8003 8008 8003 tagEMRARC 
+T EMRANGLEARC 1 7996 8002 7996 tagEMRANGLEARC 
+T EMR 1 7992 7995 7992 tagEMR 
+T DRIVER_INFO_3 1 7980 7991 7980 _DRIVER_INFO_3 
+T DRIVER_INFO_2 1 7972 7979 7972 _DRIVER_INFO_2 
+T DRIVER_INFO_1 1 7969 7971 7969 _DRIVER_INFO_1 
+T DRAWTEXTPARAMS 1 7962 7968 7962 37 
+T LPDRAWITEMSTRUCT 1 7961 7961 7961 * tagDRAWITEMSTRUCT 
+T DRAWITEMSTRUCT 1 7951 7961 7951 tagDRAWITEMSTRUCT 
+T DRAGLISTINFO 1 7946 7950 7946 36 
+T DOC_INFO_2 1 7932 7938 7932 _DOC_INFO_2 
+T DOC_INFO_1 1 7927 7931 7927 _DOC_INFO_1 
+T DLGTEMPLATE 1 7917 7925 7917 34 
+T DLGITEMTEMPLATE 1 7908 7916 7908 33 
+T DIBSECTION 1 7901 7907 7901 tagDIBSECTION 
+T DEVNAMES 1 7895 7900 7895 tagDEVNAMES 
+T CURRENCYFMT 1 7892 7892 7892 _currencyfmtA 
+T NPDEVMODE 1 7890 7890 7890 * _devicemodeA 
+T PDEVMODE 1 7889 7889 7889 * _devicemodeA 
+T DEVMODE 1 7888 7888 7888 _devicemodeA 
+T NPDEVMODEW 1 7879 7879 7879 * _devicemodeW 
+T PDEVMODEW 1 7879 7879 7879 * _devicemodeW 
+T DEVMODEW 1 7839 7879 7839 _devicemodeW 
+T LPDEVMODEA 1 7838 7838 7838 * _devicemodeA 
+T NPDEVMODEA 1 7838 7838 7838 * _devicemodeA 
+T PDEVMODEA 1 7838 7838 7838 * _devicemodeA 
+T DEVMODEA 1 7798 7838 7798 _devicemodeA 
+T DEV_BROADCAST_VOLUME 1 7790 7796 7790 _DEV_BROADCAST_VOLUME 
+T DEV_BROADCAST_PORT 1 7778 7783 7778 _DEV_BROADCAST_PORT 
+T DEV_BROADCAST_OEM 1 7770 7776 7770 _DEV_BROADCAST_OEM 
+T DEV_BROADCAST_HDR 1 7764 7768 7764 _DEV_BROADCAST_HDR 
+T LPDELETEITEMSTRUCT 1 7763 7763 7763 * tagDELETEITEMSTRUCT 
+T DELETEITEMSTRUCT 1 7757 7763 7757 tagDELETEITEMSTRUCT 
+T PTOP_LEVEL_EXCEPTION_FILTER 1 7755 7755 7755 * 
+T PEXCEPTION_POINTERS 1 7754 7754 7754 * _EXCEPTION_POINTERS 
+T EXCEPTION_POINTERS 1 7751 7754 7751 _EXCEPTION_POINTERS 
+T DEBUGHOOKINFO 1 7744 7750 7744 tagDEBUGHOOKINFO 
+T DEBUG_EVENT 1 7728 7743 7728 _DEBUG_EVENT 
+T RIP_INFO 1 7724 7727 7724 _RIP_INFO 
+T OUTPUT_DEBUG_STRING_INFO 1 7719 7723 7719 _OUTPUT_DEBUG_STRING_INFO 
+T UNLOAD_DLL_DEBUG_INFO 1 7716 7718 7716 _UNLOAD_DLL_DEBUG_INFO 
+T LOAD_DLL_DEBUG_INFO 1 7708 7715 7708 _LOAD_DLL_DEBUG_INFO 
+T EXIT_THREAD_DEBUG_INFO 1 7705 7707 7705 _EXIT_THREAD_DEBUG_INFO 
+T EXIT_PROCESS_DEBUG_INFO 1 7702 7704 7702 _EXIT_PROCESS_DEBUG_INFO 
+T EXCEPTION_DEBUG_INFO 1 7698 7701 7698 _EXCEPTION_DEBUG_INFO 
+T PEXCEPTION_RECORD 1 7697 7697 7697 * _EXCEPTION_RECORD 
+T EXCEPTION_RECORD 1 7690 7697 7690 _EXCEPTION_RECORD 
+T DDEML_MSG_HOOK_DATA 1 7674 7679 7674 tagDDEML_MSG_HOOK_DATA 
+T DATATYPES_INFO_1 1 7655 7657 7655 _DATATYPES_INFO_1 
+T CWPSTRUCT 1 7649 7654 7649 tagCWPSTRUCT 
+T CWPRETSTRUCT 1 7642 7648 7642 tagCWPRETSTRUCT 
+T CURSORSHAPE 1 7633 7641 7633 tagCURSORSHAPE 
+T CURRENCYFMTW 1 7623 7632 7623 _currencyfmtW 
+T LPCURRENCYFMTA 1 7622 7622 7622 * _currencyfmtA 
+T CURRENCYFMTA 1 7613 7622 7613 _currencyfmtA 
+T CREATE_THREAD_DEBUG_INFO 1 7608 7612 7608 _CREATE_THREAD_DEBUG_INFO 
+T CREATE_PROCESS_DEBUG_INFO 1 7596 7607 7596 _CREATE_PROCESS_DEBUG_INFO 
+T CPINFO 1 7591 7595 7591 _cpinfo 
+T PMDINEXTMENU 1 7590 7590 7590 * tagMDINEXTMENU 
+T MDINEXTMENU 1 7586 7590 7586 tagMDINEXTMENU 
+T COPYDATASTRUCT 1 7581 7585 7581 tagCOPYDATASTRUCT 
+T CONVINFO 1 7563 7580 7563 tagCONVINFO 
+T CONVCONTEXT 1 7554 7562 7554 tagCONVCONTEXT 
+T SECURITY_QUALITY_OF_SERVICE 1 7548 7553 7548 _SECURITY_QUALITY_OF_SERVICE 
+T PCRITICAL_SECTION 1 7547 7547 7547 * _CRITICAL_SECTION 
+T CRITICAL_SECTION 1 7540 7547 7540 _CRITICAL_SECTION 
+T CRITICAL_SECTION_DEBUG 1 7530 7539 7530 _CRITICAL_SECTION_DEBUG 
+T LIST_ENTRY 1 7526 7529 7526 _LIST_ENTRY 
+T POWER_DEVICE_TIMEOUTS 1 7522 7525 7522 _POWER_DEVICE_TIMEOUTS 
+T PCONTEXT 1 7521 7521 7521 * _CONTEXT 
+T CONTEXT 1 7495 7521 7495 _CONTEXT 
+T FLOATING_SAVE_AREA 1 7484 7494 7484 _FLOATING_SAVE_AREA 
+T CONSOLE_SCREEN_BUFFER_INFO 1 7476 7482 7476 _CONSOLE_SCREEN_BUFFER_INFO 
+T SMALL_RECT 1 7470 7475 7470 _SMALL_RECT 
+T COORD 1 7466 7469 7466 _COORD 
+T CONSOLE_CURSOR_INFO 1 7462 7465 7462 _CONSOLE_CURSOR_INFO 
+T COMSTAT 1 7450 7461 7450 _COMSTAT 
+T COMPAREITEMSTRUCT 1 7436 7444 7436 tagCOMPAREITEMSTRUCT 
+T COMMTIMEOUTS 1 7429 7435 7429 _COMMTIMEOUTS 
+T COMMPROP 1 7409 7428 7409 _COMMPROP 
+T COMMCONFIG 1 7399 7408 7399 _COMM_CONFIG 
+T BLOB 1 7396 7396 7396 tagBLOB 
+T DECIMAL 1 7394 7395 7394 _DEC 
+T DCB 1 7364 7393 7364 _DCB 
+T COLORMAP 1 7360 7363 7360 _COLORMAP 
+T COLORADJUSTMENT 1 7346 7359 7346 tagCOLORADJUSTMENT 
+T CLIENTCREATESTRUCT 1 7329 7332 7329 tagCLIENTCREATESTRUCT 
+T CIDA 1 7327 7327 7327 _IDA 
+T CHOOSEFONT 1 7307 7324 7307 16 
+T NPLOGFONT 1 7304 7304 7304 * tagLOGFONTA 
+T PLOGFONT 1 7303 7303 7303 * tagLOGFONTA 
+T LOGFONT 1 7302 7302 7302 tagLOGFONTA 
+T NPLOGFONTW 1 7295 7295 7295 * tagLOGFONTW 
+T PLOGFONTW 1 7295 7295 7295 * tagLOGFONTW 
+T LOGFONTW 1 7279 7295 7279 tagLOGFONTW 
+T LPLOGFONTA 1 7278 7278 7278 * tagLOGFONTA 
+T NPLOGFONTA 1 7278 7278 7278 * tagLOGFONTA 
+T PLOGFONTA 1 7278 7278 7278 * tagLOGFONTA 
+T LOGFONTA 1 7263 7278 7263 tagLOGFONTA 
+T CHOOSECOLOR 1 7252 7262 7252 15 
+T CHARSETINFO 1 7247 7251 7247 14 
+T FONTSIGNATURE 1 7245 7246 7245 tagFONTSIGNATURE 
+T CHARSET 1 7244 7244 7244 tagCHARSET 
+T CHARRANGE 1 7242 7242 7242 _charrange 
+T CHAR_INFO 1 7236 7239 7236 _CHAR_INFO 
+T CBTACTIVATESTRUCT 1 7232 7235 7232 tagCBTACTIVATESTRUCT 
+T CBT_CREATEWND 1 7228 7231 7228 tagCBT_CREATEWND 
+T CREATESTRUCT 1 7214 7227 7214 tagCREATESTRUCT 
+T POINTS 1 7210 7213 7210 tagPOINTS 
+T POINTL 1 7206 7209 7206 _POINTL 
+T POINTFX 1 7202 7205 7202 tagPOINTFX 
+T POINT 1 7197 7200 7197 tagPOINT 
+T FIXED 1 7193 7196 7193 _FIXED 
+T BY_HANDLE_FILE_INFORMATION 1 7181 7192 7181 _BY_HANDLE_FILE_INFORMATION 
+T LPFILETIME 1 7179 7179 7179 * tagFILETIME 
+T FILETIME 1 7176 7179 7176 tagFILETIME 
+T PBROWSEINFO 1 7175 7175 7175 * _browseinfo 
+T BROWSEINFO 1 7166 7175 7166 _browseinfo 
+T ITEMIDLIST 1 7163 7163 7163 _ITEMIDLIST 
+T SHITEMID 1 7157 7157 7157 _SHITEMID 
+T LPBITMAPV4HEADER 1 7155 7155 7155 * 12 
+T BITMAPV4HEADER 1 7134 7155 7134 12 
+T CIEXYZTRIPLE 1 7128 7132 7128 tagCIEXYZTRIPLE 
+T CIEXYZ 1 7122 7126 7122 tagCIEXYZ 
+T LPFXPT2DOT30 1 7121 7121 7121 * long int 
+T FXPT2DOT30 1 7121 7121 7121 long int 
+T LPBITMAPINFO 1 7120 7120 7120 * tagBITMAPINFO 
+T BITMAPINFO 1 7117 7120 7117 tagBITMAPINFO 
+T RGBQUAD 1 7111 7116 7111 tagRGBQUAD 
+T LPBITMAPINFOHEADER 1 7110 7110 7110 * tagBITMAPINFOHEADER 
+T BITMAPINFOHEADER 1 7098 7110 7098 tagBITMAPINFOHEADER 
+T LPBITMAPFILEHEADER 1 7097 7097 7097 * tagBITMAPFILEHEADER 
+T BITMAPFILEHEADER 1 7091 7097 7091 tagBITMAPFILEHEADER 
+T BITMAPCOREINFO 1 7085 7088 7085 _BITMAPCOREINFO 
+T RGBTRIPLE 1 7080 7084 7080 tagRGBTRIPLE 
+T BITMAPCOREHEADER 1 7071 7077 7071 tagBITMAPCOREHEADER 
+T NPBITMAP 1 7070 7070 7070 * tagBITMAP 
+T PBITMAP 1 7070 7070 7070 * tagBITMAP 
+T BITMAP 1 7062 7070 7062 tagBITMAP 
+T RECTL 1 7055 7060 7055 _RECTL 
+T LPRECT 1 7052 7052 7052 * _RECT 
+T RECT 1 7047 7052 7047 _RECT 
+T ANIMATIONINFO 1 7043 7046 7043 tagANIMATIONINFO 
+T ADDJOB_INFO_1 1 7039 7042 7039 _ADDJOB_INFO_1 
+T ADAPTER_STATUS 1 7010 7038 7010 _ADAPTER_STATUS 
+T ACTION_HEADER 1 7005 7009 7005 _ACTION_HEADER 
+T ACL_SIZE_INFORMATION 1 7000 7004 7000 _ACL_SIZE_INFORMATION 
+T ACL_REVISION_INFORMATION 1 6997 6999 6997 _ACL_REVISION_INFORMATION 
+T ACL 1 6990 6996 6990 _ACL 
+T ACCESSTIMEOUT 1 6985 6989 6985 tagACCESSTIMEOUT 
+T ACCESS_DENIED_ACE 1 6980 6984 6980 _ACCESS_DENIED_ACE 
+T ACCESS_ALLOWED_ACE 1 6975 6979 6975 _ACCESS_ALLOWED_ACE 
+T REGSAM 1 6974 6974 6974 unsigned long 
+T ACCESS_MASK 1 6973 6973 6973 unsigned long 
+T ACE_HEADER 1 6968 6972 6968 _ACE_HEADER 
+T ACCEL 1 6962 6966 6962 tagACCEL 
+T ABCFLOAT 1 6956 6960 6956 _ABCFLOAT 
+T ABC 1 6951 6955 6951 _ABC 
+T PLARGE_INTEGER 1 6949 6949 6949 * _LARGE_INTEGER 
+T LARGE_INTEGER 1 6945 6949 6945 _LARGE_INTEGER 
+T RAWINPUTDEVICELIST 1 6944 6944 6944 tagRAWINPUTDEVICELIST 
+T PRAWINPUTDEVICE 1 6942 6942 6942 * tagRAWINPUTDEVICE 
+T RAWINPUTDEVICE 1 6937 6942 6937 tagRAWINPUTDEVICE 
+T PRAWINPUT 1 6936 6936 6936 * tagRAWINPUT 
+T RAWINPUT 1 6929 6936 6929 tagRAWINPUT 
+T PRAWMOUSE 1 6928 6928 6928 * tagRAWMOUSE 
+T RAWMOUSE 1 6915 6928 6915 tagRAWMOUSE 
+T PRAWINPUTHEADER 1 6914 6914 6914 * tagRAWINPUTHEADER 
+T RAWINPUTHEADER 1 6909 6914 6909 tagRAWINPUTHEADER 
+T PRAWKEYBOARD 1 6908 6908 6908 * tagRAWKEYBOARD 
+T RAWKEYBOARD 1 6901 6908 6901 tagRAWKEYBOARD 
+T PRID_DEVICE_INFO 1 6900 6900 6900 * tagRID_DEVICE_INFO 
+T RID_DEVICE_INFO 1 6892 6900 6892 tagRID_DEVICE_INFO 
+T RID_DEVICE_INFO_HID 1 6885 6891 6885 tagRID_DEVICE_INFO_HID 
+T RID_DEVICE_INFO_KEYBOARD 1 6877 6884 6877 tagRID_DEVICE_INFO_KEYBOARD 
+T RID_DEVICE_INFO_MOUSE 1 6872 6876 6872 tagRID_DEVICE_INFO_MOUSE 
+T PRAWHID 1 6871 6871 6871 * tagRAWHID 
+T RAWHID 1 6871 6871 6871 tagRAWHID 
+T WTSSESSION_NOTIFICATION 1 6869 6869 6869 tagWTSSESSION_NOTIFICATION 
+T WINSTAENUMPROCW 1 569 569 569 * 
+T WINSTAENUMPROCA 1 567 567 567 * 
+T NAMEENUMPROCW 1 566 566 566 * 
+T NAMEENUMPROCA 1 565 565 565 * 
+T PTHREAD_START_ROUTINE 1 522 522 522 * 
+E LT_LOWEST_LATENCY 1 0 476 1 
+E LT_DONT_CARE 1 0 476 1 
+E TokenImpersonation 1 0 474 tagTOKEN_TYPE 
+E TokenPrimary 1 0 474 tagTOKEN_TYPE 
+E TokenStatistics 1 0 471 _TOKEN_INFORMATION_CLASS 
+E TokenImpersonationLevel 1 0 471 _TOKEN_INFORMATION_CLASS 
+E TokenType 1 0 470 _TOKEN_INFORMATION_CLASS 
+E TokenSource 1 0 470 _TOKEN_INFORMATION_CLASS 
+E TokenDefaultDacl 1 0 470 _TOKEN_INFORMATION_CLASS 
+E TokenPrimaryGroup 1 0 470 _TOKEN_INFORMATION_CLASS 
+E TokenOwner 1 0 469 _TOKEN_INFORMATION_CLASS 
+E TokenPrivileges 1 0 469 _TOKEN_INFORMATION_CLASS 
+E TokenGroups 1 0 469 _TOKEN_INFORMATION_CLASS 
+E TokenUser 1 0 469 _TOKEN_INFORMATION_CLASS 
+T SID_NAME_USE 1 463 467 463 _SID_NAME_USE 
+E SidTypeUnknown 1 0 466 _SID_NAME_USE 
+E SidTypeInvalid 1 0 465 _SID_NAME_USE 
+E SidTypeDeletedAccount 1 0 465 _SID_NAME_USE 
+E SidTypeWellKnownGroup 1 0 465 _SID_NAME_USE 
+E SidTypeAlias 1 0 464 _SID_NAME_USE 
+E SidTypeDomain 1 0 464 _SID_NAME_USE 
+E SidTypeGroup 1 0 464 _SID_NAME_USE 
+E SidTypeUser 1 0 464 _SID_NAME_USE 
+E SecurityDelegation 1 0 461 _SECURITY_IMPERSONATION_LEVEL 
+E SecurityImpersonation 1 0 460 _SECURITY_IMPERSONATION_LEVEL 
+E SecurityIdentification 1 0 460 _SECURITY_IMPERSONATION_LEVEL 
+E SecurityAnonymous 1 0 460 _SECURITY_IMPERSONATION_LEVEL 
+E AclSizeInformation 1 0 457 _ACL_INFORMATION_CLASS 
+E AclRevisionInformation 1 0 457 _ACL_INFORMATION_CLASS 
+T WORD 1 445 445 445 unsigned short 
+T WCHAR 1 444 444 444 unsigned short 
+T USHORT 1 442 442 442 unsigned short 
+T ULONG 1 441 441 441 unsigned long 
+T UINT 1 440 440 440 unsigned int 
+T PWORD 1 437 437 437 * unsigned short 
+T PWCHAR 1 436 436 436 * unsigned short 
+T PWCH 1 435 435 435 * unsigned short 
+T PVOID 1 434 434 434 * void 
+T PUSHORT 1 433 433 433 * unsigned short 
+T PULONG 1 432 432 432 * unsigned long 
+T PSTR 1 428 428 428 * char 
+T PLONG 1 426 426 426 * long int 
+T PDWORD 1 422 422 422 * unsigned long 
+T PCWCH 1 420 420 420 * 
+T PCHAR 1 418 418 418 * char 
+T PCH 1 417 417 417 * char 
+T PCCH 1 416 416 416 * 
+T PBYTE 1 415 415 415 * unsigned char 
+T PBOOLEAN 1 414 414 414 * unsigned char 
+T PWINBOOL 1 413 413 413 * int 
+T NWPSTR 1 412 412 412 * unsigned short 
+T PWSTR 1 411 411 411 * unsigned short 
+T LPWSTR 1 410 410 410 * unsigned short 
+T LPWORD 1 409 409 409 * unsigned short 
+T LPWCH 1 408 408 408 * unsigned short 
+T LPVOID 1 406 406 406 * void 
+T LRESULT 1 405 405 405 long int 
+T LPSTR 1 404 404 404 * char 
+T LPLONG 1 403 403 403 * long int 
+T LPINT 1 402 402 402 * int 
+T LPHANDLE 1 401 401 401 * * void 
+T LPDWORD 1 400 400 400 * unsigned long 
+T LPCWSTR 1 399 399 399 * 
+T LPCWCH 1 398 398 398 * 
+T BCHAR 1 279 279 279 unsigned char 
+T TBYTE 1 277 277 277 unsigned char 
+T PTSTR 1 276 276 276 * char 
+T PTCHAR 1 275 275 275 * char 
+T PTCH 1 274 274 274 * char 
+T PTBYTE 1 273 273 273 * unsigned char 
+T LPTSTR 1 272 272 272 * char 
+T LPTCH 1 271 271 271 * char 
+T LPCTSTR 1 270 270 270 * 
+T RETCODE 1 107 107 107 short 
+T UWORD 1 106 106 106 unsigned short 
+T UDWORD 1 105 105 105 unsigned long 
+T SWORD 1 104 104 104 short 
+T SDWORD 1 103 103 103 long int 
+T LPCOLESTR 1 100 100 100 * unsigned short 
+T LPCSTR 1 99 99 99 * 
+T LPCOLORREF 1 98 98 98 * unsigned long 
+T LPCH 1 97 97 97 * char 
+T LPCCH 1 96 96 96 * 
+T LPBYTE 1 95 95 95 * unsigned char 
+T LPBOOL 1 94 94 94 * int 
+T LPARAM 1 93 93 93 long int 
+T LONG 1 92 92 92 long int 
+T EXECUTION_STATE 1 91 91 91 unsigned long 
+T LCTYPE 1 90 90 90 unsigned long 
+T LCID 1 88 88 88 unsigned long 
+T LANGID 1 87 87 87 unsigned short 
+T HWND 1 85 85 85 * void 
+T HWINSTA 1 84 84 84 * void 
+T HSZ 1 83 83 83 * void 
+T HRSRC 1 82 82 82 * void 
+T HRGN 1 81 81 81 * void 
+T HRESULT 1 78 78 78 long int 
+T HPEN 1 77 77 77 * void 
+T HPALETTE 1 76 76 76 * void 
+T HMODULE 1 75 75 75 * void 
+T HMETAFILE 1 74 74 74 * void 
+T HMENU 1 73 73 73 * void 
+T HLOCAL 1 72 72 72 * void 
+T HKL 1 71 71 71 * void 
+T PHKEY 1 70 70 70 * * void 
+T HKEY 1 70 70 70 * void 
+T HINSTANCE 1 69 69 69 * void 
+T HIMAGELIST 1 68 68 68 * void 
+T HICON 1 67 67 67 * void 
+T HHOOK 1 66 66 66 * void 
+T HGLRC 1 65 65 65 * void 
+T HGLOBAL 1 64 64 64 * void 
+T HGDIOBJ 1 63 63 63 * void 
+T HFONT 1 62 62 62 * void 
+T HFILE 1 61 61 61 int 
+T HENHMETAFILE 1 60 60 60 * void 
+T HDWP 1 59 59 59 * void 
+T HWINEVENTHOOK 1 58 58 58 * void 
+T HDESK 1 57 57 57 * void 
+T HDDEDATA 1 56 56 56 * void 
+T HDC 1 55 55 55 * void 
+T HCURSOR 1 54 54 54 * void 
+T HCONVLIST 1 53 53 53 * void 
+T HCONV 1 52 52 52 * void 
+T HCOLORSPACE 1 51 51 51 * void 
+T HBRUSH 1 50 50 50 * void 
+T HBITMAP 1 49 49 49 * void 
+T HACCEL 1 48 48 48 * void 
+T HTASK 1 47 47 47 * void 
+T LOCALHANDLE 1 46 46 46 * void 
+T HENV 1 45 45 45 * void 
+T HDBC 1 44 44 44 * void 
+T HSTMT 1 43 43 43 * void 
+T GLOBALHANDLE 1 42 42 42 * void 
+T PSCODE 1 40 40 40 * long int 
+T SCODE 1 40 40 40 long int 
+T HANDLE 1 39 39 39 * void 
+T DWORDLONG 1 37 37 37 double 
+T LONGLONG 1 36 36 36 long long 
+T DWORD_PTR 5 160 160 160 unsigned long 
+T UINT_PTR 5 50 50 50 unsigned int 
+T DWORD 1 32 32 32 unsigned long 
+T COLORREF 1 30 30 30 unsigned long 
+T CHAR 1 29 29 29 char 
+T CCHAR 1 28 28 28 char 
+T CALID 1 27 27 27 unsigned long 
+T CALTYPE 1 26 26 26 unsigned long 
+T BYTE 1 25 25 25 unsigned char 
+T BOOLEAN 1 24 24 24 unsigned char 
+T ATOM 1 23 23 23 unsigned short 
+T WINBOOL 1 22 22 22 int 
+T PBOOL 1 13 13 13 * int 
+T BOOL 1 12 12 12 int 
+T va_list 3 4 4 4 * char 
+# ANYSIZE_ARRAY 1 1719
+# LPOPENFILENAME 1 9672
+# MAX_TAB_STOPS 1 1718
+# MENU_TEXT_LEN 1 1713
+# TC_HITTESTINFO 1 5544
+# MAXIMUM_SUPPORTED_EXTENSION 1 7483
+# MAX_DEFAULTCHAR 1 1708
+# LF_FULLFACESIZE 1 1704
+# OFS_MAXPATHNAME 1 1717
+# DECLSPEC_IMPORT 1 10
+# EXCEPTION_MAXIMUM_PARAMETERS 1 1710
+# DESKTOPENUMPROC 1 330
+# MAX_PROFILE_LEN 1 6632
+# ELF_VENDOR_SIZE 1 1705
+# GetEnvironmentStrings 1 13894
+# NETBIOS_NAME_LEN 1 1716
+# FAR 1 14
+# LPWIN32_FIND_DATA 1 10445
+# NEAR 1 15
+# VOID 1 443
+# CCHILDREN_TITLEBAR 1 11064
+# CDECL 1 448
+# HW_PROFILE_GUIDLEN 1 6631
+# CONST 1 31
+# CCHILDREN_SCROLLBAR 1 11065
+# IMAGE_NUMBEROF_DIRECTORY_ENTRIES 1 10871
+# IMAGE_SIZEOF_SYMBOL 1 11007
+# WINAPI 1 451
+# TVITEM 1 9461
+# STDCALL 1 447
+# LPPOINT 1 7201
+# CALLBACK 1 449
+# TV_ITEM 1 9455
+# NCBNAMSZ 1 1715
+# MAX_LANA 1 1714
+# APIENTRY 1 455
+# MAX_PATH 1 1701
+# __int64 0 0
+# WINBASEAPI 1 11
+# LVFINDINFO 1 386
+# IMAGE_SIZEOF_SHORT_NAME 1 10900
+# CCHFORMNAME 1 1712
+# LF_FACESIZE 1 1703
+# _stdcall 0 0
+# CBEMAXSTRLEN 1 5699
+# CCHDEVICENAME 1 1711
+# __stdcall 0 0
+# MAX_LEADBYTES 1 1709
+P -FoC:\xtn\lcc\win.xrf
+P -Ic:\lcc\include
+P c:\lcc\include\win.h

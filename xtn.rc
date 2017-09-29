@@ -1,0 +1,46 @@
+/* Wedit generated resource file */
+//#ifdef __LCC__
+#include <windows.h>
+//#endif
+#include "xtnres.h"
+
+IDD_MAINDIALOG DIALOG 47, 26, 220, 183
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "iNetCtrl"
+FONT 8, "Helv"
+BEGIN
+    EDITTEXT        IDEDIT, 3, 3, 138, 12, ES_AUTOHSCROLL
+    LISTBOX         IDLIST, 3, 17, 154, 94, LBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDFIND, 3, 17, 154, 94, LBS_HASSTRINGS | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Go", IDBGO, 145, 3, 12, 12, NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "[]", IDBCONNECT, 115, 116, 25, 14, BS_BITMAP | NOT WS_TABSTOP
+    PUSHBUTTON      "|<", IDBPREV, 3, 115, 16, 14, BS_BITMAP | NOT WS_TABSTOP
+    PUSHBUTTON      ">", IDBPLAY, 21, 115, 16, 14, BS_BITMAP | NOT WS_TABSTOP
+    PUSHBUTTON      "||", IDBPAUSE, 39, 115, 16, 14, BS_BITMAP | NOT WS_TABSTOP
+    PUSHBUTTON      "[]", IDBSTOP, 57, 115, 16, 14, BS_BITMAP | NOT WS_TABSTOP
+    PUSHBUTTON      ">|", IDBNEXT, 75, 115, 16, 14, BS_BITMAP | NOT WS_TABSTOP
+    SCROLLBAR       IDPOS, 8, 133, 147, 8
+    SCROLLBAR       IDVOL, 102, 114, 8, 16, SBS_VERT
+    CONTROL         "", IDPBORDER, "Static", SS_BLACKFRAME, 94, 114, 6, 16
+    CONTROL         "", IDPFILL, "Static", SS_GRAYRECT, 94, 120, 6, 10
+    LTEXT           "Status", IDSTATUS, 3, 168, 139, 12, SS_SUNKEN
+    CHECKBOX        "R", IDREPEAT, 145, 116, 14, 12, BS_BITMAP | BS_PUSHLIKE | NOT WS_TABSTOP
+    CHECKBOX        "S", IDSHUFFLE, 175, 116, 14, 12, BS_BITMAP | BS_PUSHLIKE | NOT WS_TABSTOP
+END
+201 BITMAP "c:\\xtn\\prev.bmp"
+202 BITMAP "c:\\xtn\\play.bmp"
+203 BITMAP "c:\\xtn\\pause.bmp"
+204 BITMAP "c:\\xtn\\stop.bmp"
+205 BITMAP "c:\\xtn\\next.bmp"
+206 BITMAP "c:\\xtn\\connected.bmp"
+207 BITMAP "c:\\xtn\\disconnected.bmp"
+208 BITMAP "c:\\xtn\\repeat.bmp"
+209 BITMAP "c:\\xtn\\shuffle.bmp"
+300 ICON "c:\\xtn\\icon.ico"
+IDSYSMENU MENU
+BEGIN
+    POPUP "Popup"
+        BEGIN
+        MENUITEM "Exit", IDMEXIT
+        END
+END

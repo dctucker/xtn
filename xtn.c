@@ -22,6 +22,8 @@
 #define Cursor(sC)		SetCursor(LoadCursor(NULL,MAKEINTRESOURCE(sC)));
 #define ClearIDEDIT()	if( Edit_GetTextLength(Dlg(IDEDIT)) !=0) Edit_SetText(Dlg(IDEDIT),"");
 
+#define GLOBAL_HOSTNAME "localhost"
+
 #define _WIN32_IE 0x0500
 /*
 typedef struct _NOTIFYICONDATANEW {
@@ -576,7 +578,7 @@ void LoadPlaylist(){
 
 void Connect(){
 	Cursor(IDC_WAIT);
-	connection=CallServer("whiteguy.ath.cx");
+	connection=CallServer(GLOBAL_HOSTNAME);
 	if(connection==INVALID_SOCKET){
 		Status("Error looking up host");
 		connection=FALSE;
